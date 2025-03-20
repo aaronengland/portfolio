@@ -1,1 +1,0 @@
-{"False": {"accuracy_score": 0.7079530259868613, "balanced_accuracy_score": 0.5573109709214995, "log_loss": 0.5489191851217196, "roc_auc_score": 0.5940823586253163}, "True": {"accuracy_score": 0.5667873223271829, "balanced_accuracy_score": 0.6075886408281669, "log_loss": 0.4466712199579857, "roc_auc_score": 0.6463439497811121}}

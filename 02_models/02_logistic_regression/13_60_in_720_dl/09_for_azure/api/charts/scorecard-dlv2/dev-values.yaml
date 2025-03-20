@@ -1,6 +1,0 @@
-requestCpu: "100m"
-requestMemory: "320Mi"
-limitCpu: "250m"
-limitMemory: "320Mi"
-
-ingressHost: dlv2scorecard.stage.prestigenerds.io
