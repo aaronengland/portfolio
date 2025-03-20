@@ -1,0 +1,7 @@
+flask
+pandas
+pyarrow
+fastparquet
+matplotlib
+plotly
+numpy

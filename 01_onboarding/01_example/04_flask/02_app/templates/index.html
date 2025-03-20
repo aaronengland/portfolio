@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content="width=device-width, initial-scaled=1.0">
+	
+	<title>Christian's App - Home</title>
+	<link rel="icon" type="image/png" href="{{ url_for('static', filename='shared/prestige_logo_favicon.PNG') }}">
+	<!-- Static CSS -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+	<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+
+</head>
+<body>
+	<!-- <div class="loader" id="loader"></div> -->
+	<center>
+		<header>
+			<img src="{{ url_for('static', filename='shared/prestige_logo.PNG') }}" alt="Header" style="max-width: 100%;">
+		</header>
+
+		<div id="Top-of-Page" class="navbar justify-content-center">
+			<a href="#Paper-Trail">References</a>
+			<a href="#Main-Table">Originations</a>
+			<!-- <a href="#Table">Main Table</a>
+			<a href="#Plotly Pie Charts">Pie Charts</a>
+			<a href="#Plot-Applications">App's Plot</a>
+			<a href="#Plot-Mean-ECNL">ECNL Plot</a>
+			<a href="#Plotly ECNL">Plotly ECNL</a>
+			<a href="#Tier Thresholds">Tier Thresholds</a> -->
+			<!-- <a href="#Tier Proportions">Tier Proportions</a> -->
+		</div>
+
+		<div class="container">
+
+			<section id="Originations" class="section">
+				<h2>Gen 12 Pricing App</h2>
+				<p>Last updated: {{ dtm_now }}</p>
+			</section>
+
+			<!-- References Tab -->
+			<section id="Paper-Trail" class="section justify-content-center">
+			<h2>References</h2>
+
+			<p><a href="https://github.com/PFS-Risk-DS/20240509_christian_internship/blob/main/13_pricing/ecnl_pull.sql">ECNL Data Pull (SQL)</a></p>
+
+			<p><a href="https://github.com/PFS-Risk-DS/20240509_christian_internship/blob/main/04_flask/02_app/app.py">Pricing API Build (Python)</a></p>
+
+			<p>Current Pricing Calculation:</p>
+			<img src="https://latex.codecogs.com/svg.image?(ei&plus;es*ecnl*scalar)*roe&plus;(1-(ei&plus;es*ecnl*scalar))*sec&plus;opex&plus;(ecnl*scalar/avgLife)-((ecnl*scalar)*latefee)" alt="calc-pic" />
+
+			<p> </p>
+
+			<p>Gen 12 60-Day Pricing Calculation:</p>
+			<img src="https://latex.codecogs.com/svg.image?(ei&plus;es*ecnl)*roe&plus;(1-(ei&plus;es*ecnl))*sec&plus;opex&plus;(ecnl*scalar/avgLife)-(ecnl*latefee)" alt="calc-pic" />
+			</section>
+			
+			<!-- Main Table -->
+			<section id="Main-Table" class="section">
+			<div class="container mb-4" id="Main-Table">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2>Updating Origination Table - Model vs. Actual (%)</h2>
+						
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-2">
+						<form id="updateForm">
+							<div class="form-container">
+								<div class="form-group">
+									<label for="opex_a1">Operation Expenses (A1)</label>
+									<input type="text" id="apex_a1" name="opex_a1" class="form-control" value="0.0564">
+								</div>
+								<div class="form-group">
+									<label for="opex_a">Operation Expenses (A):</label>
+									<input type="text" id="opex_a" name="opex_a" class="form-control" value="0.0603">
+								</div>
+								<div class="form-group">
+									<label for="opex_b">Operation Expenses (B):</label>
+									<input type="text" id="opex_b" name="opex_b" class="form-control" value="0.0639">
+								</div>
+								<div class="form-group">
+									<label for="opex_c">Operation Expenses (C):</label>
+									<input type="text" id="opex_c" name="opex_c" class="form-control" value="0.0639">
+								</div>
+								<div class="form-group">
+									<label for="opex_d">Operation Expenses (D):</label>
+									<input type="text" id="opex_d" name="opex_d" class="form-control" value="0.0639">
+								</div>
+								<div class="form-group">
+									<label for="roe">Return on Equity:</label>
+									<input type="text" id="roe" name="roe" class="form-control" value="0.275">
+								</div>
+								<div class="form-group">
+									<label for="equity_slope">Equity Slope:</label>
+									<input type="text" id="equity_slope" name="equity_slope" class="form-control" value="0.59">
+								</div>
+								<div class="form-group">
+                                    <label for="equity_intercept">Equity Intercept:</label>
+                                    <input type="text" id="equity_intercept" name="equity_intercept" class="form-control" value="0.0807">
+                                </div>
+								<div class="form-group">
+									<label for="cnl_scalar_a1">CNL Scalar (A1)</label>
+									<input type="test" id="cnl_scalar_a1" name="cnl_scalar_a1" class="form-control" value="0.8039">
+								</div>
+								<div class="form-group">
+									<label for="cnl_scalar_a">CNL Scalar (A):</label>
+									<input type="test" id="cnl_scalar_a" name="cnl_scalar_a" class="form-control" value="0.8039">
+								</div>
+								<div class="form-group">
+									<label for="cnl_scalar_b">CNL Scalar (B):</label>
+									<input type="test" id="cnl_scalar_b" name="cnl_scalar_b" class="form-control" value="0.8039">
+								</div>
+								<div class="form-group">
+									<label for="cnl_scalar_c">CNL Scalar (C):</label>
+									<input type="test" id="cnl_scalar_c" name="cnl_scalar_c" class="form-control" value="0.8039">
+								</div>
+								<div class="form-group">
+									<label for="cnl_scalar_d">CNL Scalar (D):</label>
+									<input type="test" id="cnl_scalar_d" name="cnl_scalar_d" class="form-control" value="0.8039">
+								</div>
+								<div class="form-group">
+									<label for="securitization">Securitization:</label>
+									<input type="test" id="securitization" name="securitization" class="form-control" value="0.07">
+								</div>
+								<div class="form-group">
+									<label for="late_fee">Late Fee:</label>
+									<input type="test" id="late_fee" name="late_fee" class="form-control" value="0.0042">
+								</div>
+								<div class="form-group">
+                                    <label for="average_life">Average Life:</label>
+                                    <input type="test" id="average_life" name="average_life" class="form-control" value="2.3">
+                                </div>
+								<!-- <button type="button" onclick="submitForm()" class="submit-button mt-3">Update</button> -->
+								<input type="submit" value="Update" class="btn btn-primary mt-3">
+
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-10">
+						<div class="table-wrapper" id='tableWrapper'>
+							{{ df_theo_rev | safe }}
+							<div style="text-align: center; margin-top: 20px;">
+								<div>
+									<a href="{{ url_for('download_excel') }}">Download Excel</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			</section>
+
+			<!-- <section id="Theo-Rev" class="section">
+				<h3>Pricing API Inputs (w/ Default Values)</h3>
+				<form action="{{ url_for('update_values') }}" method="post">
+					<label for="opex_a1">Operation Expenses A1</label>
+					<input type="test" id="opex_a1" name="opex_a1" value="0.0564">
+					<label for="opex_a">Operation Expenses A</label>
+					<input type="test" id="opex_a" name="opex_a" value="0.0603">
+					<label for="opex_b">Operation Expenses B</label>
+					<input type="test" id="opex_b" name="opex_b" value="0.0639">
+					<label for="opex_c">Operation Expenses c</label>
+					<input type="test" id="opex_c" name="opex_c" value="0.0639">
+					<label for="opex_d">Operation Expenses D</label>
+					<input type="test" id="opex_d" name="opex_d" value="0.0639">
+					<label for="roe">Return on Equity</label>
+					<input type="test" id="roe" name="roe" value="0.275">
+					<label for="cnl_scalar_a1">CNL Scalar A1</label>
+					<input type="test" id="cnl_scalar_a1" name="cnl_scalar_a1" value="0.5209">
+					<label for="cnl_scalar_a">CNL Scalar A</label>
+					<input type="test" id="cnl_scalar_a" name="cnl_scalar_a" value="0.5209">
+					<label for="cnl_scalar_b">CNL Scalar B</label>
+					<input type="test" id="cnl_scalar_b" name="cnl_scalar_b" value="0.6330">
+					<label for="cnl_scalar_c">CNL Scalar C</label>
+					<input type="test" id="cnl_scalar_c" name="cnl_scalar_c" value="0.5209">
+					<label for="cnl_scalar_d">CNL Scalar D</label>
+					<input type="test" id="cnl_scalar_d" name="cnl_scalar_d" value="0.5209">
+					<label for="equity_slope">Equity Slope</label>
+					<input type="test" id="equity_slope" name="equity_slope" value="1.11">
+					<label for="securitization">Securitization</label>
+					<input type="test" id="securitization" name="securitization" value="0.007">
+					<label for="late_fee">Late Fee</label>
+					<input type="test" id="late_fee" name="late_fee" value="0.008">
+					<label for="equity_intercept">Equity Intercept</label>
+					<input type="test" id="equity_intercept" name="equity_intercept" value="0.0807">
+					<label for="average_life">Average Life</label>
+					<input type="test" id="average_life" name="average_life" value="2.3">
+					<input type="submit" value="Update">
+				</form>
+			</section>
+			<section id="Update-Table" class="section">
+				<h3>Updated Originations Table</h3>
+				<p>Raw ECNLs can be found under GEN12 UNMODIFIED (PD x LGD x 2.36 for ECNL at 72) </p>
+				<div class="table-wrapper">
+					{{ df_theo_rev|safe }}
+				</div>
+				<a href="{{ url_for('download_excel') }}">Download Excel</a>
+			</section> -->
+
+			<!-- <section id="Table" class="section">
+				<h3>Main Table</h3>
+				<div class="table-wrapper">
+					{{ df_html|safe }}
+				</div>
+			</section>
+
+			<section id='Plotly Pie Charts' class='section'>
+				<h3>Pie Charts</h3>
+				<div id='graphJSON_pie_charts' class='chart'></div>
+			</section>
+
+			<section id='Plot-Applications' class='section'>
+				<h3>Applications per Day</h3>
+				<div class='plot-wrapper'>
+					<img src="{{ url_for('static', filename='plots/df_plot.png') }}"/>
+				</div>
+			</section>
+
+			<section id='Plot-Mean-ECNL' class='section'>
+				<h3>ECNL per Day</h3>
+				<div class='plot-wrapper'>
+					<img src="{{ url_for('static', filename='plots/mean_ecnl.png') }}"/>
+				</div>
+			</section>
+
+			<section id='Plotly ECNL' class='section'>
+				<h3>Plotly ECNL</h3>
+				<p>Below is a visual representation of the plotly plotting example</p>
+
+				<br>
+				<br>
+
+				<div id='graphJSON_ecnl_plot' class='chart'></div>
+			</section> -->
+
+			<!-- <section id="Tier Thresholds" class="section">
+				<h3>Tier Thresholds</h3>
+				<p> Below is a table displaying the current tier thresholds. </p>
+				<div class="table-wrapper">
+					{{ df_thresholds|safe }}
+				</div>
+			</section> -->
+
+			<!-- <section id="Tier Proportions" class="section">
+				<h3>Tier Proportions</h3>
+				<p> Gen 11 Approval Rate: 21.6%, Gen 12 Approval Rate: 13.74%. </p>
+				<div class="table-wrapper">
+					{{ df_tiers|safe }}
+				</div>
+			</section> -->
+
+			<footer class="footer">
+			<p>&copy; <span id="currentYear"></span> Christian Tsvetanov - Prestige. All Rights Reserved.</p>
+		</footer>
+
+	</center>
+</body>
+
+<script type='text/javascript'>
+	$('table.display').DataTable({
+	   'order': [[2, 'desc']],
+	   'pageLength': 35,
+	});
+</script>
+
+<!-- <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+
+<script type="text/javascript" charset="utf8" src="{{ url_for('static', filename='js/script_all.js') }}"></script>
+
+<script type='text/javascript'>
+	$(document).ready(function() {
+		$('table.display').DataTable({
+			'order': [[0, 'desc']]
+		});
+	}); 
+
+	var graphs = {{graphJSON_ecnl_plot | safe}};
+	Plotly.plot('graphJSON_ecnl_plot',graphs,{});
+	function resizePlot_1() {
+		var plot = document.getElementById('graphJSON_ecnl_plot');
+		var width = plot.offsetWidth;
+		var height = plot.offsetHeight;
+
+			Plotly.relayout(plot, {
+				width: width,
+				height: height
+			});
+		}
+
+	// Event listener for window resize
+	window.addEventListener('resize', function() {
+		resizePlot_1();
+	});
+
+	// Initial resizing of the plot on page load
+	window.addEventListener('load', function() {
+		resizePlot_1();
+	});
+</script>
+
+<script type='text/javascript'>
+	$(document).ready(function() {
+		$('table.display').DataTable({
+			'order': [[0, 'desc']]
+		});
+	}); 
+
+	var graphs = {{graphJSON_pie_charts | safe}};
+	Plotly.plot('graphJSON_pie_charts',graphs,{});
+	function resizePlot_1() {
+		var plot = document.getElementById('graphJSON_pie_charts');
+		var width = plot.offsetWidth;
+		var height = plot.offsetHeight;
+
+			Plotly.relayout(plot, {
+				width: width,
+				height: height
+			});
+		}
+
+	// Event listener for window resize
+	window.addEventListener('resize', function() {
+		resizePlot_1();
+	});
+
+	// Initial resizing of the plot on page load
+	window.addEventListener('load', function() {
+		resizePlot_1();
+	});
+</script> -->
+
+</html>
