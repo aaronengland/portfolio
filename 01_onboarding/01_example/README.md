@@ -1,4 +1,4 @@
-# 20240509_christian_internship
+# Internship
 
 - Start Date: 2024-05-13
 - End Date: ?
