@@ -1,7 +1,4 @@
-# 20231010_gen_xii
-
-### Important Dates
-- 2024-05-07 - noPTImodel10 deployed to dark scoring
+# Catbost
 
 ### Overview
 ![schematic](./10_writeup/02_local_app/static/home/schematic.png)
