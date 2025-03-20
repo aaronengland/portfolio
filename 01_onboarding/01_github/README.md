@@ -1,4 +1,4 @@
-# Internship
+# Onboarding
 
 ### Installing Git
 

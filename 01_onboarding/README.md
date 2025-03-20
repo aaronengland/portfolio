@@ -1,7 +1,4 @@
-# Internship
-
-- Start Date: 2024-05-13
-- End Date: ?
+# Onboarding
 
 ### Final Project
 - Deploy a Python Flask web app using AWS AppRunner
