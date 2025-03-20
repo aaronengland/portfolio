@@ -1,4 +1,4 @@
-# 20240509_christian_internship
+# Internship
 
 ### AWS Certifications
 
