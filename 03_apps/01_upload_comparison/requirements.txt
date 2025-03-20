@@ -1,0 +1,9 @@
+pyarrow
+fsspec
+s3fs
+
+flask
+pandas
+numpy
+tqdm
+xmltodict

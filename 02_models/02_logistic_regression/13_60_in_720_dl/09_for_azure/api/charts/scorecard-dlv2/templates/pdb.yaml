@@ -1,0 +1,16 @@
+#force at least one pod to run at any given time
+#in case of a node drain, draining will pause until at least one pod exists on another node.
+
+{{ if .Values.enableHA }}
+
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: risk-scorecard-dlv2
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app: risk-scorecard-dlv2
+
+{{ end }}

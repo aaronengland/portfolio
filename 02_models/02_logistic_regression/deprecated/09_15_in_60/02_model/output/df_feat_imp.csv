@@ -1,0 +1,27 @@
+feature,importance,importance_abs,description
+dti__app_binned,-0.027837762622625443,0.027837762622625443,
+g232s__tu_binned,-0.020702497157527176,0.020702497157527176,Number of inquiries (includes duplicates)
+cv15__tu_binned,-0.018581953740541175,0.018581953740541175,Number of deduped auto inquiries
+re01s__tu_binned,-0.017559227408701368,0.017559227408701368,Number of revolving trades
+fltgrossmonthly__income_sum_binned,0.013399150897383843,0.013399150897383843,
+derogseverityindex__ln_binned,-0.013045077096114672,0.013045077096114672,Index indicating severity of derogatory records on subject's file
+linka017__tu_binned,-0.012463915306212686,0.012463915306212686,Number of checking account closures for cause in the last 5 years
+bkc321__tu_binned,-0.008806903959407912,0.008806903959407912,Min Total Open-to-Buy for Bankcard accounts over the past 3 months
+balmag01__tu_binned,-0.00832753563414862,0.00832753563414862,Non-mortgage balance magnitude algorithm over last 24 months
+flt_wtd_avg_closed__tu_pmthx_binned,-0.008317755119520672,0.008317755119520672,
+inquiryshortterm12month__ln_binned,-0.007581331142203571,0.007581331142203571,Indicates subject has one or more LexisNexis personal finance credit inquiries on file in the last 12 months (multiple personal finance inquiries within a 24-hour period are counted as one inquiry)
+g106s__tu_binned,-0.006024416607572505,0.006024416607572505,Months on file
+inquirybanking12month__ln_binned,-0.005356035454646672,0.005356035454646672,Indicates subject has one or more LexisNexis banking credit inquiries on file in the last 12 months
+flt_mean_months_to_first_bad__tu_pmthx_binned,-0.005133848261621396,0.005133848261621396,
+paymnt11__tu_binned,-0.0038666209655867953,0.0038666209655867953,Number of payments in last 12 months
+addrinputtimenewest__ln_binned,-0.003468801974413407,0.003468801974413407,Time on file (in months) since the subject was most recently reported at the input address
+at21s__tu_binned,0.003425189975408754,0.003425189975408754,Months since most recent trade opened
+ENG-loan_to_value_binned,0.002751490773518839,0.002751490773518839,
+flt_avg_open__tu_pmthx_binned,-0.0024654918246482223,0.0024654918246482223,
+miles_odometer__app_binned,0.0021546864778639457,0.0021546864778639457,
+linka006__tu_binned,-0.001922461860593282,0.001922461860593282,"Number of total inquiries in the last 3 years.  
+These include checking, credit issuance (credit card, secured card, line of credit, revolving credit, and other credit account originations) , auto, payday, utility, and other credit (installment loan, secured loan, short-term installment loan, insurance, and other non-classified credit)"
+ENG-has_codebtor_binned,0.0009859277066063185,0.0009859277066063185,
+s064b__tu_binned,0.0006393473507908136,0.0006393473507908136,Total placement amount of non-medical third party collections
+linka029__tu_binned,-0.00020396355482065636,0.00020396355482065636,Number of checking account inquiries in the last 3 years
+g306s__tu_binned,1.0716521767365416e-05,1.0716521767365416e-05,Worst rating on auto trades in past 12 months

@@ -1,0 +1,12 @@
+image:
+  repository: 489419939077.dkr.ecr.us-west-2.amazonaws.com/risk-scorecard-genxiii
+  tag: #{tag}#
+
+requestCpu: "400m"
+requestMemory: "512Mi"
+limitCpu: "750m"
+limitMemory: "512Mi"
+
+ingressHost: genxiiiscorecard.prestigenerds.io
+
+enableHA: false

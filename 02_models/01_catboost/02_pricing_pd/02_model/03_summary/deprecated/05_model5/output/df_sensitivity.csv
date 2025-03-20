@@ -1,0 +1,303 @@
+feature,flt_eval_metric_train,flt_eval_metric_valid,flt_score_to_beat,performance,helped,description
+intscore__ln,0.8722979101281612,0.7447206893924104,0.7561604699900316,-0.0114397805976211,0,LN score
+fltgrossmonthly__income_sum,0.9010581486985464,0.7457133907386226,0.7561604699900316,-0.0104470792514089,0,Total income
+pti__app,0.889492184744527,0.7512762972040604,0.7561604699900316,-0.0048841727859711,0,Payment to income
+intopenbktype__app,0.8974584105915682,0.7513226070372327,0.7561604699900316,-0.0048378629527988,0,BK Type
+st45s__tu,0.8653075911470536,0.7522232627487838,0.7561604699900316,-0.0039372072412477,0,Months since oldest student loan in repayment trade opened
+bankruptcystatus__ln,0.9011509699743474,0.7526395463760958,0.7561604699900316,-0.0035209236139358,0,Indicates status of most recent bankruptcy filing on file showing the subject as debtor
+bankruptcychapter__ln,0.8851993775452809,0.7527344275889531,0.7561604699900316,-0.0034260424010784,0,"Indicates bankruptcy chapter of most recent bankruptcy case filing on file showing the subject as debtor, if the bankruptcy is a Chapter 7 or Chapter 13 bankruptcy"
+in20s__tu,0.868580603335036,0.7527585645838413,0.7561604699900316,-0.0034019054061903,0,Months since oldest installment trade opened
+bkc315__tu,0.894765371091092,0.7528211893657075,0.7561604699900316,-0.003339280624324,0,Number of months since Max Total Open-to-Buy for Bankcard accounts
+s071a__tu,0.8789237126092377,0.7528596840687299,0.7561604699900316,-0.0033007859213016,0,Number of third party collections opened in past 36 months
+dealerstate__app,0.8831147948773235,0.7529231941042769,0.7561604699900316,-0.0032372758857547,0,Dealer State
+confirmationinputaddress__ln,0.8881264499179518,0.7529984268350489,0.7561604699900316,-0.0031620431549826,0,Indicates input address is confirmed by records on file
+se36s__tu,0.8901991072888961,0.7530560582328724,0.7561604699900316,-0.0031044117571592,0,Months since most recent secured installment delinquency
+linkf086__tu,0.8816282014647328,0.7530627806280104,0.7561604699900316,-0.0030976893620212,0,Number of inquiries within last 6 months
+linkf055__tu,0.8827813625029522,0.7530969458872504,0.7561604699900316,-0.0030635241027812,0,Number of lenders / locations with inquiries or trades all time STOREFRONT LENDER
+linkf197__tu,0.8938644734701546,0.7531061165620991,0.7561604699900316,-0.0030543534279324,0,Total Good ACH events
+rtdex01__tu,0.8888340954221439,0.7531131570952785,0.7561604699900316,-0.0030473128947531,0,Annual year-over-year retail spend index
+addrinputmatchindex__ln,0.8974457434543887,0.753127051428439,0.7561604699900316,-0.0030334185615925,0,Index indicating if the input address matches the current or historical address on file
+linkf040__tu,0.8776091915013016,0.7531600617082677,0.7561604699900316,-0.0030004082817639,0,Number of lenders / locations with inquiries or trades all time ONLINE LENDER
+st29s__tu,0.8970489927011015,0.7531886595517814,0.7561604699900316,-0.0029718104382502,0,Number of open student loan trades with balance > $0 verified in past 12 months
+ret319__tu,0.9006896012451611,0.7532588159059781,0.7561604699900316,-0.0029016540840535,0,Max Total Open-to-Buy for Retail accounts over the past 24 months
+lm29s__tu,0.8805391053656814,0.7532872062681604,0.7561604699900316,-0.0028732637218712,0,Utilization of mortgage trades with a bank-backed loan modification
+of27s__tu,0.8888107994382104,0.7533193036301308,0.7561604699900316,-0.0028411663599008,0,Number of currently open and satisfactory credit union trades 24 months or older
+per225__tu,0.8821972384999017,0.7533844804323733,0.7561604699900316,-0.0027759895576583,0,Average total Payment Ratio for Personal Loan accounts over the past 24 months
+g413s__tu,0.8968319489914037,0.7534056366121336,0.7561604699900316,-0.002754833377898,0,Number of deduped auto inquiries in past 6 months
+linkt006__tu,0.9034500333453614,0.7534188670050337,0.7561604699900316,-0.0027416029849979,0,Number of derogatory public records
+cv01__tu,0.8947668091439279,0.7534190260740544,0.7561604699900316,-0.0027414439159771,0,Months since most recent charge-off occurrence
+rtdex02__tu,0.8880186203423674,0.7534199044116907,0.7561604699900316,-0.0027405655783409,0,Most recent quarter year-over-year retail spend index
+per201__tu,0.8921181061969419,0.7534272907470893,0.7561604699900316,-0.0027331792429423,0,Total Payment Ratio for Personal Loan accounts over the past 1 month
+linkf044__tu,0.8969051126828151,0.7534362401085177,0.7561604699900316,-0.0027242298815138,0,"Number of open, collection or charge-off trade segments ONLINE LENDER"
+st20s__tu,0.8949652698754581,0.7534491523633764,0.7561604699900316,-0.0027113176266552,0,Months since oldest student loan trade opened
+businessassociationtimeoldest__ln,0.8837573252232358,0.7534498093875924,0.7561604699900316,-0.0027106606024391,0,Time (in months) since a formal business association with the subject first seen on file
+bankruptcycount__ln,0.8831999200530731,0.7534509228707377,0.7561604699900316,-0.0027095471192939,0,Number of bankruptcies
+rvlr23__tu,0.8897884322822194,0.7534703846196247,0.7561604699900316,-0.0026900853704069,0,Bankcard Revolver/Transactor/Inactive pattern for bankcard with fourth highest balance    month 1 to 8
+agg909__tu,0.8922348858420637,0.7534819413297846,0.7561604699900316,-0.0026785286602469,0,Months since max aggregate bankcard balance over last 12 months
+cv25__tu,0.8911187452241974,0.7534872874320908,0.7561604699900316,-0.0026731825579408,0,Percent of trades from inactive to active status in the past 12 months
+rt25s__tu,0.8960843282930883,0.7535004970768577,0.7561604699900316,-0.0026599729131738,0,Number of currently open and satisfactory retail trades 12 months or older
+br20s__tu,0.9028975638116832,0.753502571890172,0.7561604699900316,-0.0026578980998596,0,Months since oldest bank revolving trade opened
+trv16__tu,0.8894560823808801,0.7535121091153728,0.7561604699900316,-0.0026483608746588,0,Number of bankcard credit limit increases last 3 months
+re34s__tu,0.9025090818622024,0.7535689313360037,0.7561604699900316,-0.0025915386540279,0,Utilization for open revolving trades verified in past 12 months
+at103s__tu,0.8864012427898051,0.7535880680308048,0.7561604699900316,-0.0025724019592268,0,Percentage of satisfactory open trades to all open trades verified in 24 months
+fr21s__tu,0.901589443926901,0.7535918511070809,0.7561604699900316,-0.0025686188829506,0,Months since most recent finance revolving trade opened
+linka083__tu,0.8846592714899226,0.753593289644312,0.7561604699900316,-0.0025671803457195,0,Amount of largest paid non-sufficient funds (single check)
+rt20s__tu,0.90183163153416,0.7535997008174529,0.7561604699900316,-0.0025607691725787,0,Months since oldest retail trade opened
+linkf064__tu,0.8943123325268291,0.7536002056886927,0.7561604699900316,-0.0025602643013389,0,Number of charged-off and open past due trade segments
+hi57s__tu,0.891796721841817,0.7536095008523402,0.7561604699900316,-0.0025509691376913,0,Total past due amount of open hoem equity loan trades verified in past 12 months
+bkc12__tu,0.8937693377789033,0.7536258780454335,0.7561604699900316,-0.0025345919445981,0,Number of instances where a Bankcard trade was utilized more than 50% in the past 12 months
+rev162__tu,0.8942820854297345,0.7536523664954111,0.7561604699900316,-0.0025081034946204,0,Number of months in the past 12 months where percentage of Revolving trades utilized more than 100% was more than 90%
+br32s__tu,0.8900598726218112,0.7536566821071047,0.7561604699900316,-0.0025037878829269,0,Maximum balance owed on open bank revolving trades verified in past 12 months
+bi36s__tu,0.897438286505356,0.7536569725809686,0.7561604699900316,-0.0025034974090629,0,Months since most recent bank installment delinquency
+addrcurrentsubjectowned__ln,0.888687362898615,0.7536628996310029,0.7561604699900316,-0.0024975703590287,0,Subject owns current address
+addrinputphoneservice__ln,0.8925465483936074,0.7536921060864219,0.7561604699900316,-0.0024683639036097,0,Indicates if phone service was found on file for the input address
+linkf195__tu,0.8946246236364778,0.7536980953808556,0.7561604699900316,-0.0024623746091759,0,Age of oldest inquiry (days)
+assetindexprimaryfactor__ln,0.9031949260763276,0.7537007857221196,0.7561604699900316,-0.0024596842679119,0,Indicates the primary factor behind the value returned for the AssetIndex attribute
+aut222__tu,0.9013393690561118,0.7537054886322985,0.7561604699900316,-0.0024549813577331,0,Average total Payment Ratio for Auto accounts over the past 3 months
+addrinputproblems__ln,0.8877727101606995,0.7537120934546819,0.7561604699900316,-0.0024483765353496,0,Indicates any problems on file associated with the input address
+fr36s__tu,0.8921416043578878,0.7537200054094533,0.7561604699900316,-0.0024404645805783,0,Months since most recent finance revolving delinquency
+std223__tu,0.8885722321368326,0.7537321638154744,0.7561604699900316,-0.0024283061745572,0,Average total Payment Ratio for Student Loan accounts over the past 6 months
+g215b__tu,0.9031363789175704,0.7537390245314999,0.7561604699900316,-0.0024214454585317,0,Number of non-medical third party collections with balance > $0
+derogcount12month__ln,0.8990157848388745,0.7537450829863773,0.7561604699900316,-0.0024153870036542,0,"Number of derogatory source records (criminal felony, criminal non-felony, lien, judgment, bankruptcy, and eviction) within the last 12 months on subject's file
+NOTE: This attribute does not include sexual offender registry records"
+rvdexq4__tu,0.8997503859669304,0.753759378450112,0.7561604699900316,-0.0024010915399196,0,Q4 (Oct - Dec) revolving spend indexed to revolving annual spend
+bc36s__tu,0.8999443862172901,0.7537734940966928,0.7561604699900316,-0.0023869758933388,0,Months since most recent credit card delinquency
+linkf096__tu,0.8922362546669732,0.7537766339808415,0.7561604699900316,-0.0023838360091901,0,Number of trades within last 18 months
+bi28s__tu,0.90082749383449,0.7537867314056372,0.7561604699900316,-0.0023737385843943,0,Total credit line of open bank installment trades verified in past 12 months
+of02s__tu,0.8926774379488305,0.7537987099945045,0.7561604699900316,-0.0023617599955271,0,Number of open credit union trades
+at33a__tu,0.8815427922971484,0.7538072582253588,0.7561604699900316,-0.0023532117646728,0,Total balance of open trades verified in past 12 months
+rev326__tu,0.8954587391221333,0.7538115254247416,0.7561604699900316,-0.00234894456529,0,Average Total Open-to-Buy for Revolving accounts over the past 6 months
+g215a__tu,0.8939334944995124,0.7538132198556149,0.7561604699900316,-0.0023472501344167,0,Number of third party collections with balance > $0
+linka013__tu,0.8869111591757808,0.7538196863571107,0.7561604699900316,-0.0023407836329208,0,Total dollar amount of unpaid checking account closures for cause in the last 4 years
+linka061__tu,0.8915270137737488,0.7538198800063534,0.7561604699900316,-0.0023405899836782,0,Total amount of open (unpaid) non-sufficient funds in the last 2 months
+s209a__tu,0.8882489361469204,0.7538223006218866,0.7561604699900316,-0.002338169368145,0,Months since most recent non-medical third party collection
+g208s__tu,0.8921918512455993,0.753837827141521,0.7561604699900316,-0.0023226428485105,0,Percentage of individual debt
+rle902__tu,0.8866882798665552,0.7538420113483713,0.7561604699900316,-0.0023184586416603,0,Number of over-payments on Real-Estate accounts in the past 12 months
+fi36s__tu,0.9016063300341894,0.7538444181318158,0.7561604699900316,-0.0023160518582158,0,Months since most recent finance installment delinquency
+au20s__tu,0.8930133271279097,0.7538456491877155,0.7561604699900316,-0.0023148208023161,0,Months since oldest auto trade opened
+per205__tu,0.9031745227183664,0.7538470462286804,0.7561604699900316,-0.0023134237613512,0,Total Payment Ratio for Personal Loan accounts over the past 24 months
+ret225__tu,0.8893604251201372,0.7538579597467128,0.7561604699900316,-0.0023025102433188,0,Average total Payment Ratio for Retail accounts over the past 24 months
+s207a__tu,0.8930356122267809,0.7538621785337851,0.7561604699900316,-0.0022982914562464,0,Months since most recent tradeline bankruptcy
+bitgap__app,0.9032766480701472,0.7538674554756475,0.7561604699900316,-0.0022930145143841,0,Gap tag
+rvlr15__tu,0.8667297750542056,0.7538755887438391,0.7561604699900316,-0.0022848812461925,0,Bankcard Revolver/Transactor/Inactive pattern for bankcard with highest balance  - month 9 - 16
+std224__tu,0.8877135257903465,0.753877207098224,0.7561604699900316,-0.0022832628918075,0,Average total Payment Ratio for Student Loan accounts over the past 12 months
+bc106s__tu,0.9013717732324602,0.7538777050534194,0.7561604699900316,-0.0022827649366121,0,Number of credit card trades 30 or more days past due in past 24 months
+index01__tu,0.883261987609227,0.7538883626778099,0.7561604699900316,-0.0022721073122217,0,Annual year-over-year spend index
+trv09__tu,0.8824920479847582,0.7538979275671882,0.7561604699900316,-0.0022625424228434,0,Number of non-mortgage balance decreases YOY
+re102s__tu,0.8878514986211354,0.7539062337364895,0.7561604699900316,-0.0022542362535421,0,Average credit line of open revolving trades verified in past 12 months
+addrinputtractratio__ln,0.8868214838372286,0.7539074163800785,0.7561604699900316,-0.002253053609953,0,Ratio comparison of the input address property value to tract median property value on file
+linkf207__tu,0.9029854935051352,0.7539221129743872,0.7561604699900316,-0.0022383570156444,0,Total Good ACH amount in last 3 Months
+aut202__tu,0.8927215841255228,0.7539316017872773,0.7561604699900316,-0.0022288682027543,0,Total Payment Ratio for Auto accounts over the past 3 months
+rev318__tu,0.90174818749567,0.7539393131767618,0.7561604699900316,-0.0022211568132698,0,Max Total Open-to-Buy for Revolving accounts over the past 12 months
+us35s__tu,0.9005984571732147,0.7539411805087445,0.7561604699900316,-0.0022192894812871,0,Average balance of open unsecured installment trades verified in past 12 months
+lm02s__tu,0.9013767851769996,0.7539425913817981,0.7561604699900316,-0.0022178786082335,0,Months since oldest loan modification on a mortgage trade
+g206b__tu,0.8946753039854105,0.7539488988142733,0.7561604699900316,-0.0022115711757583,0,Total monthly obligation for joint account verified in past 12 months and with a current balance > 0  (ATTR14)
+rle905__tu,0.8967099977055032,0.7539693633895954,0.7561604699900316,-0.0021911066004361,0,Amount of over-payments on Real-Estate accounts in the past 12 months
+balmag01__tu,0.9031763580450988,0.7539894337503878,0.7561604699900316,-0.0021710362396437,0,Non-mortgage balance magnitude algorithm over last 24 months
+addrinputdeedmailing__ln,0.8963285321637053,0.754003590893235,0.7561604699900316,-0.0021568790967966,0,Indicates for the input address that the property owner's mailing address is the same as the property address for the property record on file
+std205__tu,0.9036320658179352,0.7540133563479003,0.7561604699900316,-0.0021471136421312,0,Total Payment Ratio for Student Loan accounts over the past 24 months
+s209s__tu,0.902737297228532,0.7540139926239833,0.7561604699900316,-0.0021464773660483,0,Months since most recent third party collection
+g106s__tu,0.9018514260010406,0.7540143937545574,0.7561604699900316,-0.0021460762354742,0,Months on file
+ENG-loan_to_value,0.9020883452057602,0.7540158322917885,0.7561604699900316,-0.0021446376982431,0,Loan to value
+at03s__tu,0.89728339688672,0.7540218699985328,0.7561604699900316,-0.0021385999914987,0,Number of open trades currently satisfactory
+strvehicletype__app,0.9027028901624023,0.7540273820859041,0.7561604699900316,-0.0021330879041274,0,Vehicle type
+lm04s__tu,0.8974035946607105,0.7540293047462419,0.7561604699900316,-0.0021311652437897,0,Total credit line of mortgage trades with a loan modification
+rev224__tu,0.8827283441381396,0.7540349551545009,0.7561604699900316,-0.0021255148355306,0,Average total Payment Ratio for Revolving accounts over the past 12 months
+proflictypecategory__ln,0.8975590231558194,0.7540387589789102,0.7561604699900316,-0.0021217110111214,0,"Most recent professional license type category on subject's file, grouped based on published U.S. Census occupation data"
+of28s__tu,0.8990720946769178,0.7540390909490405,0.7561604699900316,-0.002121379040991,0,Total credit line of open credit union trades verified in past 12 months
+fltapproveddowntotal__app,0.8894687093973295,0.7540498661461854,0.7561604699900316,-0.0021106038438462,0,
+trv10__tu,0.8963263742977704,0.7540556548753321,0.7561604699900316,-0.0021048151146995,0,Number of months non-mortgage balance decreases last 12 months
+ENG-dealership_age,0.8985831929000266,0.7540579855822882,0.7561604699900316,-0.0021024844077434,0,Dealership age
+g200b__tu,0.8931303978449951,0.7540581723154864,0.7561604699900316,-0.0021022976745451,0,Percentage of contractually liable debt for trades with a current balance > 0
+linkt003__tu,0.8957586124724739,0.7540612707033691,0.7561604699900316,-0.0020991992866624,0,Number of non-military non-corroborated addresses in past 12 months
+rev122__tu,0.903824568227704,0.7540637120670354,0.7561604699900316,-0.0020967579229962,0,Number of months in the past 12 months where percentage of Revolving trades utilized less than 100% was more than 25%
+fltgrossmonthly__income_count,0.90262757175178,0.7540642999308078,0.7561604699900316,-0.0020961700592238,0,Total income sources (max = 2)
+linka029__tu,0.9013677108118668,0.754064431335651,0.7561604699900316,-0.0020960386543805,0,Number of checking account inquiries in the last 3 years
+rev327__tu,0.8991126394280726,0.7540656900557282,0.7561604699900316,-0.0020947799343034,0,Average Total Open-to-Buy for Revolving accounts over the past 12 months
+addrinputtimeoldest__ln,0.8998231295706972,0.7540712920516766,0.7561604699900316,-0.002089177938355,0,Time on file (in months) since subject was first reported at the input address
+linka049__tu,0.8898781847155077,0.7540805664671908,0.7561604699900316,-0.0020799035228408,0,Number of checking account inquiries in the last 2 months
+bkc122__tu,0.905258147995568,0.7540810298421643,0.7561604699900316,-0.0020794401478673,0,Number of months in the past 12 months where percentage of Bankcard trades utilized less than 100% was more than 25%
+per235__tu,0.9001065903957008,0.7540825444558836,0.7561604699900316,-0.0020779255341479,0,Aggregate Excess Payment for Personal Loan accounts over the past 24 months
+re01s__tu,0.902524433154894,0.7540826412805051,0.7561604699900316,-0.0020778287095265,0,Number of revolving trades
+g099a__tu,0.8961117504187747,0.7540926418806794,0.7561604699900316,-0.0020678281093522,0,Number of tradeline bankruptcies verified in past 24 months
+addrcurrenttaxmarketvalue__ln,0.9013049155758042,0.7540951454887451,0.7561604699900316,-0.0020653245012864,0,Indicates tax assessed market value for the current address on subject's file
+of35s__tu,0.8987154261063678,0.7540982369605833,0.7561604699900316,-0.0020622330294483,0,Average balance of open credit union trades verified in past 12 months
+bc107s__tu,0.8954536658164773,0.75409966858177,0.7561604699900316,-0.0020608014082615,0,Number of 30 and 60 days past due ratings on credit card trades
+linkf098__tu,0.898086693358207,0.7541008028130485,0.7561604699900316,-0.0020596671769831,0,Number of satisfactory trades
+s073b__tu,0.9027680124008112,0.7541013699286877,0.7561604699900316,-0.0020591000613439,0,Number of non-medical third party collections with balance > $100
+at28b__tu,0.8981770649094285,0.7541031473520936,0.7561604699900316,-0.002057322637938,0,Total credit line of open trades verified in past 12 months (excluding mortgage and home equity)
+fltdowncash__app,0.8929364676092428,0.7541037006356439,0.7561604699900316,-0.0020567693543876,0,Cash Down
+linka047__tu,0.9014812461846168,0.7541088254245301,0.7561604699900316,-0.0020516445655015,0,Number of checking account closures for cause in the last 3 years
+linkf204__tu,0.8918382869182062,0.7541117232471255,0.7561604699900316,-0.0020487467429061,0,Total Bad ACH amount in last 3 Months
+linkf022__tu,0.9011877300032956,0.7541133416015106,0.7561604699900316,-0.002047128388521,0,Number of satisfactory ACH transactions within last 6 months
+at27s__tu,0.8845778232610848,0.7541202576458912,0.7561604699900316,-0.0020402123441404,0,Number of currently open and satisfactory trades 24 months or older
+rev319__tu,0.8915172085819834,0.7541214887017907,0.7561604699900316,-0.0020389812882408,0,Max Total Open-to-Buy for Revolving accounts over the past 24 months
+criminalnonfelonycount__ln,0.8954201288195143,0.7541294490688729,0.7561604699900316,-0.0020310209211586,0,Total non-felony criminal convictions or sexual offender registry records on subject's file
+in28s__tu,0.8905345110858094,0.7541364273576528,0.7561604699900316,-0.0020240426323787,0,Total credit line of open installment trades verified in past 12 months
+assetindex__ln,0.9016935784619108,0.754139318264204,0.7561604699900316,-0.0020211517258276,0,Modeled risk index indicating the type and relative value of real property and personal property associated with the subject
+ret327__tu,0.889948944309837,0.7541482053812331,0.7561604699900316,-0.0020122646087985,0,Average Total Open-to-Buy for Retail accounts over the past 12 months
+criminalnonfelonytimenewest__ln,0.8989991599096724,0.754155819946096,0.7561604699900316,-0.0020046500439355,0,"Time (in months) since most recently recorded non-felony criminal conviction on subject's file
+NOTE: This attribute does not include sexual offender registry records"
+re21s__tu,0.8917218227321584,0.7541572723154161,0.7561604699900316,-0.0020031976746155,0,Months since most recent revolving trade opened
+rt01s__tu,0.9024434891885662,0.7541579846679871,0.7561604699900316,-0.0020024853220445,0,Number of retail trades
+vehiclemake__app,0.8894266888326515,0.754162888143453,0.7561604699900316,-0.0019975818465786,0,Vehicle make
+rev112__tu,0.8945117294087284,0.7541639877945097,0.7561604699900316,-0.0019964821955219,0,Number of months in the past 12 months where percentage of Revolving trades utilized less than 75% was more than 25%
+rev225__tu,0.9011296170924404,0.7541704197157835,0.7561604699900316,-0.0019900502742481,0,Average total Payment Ratio for Revolving accounts over the past 24 months
+walshr09__tu,0.9012921375166062,0.7541711251523103,0.7561604699900316,-0.0019893448377212,0,Months since most recent wallet share shift > 25% in last 24 months
+addrpreviousownershipindex__ln,0.8841850743539554,0.7541799361928512,0.7561604699900316,-0.0019805337971804,0,Index indicating subject's ownership level at the most previous address based on the property record on subject's file
+linkf199__tu,0.8950824287008133,0.754183511787796,0.7561604699900316,-0.0019769582022356,0,Total Good ACH amount
+st12s__tu,0.9021565268465096,0.7541947157796925,0.7561604699900316,-0.001965754210339,0,Number of open student loan trades verified in past 12 months
+st50s__tu,0.9009263497401075,0.7541954834606187,0.7561604699900316,-0.0019649865294129,0,Number of 90 or more days past due ratings on student loan trades
+s071b__tu,0.8934716797222093,0.7541973438765571,0.7561604699900316,-0.0019631261134744,0,Number of non-medical third party collections opened in past 36 months
+linkf020__tu,0.8821105604158926,0.7542033815833014,0.7561604699900316,-0.0019570884067302,0,Number of satisfactory ACH transactions within last 24 months
+rvlr03__tu,0.8888805607343726,0.7542186522092937,0.7561604699900316,-0.0019418177807378,0,Total bankcard revolver trade balance
+inputprovidedstreetaddress__ln,0.9011646479965892,0.7542215915281555,0.7561604699900316,-0.0019388784618761,0,Indicates if the street address for the subject was provided on input
+addrinputownershipindex__ln,0.8977098031530029,0.7542223384609485,0.7561604699900316,-0.001938131529083,0,Index indicating subject's ownership level at the input address based on the address property record on file
+subjectactivityindex03month__ln,0.8856516522423097,0.7542320555033033,0.7561604699900316,-0.0019284144867283,0,A risk index summarizing derogatory and non-derogatory source activity for the subject as reported within the past three months
+us25s__tu,0.9025937885236694,0.7542481768027545,0.7561604699900316,-0.0019122931872771,0,Number of currently open and satisfactory unsecured installment trades 12 months or older
+fi29s__tu,0.9048038011808316,0.7542483012915533,0.7561604699900316,-0.0019121686984783,0,Number of open finance installment trades with balance > $0 verified in past 12 months
+addrcurrenttaxvalue__ln,0.9017920567606568,0.7542518077260543,0.7561604699900316,-0.0019086622639773,0,Indicates the most recent tax assessed value for the current address on subject's file
+s207s__tu,0.9034518198978728,0.75425805291413,0.7561604699900316,-0.0019024170759016,0,Months since most recent public record bankruptcy
+ret223__tu,0.8957270555515436,0.7542620918840482,0.7561604699900316,-0.0018983781059833,0,Average total Payment Ratio for Retail accounts over the past 6 months
+s064b__tu,0.8989255839974262,0.7542818441067991,0.7561604699900316,-0.0018786258832325,0,Total placement amount of non-medical third party collections
+at57s__tu,0.8957863760177067,0.7542910493618697,0.7561604699900316,-0.0018694206281618,0,Total past due amount of open trades verified in past 12 months
+bitdebtor__app,0.9040455162351178,0.7542936290464236,0.7561604699900316,-0.001866840943608,0,Debtor or Codebtor
+st36s__tu,0.9037505675077272,0.7543022741018994,0.7561604699900316,-0.0018581958881321,0,Months since most recent student loan delinquency
+linka027__tu,0.8996118844865211,0.7543029726223818,0.7561604699900316,-0.0018574973676498,0,Number of days since most recent payday inquiry
+linka046__tu,0.9005820037404667,0.7543042451745479,0.7561604699900316,-0.0018562248154837,0,Number of checking account closures for cause in the last 2 years
+std253__tu,0.8934941803716694,0.7543132775285089,0.7561604699900316,-0.0018471924615227,0,Average Aggregate Excess Payment for Student Loan accounts over the past 6 months
+agg908__tu,0.882748059936922,0.7543150826160923,0.7561604699900316,-0.0018453873739393,0,Max aggregate bankcard balance over last 12 months
+rev_trd__tu,0.8904353641082283,0.7543202765654221,0.7561604699900316,-0.0018401934246095,0,Number of revolving trades
+addrlastmoveecontrajectory__ln,0.8972131462749868,0.7543208298489725,0.7561604699900316,-0.001839640141059,0,"Describes the value and home ownership status of the subject’s previous and current addresses in order to determine whether the subject’s most recent residential move (if the move occurred in the past five years) was to a similar property or a more upscale or downscale property. 
+Note: Seniors (age 62 plus) who have moved default to the most positive level to prevent adverse action based on downsizing of empty nesters and retirees."
+subjectstabilityprimaryfactor__ln,0.9037030629899208,0.7543270542889151,0.7561604699900316,-0.0018334157011165,0,Indicates the primary factor behind the value returned for the SubjectStabilityIndex attribute
+bkc327__tu,0.8933314152897182,0.7543335692027215,0.7561604699900316,-0.00182690078731,0,Average Total Open-to-Buy for Bankcard accounts over the past 12 months
+addrinputdwelltype__ln,0.9036428417740326,0.7543432724129876,0.7561604699900316,-0.001817197577044,0,Indicates the dwelling type on file for the input address
+linka072__tu,0.9007355615081992,0.7543444688886654,0.7561604699900316,-0.0018160011013662,0,Number of paid non-sufficient funds in the last 2 years
+cv24__tu,0.8972943718731063,0.754344607209553,0.7561604699900316,-0.0018158627804786,0,Total payment amount of bankcard trades verified in past 3 months
+s064a__tu,0.9034809137206468,0.7543484663623174,0.7561604699900316,-0.0018120036277141,0,Total placement amount of third party collections
+bi21s__tu,0.8982397201162764,0.7543494415245751,0.7561604699900316,-0.0018110284654565,0,Months since most recent bank installment trade opened
+st57s__tu,0.9018304145386802,0.7543547322985262,0.7561604699900316,-0.0018057376915053,0,Total past due amount of open student loan trades verified in past 12 months
+g303s__tu,0.901912474805322,0.7543649403800321,0.7561604699900316,-0.0017955296099995,0,Worst rating on revolving trades
+linkf125__tu,0.9032542197953372,0.7543777765584023,0.7561604699900316,-0.0017826934316292,0,Number of trade segments (excluding new trades)
+lm16s__tu,0.8969731008000429,0.7543790906068346,0.7561604699900316,-0.001781379383197,0,Total credit line of mortgage trades with a government loan modification
+addrinputsubjectcount__ln,0.9012243208958324,0.7543828529349776,0.7561604699900316,-0.0017776170550539,0,"Total number of unique subjects on file currently reported at the input address, if the address has been designated as a single family dwelling unit"
+agg911__tu,0.8988545726651826,0.754383205653241,0.7561604699900316,-0.0017772643367905,0,Max aggregate bankcard utilization over last 12 months
+subjectactivityindex06month__ln,0.8918661275581752,0.7543857369254843,0.7561604699900316,-0.0017747330645473,0,A risk index summarizing derogatory and non-derogatory source activity for the subject as reported on file within the past six months
+se28s__tu,0.896375357775824,0.7543864769422332,0.7561604699900316,-0.0017739930477984,0,Total credit line of open secured installment trades verified in past 12 months
+rev254__tu,0.9031976959800668,0.7543898104756245,0.7561604699900316,-0.0017706595144071,0,Average Aggregate Excess Payment for Revolving accounts over the past 12 months
+paymnt02__tu,0.9002859339926763,0.7543965743670288,0.7561604699900316,-0.0017638956230028,0,Number of prepayments on installment loans last 12 months
+addrinputphonecount__ln,0.8900705667630866,0.754399831823932,0.7561604699900316,-0.0017606381660996,0,Total number of unique phone service listings on file currently reported with the input address
+linkf058__tu,0.8913199310186509,0.7544020864544001,0.7561604699900316,-0.0017583835356315,0,Number of trades opened within last 12 months STOREFRONT LENDER
+co04s__tu,0.8896154883350361,0.7544160568640489,0.7561604699900316,-0.0017444131259827,0,Months since most recent charged-off trade reported
+fr25s__tu,0.8945552572541687,0.7544262441974215,0.7561604699900316,-0.00173422579261,0,Number of currently open and satisfactory finance revolving trades 12 months or older
+addrchangecount24month__ln,0.8922776915143621,0.754452532082112,0.7561604699900316,-0.0017079379079195,0,Number of addresses first seen in last 24 months on subject's file
+at33b__tu,0.9030712613992472,0.7544575254661549,0.7561604699900316,-0.0017029445238767,0,Total balance of open trades verified in past 12 months (excluding mortgage and home equity)
+fi35s__tu,0.8833267125737396,0.7544724987022389,0.7561604699900316,-0.0016879712877927,0,Average balance of open finance installment trades verified in past 12 months
+fi03s__tu,0.9018401843298014,0.7544764754277578,0.7561604699900316,-0.0016839945622738,0,Number of currently satisfactory open finance installment trades
+rev328__tu,0.9028003237488036,0.7544782251869859,0.7561604699900316,-0.0016822448030456,0,Average Total Open-to-Buy for Revolving accounts over the past 24 months
+aut234__tu,0.8977948937147894,0.7544961100777543,0.7561604699900316,-0.0016643599122773,0,Aggregate Excess Payment for Auto accounts over the past 12 months
+std204__tu,0.8968683007329221,0.754499070144749,0.7561604699900316,-0.0016613998452825,0,Total Payment Ratio for Student Loan accounts over the past 12 months
+g095s__tu,0.8958852327100053,0.75449945052719,0.7561604699900316,-0.0016610194628415,0,Months since most recent public record
+rvdex01__tu,0.9040781902430431,0.754519202749941,0.7561604699900316,-0.0016412672400906,0,Annual year-over-year revolving spend index
+in25s__tu,0.8984152514572108,0.7545245004399366,0.7561604699900316,-0.001635969550095,0,Number of currently open and satisfactory installment trades 12 months or older
+fltadvance__app,0.9009823449057578,0.7545250883037089,0.7561604699900316,-0.0016353816863227,0,Advance
+aut255__tu,0.9018890946465236,0.75453797289439,0.7561604699900316,-0.0016224970956416,0,Average Aggregate Excess Payment for Auto accounts over the past 24 months
+addrinputdwelltypeindex__ln,0.8980835710213876,0.7545380697190112,0.7561604699900316,-0.0016224002710204,0,Index indicating the dwelling type on file for the input address
+walsrvs1__tu,0.9017031114620562,0.7545449304350367,0.7561604699900316,-0.0016155395549949,0,Spend on current dominant revolving trade relative to total spend over the past month
+linka078__tu,0.9011433698493758,0.7545515560055533,0.7561604699900316,-0.0016089139844782,0,Total amount of paid non-sufficient funds in the last 2 years
+st33s__tu,0.8941501818427251,0.7545594887084579,0.7561604699900316,-0.0016009812815737,0,Total balance of open student loan trades verified in past 12 months
+paymnt06__tu,0.9004499593375613,0.7545600212438751,0.7561604699900316,-0.0016004487461565,0,Ratio of actual to minimum payment over last 6 months for installment trades
+g205s__tu,0.8964498336511142,0.7545694962246766,0.7561604699900316,-0.0015909737653549,0,Total monthly obligation for individual account verified in past 12 months
+addrcurrentblockratio__ln,0.9014561738750252,0.7545700702563602,0.7561604699900316,-0.0015903997336713,0,Ratio comparison of property value to block median property value for the current address on subject's file
+subjectactivityindex12month__ln,0.9021153102697956,0.7545720966573637,0.7561604699900316,-0.0015883733326679,0,A risk index summarizing derogatory and non-derogatory source activity for the subject as reported on file within the past 12 months
+inquirytelcom12month__ln,0.9033733398163818,0.7545779476309097,0.7561604699900316,-0.0015825223591219,0,Indicates subject has one or more LexisNexis telecommunications credit inquiries on file in the last 12 months
+std231__tu,0.9015428228518376,0.754578625403259,0.7561604699900316,-0.0015818445867725,0,Aggregate Excess Payment for Student Loan accounts over the past 1 month
+std252__tu,0.899490592439284,0.754584822179024,0.7561604699900316,-0.0015756478110076,0,Average Aggregate Excess Payment for Student Loan accounts over the past 3 months
+cv07__tu,0.903121895334002,0.7545915860704282,0.7561604699900316,-0.0015688839196034,0,Total balance of mortgage trades with a loan modification updated in past 12 months
+bi33s__tu,0.898642498419251,0.7546006945008774,0.7561604699900316,-0.0015597754891542,0,Total balance of open bank installment trades verified in past 12 months
+st24s__tu,0.8975299899074809,0.7546045744017749,0.7561604699900316,-0.0015558955882567,0,Number of currently open and satisfactory student loan trades 6 months or older
+criminalfelonytimenewest__ln,0.8842933751514483,0.7546058815341627,0.7561604699900316,-0.0015545884558688,0,Time (in months) since most recently recorded felony criminal conviction on subject's file
+linkf091__tu,0.9036106830421508,0.7546082675694742,0.7561604699900316,-0.0015522024205574,0,Number of trades
+linkf007__tu,0.9044860929859376,0.7546229503316942,0.7561604699900316,-0.0015375196583373,0,Number of NSF within last 9 months
+aut205__tu,0.8824553626905033,0.7546291194432817,0.7561604699900316,-0.0015313505467499,0,Total Payment Ratio for Auto accounts over the past 24 months
+aggs906__tu,0.9051643693290116,0.7546311942565959,0.7561604699900316,-0.0015292757334357,0,Current credit limit of top-of-wallet bankcard (highest annual spend).
+of21s__tu,0.9017211193764256,0.7546335249635521,0.7561604699900316,-0.0015269450264795,0,Months since most recent credit union trade opened
+linka051__tu,0.8969256914706352,0.7546373564521389,0.7561604699900316,-0.0015231135378926,0,Number of checking account inquiries in the last year
+std225__tu,0.9013513266070452,0.7546392237841216,0.7561604699900316,-0.0015212462059099,0,Average total Payment Ratio for Student Loan accounts over the past 24 months
+sourcevoterregistration__ln,0.8968819063805136,0.7546440373510106,0.7561604699900316,-0.001516432639021,0,Indicates voter registration record on subject's file
+s208s__tu,0.8985322151856825,0.7546442517483863,0.7561604699900316,-0.0015162182416452,0,Number of tax liens
+std203__tu,0.9028774688326672,0.7546448465282032,0.7561604699900316,-0.0015156234618284,0,Total Payment Ratio for Student Loan accounts over the past 6 months
+se32s__tu,0.9032588210924036,0.7546631740458117,0.7561604699900316,-0.0014972959442198,0,Maximum balance owed on open secured installment trades verified in past 12 months
+trv08__tu,0.900968705430884,0.7546634576036313,0.7561604699900316,-0.0014970123864003,0,Number of non-mortgage balance decreases last 3 months
+in02s__tu,0.8962379804625387,0.7546643082770901,0.7561604699900316,-0.0014961617129415,0,Number of open installment trades
+ret102__tu,0.9012322545735406,0.7546718260173317,0.7561604699900316,-0.0014886439726998,0,Number of months in the past 12 months where percentage of Retail trades utilized less than 50% was more than 25%
+cv08__tu,0.9019452676020758,0.7546774902576795,0.7561604699900316,-0.0014829797323521,0,Total credit line of mortgage trades with a loan modification
+pb101s__tu,0.9018324111350138,0.7546789218788663,0.7561604699900316,-0.0014815481111652,0,Total balance of all premium credit card trades verified in past 12 months
+bc97b__tu,0.901335598494163,0.7546909419639998,0.7561604699900316,-0.0014695280260318,0,Total open to buy of closed credit cards verified in past 3 months
+at34b__tu,0.9022647592027572,0.7546932104265566,0.7561604699900316,-0.001467259563475,0,Utilization for open trades verified in past 12 months (excluding mortgage and home equity)
+addrinputtimenewest__ln,0.9064598739975588,0.754696288066306,0.7561604699900316,-0.0014641819237256,0,Time on file (in months) since the subject was most recently reported at the input address
+fi27s__tu,0.9049229841363544,0.7546996492638749,0.7561604699900316,-0.0014608207261567,0,Number of currently open and satisfactory finance installment trades 24 months or older
+linka017__tu,0.8979403769889178,0.7547029620491332,0.7561604699900316,-0.0014575079408983,0,Number of checking account closures for cause in the last 5 years
+br101s__tu,0.8915486758212816,0.75470344617224,0.7561604699900316,-0.0014570238177916,0,Total balance of all bank revolving trades verified in past 12 months
+linka052__tu,0.896035640607084,0.7547034876685061,0.7561604699900316,-0.0014569823215254,0,Number of checking account inquiries in the last 2 years
+bankruptcycount24month__ln,0.8950437090495378,0.7547152726081306,0.7561604699900316,-0.0014451973819009,0,Total unique bankruptcy case filings on file showing the subject as debtor in the last 24 months
+s068b__tu,0.8941210132852576,0.7547293121782233,0.7561604699900316,-0.0014311578118083,0,Number of non-medical third party collections
+linka007__tu,0.901438912520908,0.7547368714147312,0.7561604699900316,-0.0014235985753003,0,Number of check orders in the last year
+std222__tu,0.8967818279726494,0.7547558352084228,0.7561604699900316,-0.0014046347816087,0,Average total Payment Ratio for Student Loan accounts over the past 3 months
+g220b__tu,0.9020388590385588,0.7547569763557456,0.7561604699900316,-0.001403493634286,0,Number of trades verified in the past 12 months that are currently 90 days or more past due
+linkf118__tu,0.8961303743043534,0.7547580137624027,0.7561604699900316,-0.0014024562276289,0,Number of trade segments within last 6 months
+cv18__tu,0.900983103266225,0.7547630278945786,0.7561604699900316,-0.001397442095453,0,"Number of trades prior 60 days past due, now current, verified in past 12 months"
+bankruptcytimenewest__ln,0.8992103373392839,0.7547713617280571,0.7561604699900316,-0.0013891082619744,0,Time (in months) since most recent bankruptcy case filing on file showing the subject as debtor
+linkt010__tu,0.8996686852134974,0.7547721709052497,0.7561604699900316,-0.0013882990847818,0,Number of public record bankruptcies 
+addrcurrentdwelltype__ln,0.900107347969487,0.7547776553284435,0.7561604699900316,-0.001382814661588,0,Current dwelling type
+assetpropevercount__ln,0.8969197284287882,0.7547838590202529,0.7561604699900316,-0.0013766109697787,0,Total number of real property ever owned based on real property ownership records on subject's file
+addrstabilityindex__ln,0.9013315872078334,0.7547986316910499,0.7561604699900316,-0.0013618382989817,0,Address stability index indicating how often subject has changed addresses based on the address history on subject's file
+of36s__tu,0.9028863646212169,0.7548272502826967,0.7561604699900316,-0.0013332197073349,0,Months since most recent credit union delinquency
+bc110s__tu,0.8984819863916337,0.754834906343826,0.7561604699900316,-0.0013255636462056,0,Total past due amount of all credit card trades verified in past 12 months
+jt02s__tu,0.9019047063306204,0.7548352867262671,0.7561604699900316,-0.0013251832637645,0,Number of open joint trades
+s204s__tu,0.8946535813634418,0.7548380323958861,0.7561604699900316,-0.0013224375941455,0,Total balance of third party collections verified in past 12 months
+au51a__tu,0.9034902823044668,0.7548411722800349,0.7561604699900316,-0.0013192977099967,0,Terms in months of most recent auto trade
+linka050__tu,0.89871334612185,0.7548463523972759,0.7561604699900316,-0.0013141175927556,0,Number of checking account inquiries in the last 6 months
+of20s__tu,0.9015569241084482,0.7548925584897828,0.7561604699900316,-0.0012679115002488,0,Months since oldest credit union trade opened
+us32s__tu,0.8977052553502434,0.7548988659222577,0.7561604699900316,-0.0012616040677738,0,Maximum balance owed on open unsecured installment trades verified in past 12 months
+linka045__tu,0.8980968855970156,0.7549002906274002,0.7561604699900316,-0.0012601793626314,0,Number of checking account closures for cause in the last year
+std202__tu,0.900947497298278,0.7549151117105077,0.7561604699900316,-0.0012453582795238,0,Total Payment Ratio for Student Loan accounts over the past 3 months
+g094s__tu,0.9023384358101688,0.7549564281596375,0.7561604699900316,-0.0012040418303941,0,Number of public record bankruptcies
+st101s__tu,0.9020249992930098,0.754964907230048,0.7561604699900316,-0.0011955627599835,0,Total balance of all student loan trades verified in past 12 months
+agg906__tu,0.8992378711736699,0.7549655296740423,0.7561604699900316,-0.0011949403159893,0,Average aggregate bankcard utilization over last 12 months
+paymnt11__tu,0.9028631079713324,0.7549711800823011,0.7561604699900316,-0.0011892899077304,0,Number of payments in last 12 months
+in27s__tu,0.9023862746673932,0.7549866720217138,0.7561604699900316,-0.0011737979683178,0,Number of currently open and satisfactory installment trades 24 months or older
+strdealershiptrackertype__app,0.897908897162724,0.7549884909413858,0.7561604699900316,-0.0011719790486458,0,"Franchise, Independent"
+cv27__tu,0.9017258764363264,0.7549969700117964,0.7561604699900316,-0.0011634999782351,0,Percent of credit card trades from inactive to active status in the past 12 months
+linka048__tu,0.8963579414455534,0.7550080218507167,0.7561604699900316,-0.0011524481393149,0,Number of checking account inquiries in the last month
+subjectstabilityindex__ln,0.9002034874656719,0.7550110856583772,0.7561604699900316,-0.0011493843316544,0,Modeled risk index indicating the subject's stability in fulfilling a credit obligation on the basis of address history and non-derogatory public records on file
+st21s__tu,0.9030121910976366,0.7550199243630956,0.7561604699900316,-0.0011405456269359,0,Months since most recent student loan trade opened
+at28a__tu,0.8996121259975827,0.7550259274896178,0.7561604699900316,-0.0011345425004137,0,Total credit line of open trades verified in past 12 months
+strname__app,0.9003693127366448,0.7550460946750317,0.7561604699900316,-0.0011143753149999,0,State
+linkf116__tu,0.9023882618235548,0.7550513992810717,0.7561604699900316,-0.0011090707089599,0,Number of trade segments
+linka014__tu,0.9039437354496076,0.7550636752598472,0.7561604699900316,-0.0010967947301844,0,Number of unpaid checking account closures for cause in the last 5 years
+bitdealerapplicantsamezip__app,0.900730414254531,0.7550704391512515,0.7561604699900316,-0.0010900308387801,0,Applicant and Dealer Same Zip
+paymnt07__tu,0.9021864852316837,0.75507709930199,0.7561604699900316,-0.0010833706880416,0,Ratio of actual to minimum payment for non-mortgage trades last month
+st01s__tu,0.8960475879311646,0.7550859864190189,0.7561604699900316,-0.0010744835710126,0,Number of student loan trades
+ret317__tu,0.8996522545944977,0.7550913878496803,0.7561604699900316,-0.0010690821403512,0,Max Total Open-to-Buy for Retail accounts over the past 6 months
+bankruptcydismissed24month__ln,0.9019287158342048,0.7550929162954884,0.7561604699900316,-0.0010675536945432,0,Indicates subject has one or more dismissed bankruptcies on file in the last 24 months
+linkf082__tu,0.9035905078216748,0.7551064994066519,0.7561604699900316,-0.0010539705833797,0,Number of open trades with balance > 0 (excluding collection)
+linkt007__tu,0.9021305215332726,0.7551121498149107,0.7561604699900316,-0.0010483201751209,0,Months since most recent derogatory public record
+g220d__tu,0.8974639165717643,0.7551128137551713,0.7561604699900316,-0.0010476562348603,0,Number of credit card trades verified in the past 12 months that are currently 90 days or more past due
+assetownership__ln,0.8917012879984734,0.755123637364627,0.7561604699900316,-0.0010368326254046,0,"Indicates subject has ownership of assets (watercraft, aircraft, or real property) based on asset ownership records on file"
+addrinputlengthofres__ln,0.8995487816581944,0.7551238517620027,0.7561604699900316,-0.0010366182280289,0,Indicates length of time (in months) between oldest and newest records on file for the input address
+us28s__tu,0.9009562145102444,0.7551329532764076,0.7561604699900316,-0.0010275167136239,0,Total credit line of open unsecured installment trades verified in past 12 months
+evictioncount__ln,0.9005762829963623,0.7551348966848785,0.7561604699900316,-0.001025573305153,0,Total eviction records on subject's file indicating the plaintiff has sought an eviction and does not necessarily mean the defendant has vacated the premises
+rt28s__tu,0.8989950707419254,0.7551646149275819,0.7561604699900316,-0.0009958550624497,0,Total credit line of open retail trades verified in past 12 months
+assetpropnewestmortgagetype__ln,0.901639754535772,0.7551685847370564,0.7561604699900316,-0.0009918852529752,0,Mortgage type associated with the most recently recorded real property purchase based on real property ownership records on subject's file
+trv07__tu,0.9037392707688192,0.7551694354105152,0.7561604699900316,-0.0009910345795164,0,Number of non-mortgage balance decreases last month
+linkf099__tu,0.8955762952213848,0.7551699471977993,0.7561604699900316,-0.0009905227922323,0,Number of satisfactory trades with an age of at least 3 months
+assetproppurchasetimeoldest__ln,0.9045312138603674,0.7552033447761132,0.7561604699900316,-0.0009571252139184,0,Time (in months) since earliest recorded real property purchase based on real property ownership records on subject's file
+rev84__tu,0.900732609881153,0.7552055786584482,0.7561604699900316,-0.0009548913315834,0,Months since a Revolving trade last exceeded 90% utilization
+fr101s__tu,0.8946997493102593,0.7552752232253606,0.7561604699900316,-0.000885246764671,0,Total balance of all finance revolving trades verified in past 12 months
+linka012__tu,0.9025039668624544,0.7553216990435981,0.7561604699900316,-0.0008387709464334,0,Number of unpaid checking account closures for cause in the last 2 years
+linkf031__tu,0.9026408532868068,0.7553863087302017,0.7561604699900316,-0.0007741612598298,0,Number of satisfactory ACH transactions within last 7 years
+ret92__tu,0.9024044705985174,0.7554048713933191,0.7561604699900316,-0.0007555985967124,0,Number of months in the past 12 months where percentage of Retail trades utilized less than 25% was more than 25%
+aut201__tu,0.9009600873407212,0.7555503158066429,0.7561604699900316,-0.0006101541833887,0,Total Payment Ratio for Auto accounts over the past 1 month
+bitdealertrack__app,0.9049819859967196,0.7560006194562631,0.7561604699900316,-0.0001598505337685,0,From Dealertrack

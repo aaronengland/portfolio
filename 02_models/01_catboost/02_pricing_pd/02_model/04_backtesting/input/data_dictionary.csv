@@ -1,0 +1,2150 @@
+feature,Description
+uniqueid__app,Unique ID
+bigaccountid__app,Account ID
+bigdebtorid__app,Debtor/Codebtor ID
+bitdebtor__app,Debtor or Codebtor
+strcity__app,City
+strname__app,State
+strzipcode__app,Zip
+applicationdate__app,Application Date
+bitapproved__app,Approval Given
+bitsystemdecline__app,System Declined
+approvaldate__app,Approval Date
+bitfunded__app,Funded
+fundeddate__app,Funding Date
+dtmstampcreation__app,Application Date
+dtmapproved__app,Approval Date
+dtmdeclined__app,Declined Date
+dtmfunded__app,Funded Date
+defaultdate__app,Default Date
+chargeoffdate__app,Charge Off Date
+defaultamount__app,Default Amount
+chargeoffamount__app,Charge off amount
+applicationmonth__app,Application Month
+applicationquarter__app,Application Quarter
+applicationdayofweek__app,Application Day
+bigdealerid__app,Dealership
+bitrolled__app,Rolled
+bigdealertypeid__app,Dealership Type
+dealerstate__app,Dealer State
+bitlhmgroup__app,LHM
+dealercity__app,Dealer City
+dealerzip__app,Dealer Zip
+bitdealerapplicantsamestate__app,Applicant and Dealer Same State
+bitdealerapplicantsamecity__app,Applicant and Dealer Same City
+bitdealerapplicantsamezip__app,Applicant and Dealer Same Zip
+strdealershiptrackertype__app,"Franchise, Independent"
+inttype__app,BK Type
+fltacquisitionfee__app,Acquisiton Fee
+fltaddfee__app,Add Fee
+fltallowance__app,Allowance 
+fltamountfinanced__app,Amount Financed
+fltapprovedapr_contract__app,APR
+fltapproveddebttoincome__app,DTI
+fltapproveddowntotal__app,Down Total
+fltapprovedloantovalue__app,LTV
+fltapprovedpayment__app,Payment
+fltapprovedpricewholesale__app,Wholesale Price
+fltapprovedservicecontract__app,Service Contract
+fltdocumentfee__app,Doc Fee
+fltdowncash__app,Cash Down
+fltgapinsurance__app,Gap Insurance
+fltinsureddisabilityamount__app,Insured Disability Amount
+fltinsureddisabilitypremium__app,Insured Disability Premium
+fltinsuredlifeamount__app,Insured Life Amount
+fltinsuredlifepremium__app,Insured Life Premium
+fltinsuredunemploymentamount__app,Insured Unemployment Amount
+fltinsuredunemploymentpremium__app,Insured Unemployment Premium
+fltlicensefee__app,License fee
+fltservicecontract__app,Service Contract
+flttaxgrossreceipts__app,Tax Amount
+intterm__app,Term
+inttermbump__app,Term Bump
+bitdealertrack__app,From Dealertrack
+bitrouteone__app,From Routeone
+bitservicecontract__app,Service Contract
+intservicecontractterm__app,Service Contract Term
+intservicecontractmileage__app,Service Contract Mileage
+intservicecontractmileageaddon__app,Service Contract Mileage Add On
+bitmaintenanceagreement__app,Maintenance Agreement
+fltmaintenanceagreement__app,Maintenance Agreement
+bittrade__app,Trade
+,Unique ID
+,Account ID
+,Debtor/Codebtor ID
+,Debt Id
+,Debt Type
+,Employee
+,Current
+,Invalid
+,From Bureau
+,Use
+,Verified
+,Date Creation
+,Start Date
+,Current Balance
+,Original Balance
+,Monthly Payment
+,Comment
+,Creditor
+,Method of Payment
+,Type
+,Withheld from income
+,Brokerage
+,Debtor
+,Dealer
+,Merit Merge
+bitcurrent__income,Current
+bitemployment__income,Employment
+bitfulltime__income,Full Time
+bitpulledfrombureau__income,Pulled From
+bitselfemployed__income,Self Employed
+bituse__income,Use
+dtmend__income,End Date
+fltgrossmonthly__income,Gross Monthly
+strwagetype__income,Wage Type
+flt401kloanpayment__income,401k Loan Payment
+fltchildsupport__income,Child Support
+fltgarnish__income,Garnish
+strfrequency__income,Frequency
+bitrequirepoi__income,POI
+strweekly__income,Weekly
+streveryother__income,Every Other
+strmonthly__income,Monthly
+strpaydays__income,Pay Days
+analyticsmatchkey__tu,analyticsMatchkey
+zip_code__tu,5 digit zip code
+at01s__tu,Number of trades
+at02s__tu,Number of open trades
+at03s__tu,Number of open trades currently satisfactory
+at06s__tu,Number of trades opened in past 6 months
+at09s__tu,Number of trades opened in past 24 months
+at12s__tu,Number of open trades verified in past 12 months
+at20s__tu,Months since oldest trade opened
+at21s__tu,Months since most recent trade opened
+at24s__tu,Number of currently open and satisfactory trades 6 months or older
+at25s__tu,Number of currently open and satisfactory trades 12 months or older
+at27s__tu,Number of currently open and satisfactory trades 24 months or older
+at28a__tu,Total credit line of open trades verified in past 12 months
+at28b__tu,Total credit line of open trades verified in past 12 months (excluding mortgage and home equity)
+at29s__tu,Number of open trades with balance > $0 verified in past 12 months
+at30s__tu,Percentage of open trades > 50% of credit line verified in past 12 months
+at31s__tu,Percentage of open trades > 75% of credit line verified in past 12 months
+at32s__tu,Maximum balance owed on open trades verified in past 12 months
+at33a__tu,Total balance of open trades verified in past 12 months
+at33b__tu,Total balance of open trades verified in past 12 months (excluding mortgage and home equity)
+at34a__tu,Utilization for open trades verified in past 12 months
+at34b__tu,Utilization for open trades verified in past 12 months (excluding mortgage and home equity)
+at35a__tu,Average balance of open trades verified in past 12 months
+at35b__tu,Average balance of open trades verified in past 12 months (excluding mortgage and home equity)
+at36s__tu,Months since most recent delinquency
+at57s__tu,Total past due amount of open trades verified in past 12 months
+at101s__tu,Total balance of all trades verified in past 12 months
+at101b__tu,Total balance of all trades verified in past 12 months (excluding mortgage and home equity)
+at103s__tu,Percentage of satisfactory open trades to all open trades verified in 24 months
+at104s__tu,Percentage of all trades opened in past 24 months to all trades
+au01s__tu,Number of auto trades
+au02s__tu,Number of open auto trades
+au03s__tu,Number of currently satisfactory open auto trades
+au06s__tu,Number of auto trades opened in past 6 months
+au09s__tu,Number of auto trades opened in past 24 months
+au12s__tu,Number of open auto trades verified in past 12 months
+au20s__tu,Months since oldest auto trade opened
+au21s__tu,Months since most recent auto trade opened
+au24s__tu,Number of currently open and satisfactory auto trades 6 months or older
+au25s__tu,Number of currently open and satisfactory auto trades 12 months or older
+au27s__tu,Number of currently open and satisfactory auto trades 24 months or older
+au28s__tu,Total credit line of open auto trades verified in past 12 months
+au29s__tu,Number of open auto trades with balance > $0 verified in past 12 months
+au30s__tu,Percentage of open auto trades > 50% of credit line verified in past 12 months
+au31s__tu,Percentage of open auto trades > 75% of credit line verified in past 12 months
+au32s__tu,Maximum balance owed on open auto trades verified in past 12 months
+au33s__tu,Total balance of open auto trades verified in past 12 months
+au34s__tu,Utilization for open auto trades verified in past 12 months
+au35s__tu,Average balance of open auto trades verified in past 12 months
+au36s__tu,Months since most recent auto delinquency
+au51a__tu,Terms in months of most recent auto trade
+au57s__tu,Total past due amount of open auto trades verified in past 12 months
+au101s__tu,Total balance of all auto trades verified in past 12 months
+bc01s__tu,Number of credit card trades
+bc02s__tu,Number of open credit card trades
+bc03s__tu,Number of currently satisfactory open credit card trades
+bc06s__tu,Number of credit card trades opened in past 6 months
+bc09s__tu,Number of credit card trades opened in past 24 months
+bc12s__tu,Number of open credit card trades verified in past 12 months
+bc20s__tu,Months since oldest credit card trade opened
+bc21s__tu,Months since most recent credit card trade opened
+bc24s__tu,Number of currently open and satisfactory credit card trades 6 months or older
+bc25s__tu,Number of currently open and satisfactory credit card trades 12 months or older
+bc27s__tu,Number of currently open and satisfactory credit card trades 24 months or older
+bc28s__tu,Total credit line of open credit card trades verified in past 12 months
+bc29s__tu,Number of open credit card trades with balance > $0 verified in past 12 months
+bc30s__tu,Percentage of open credit card trades > 50% of credit line verified in past 12 months
+bc31s__tu,Percentage of open credit card trades > 75% of credit line verified in past 12 months
+bc32s__tu,Maximum balance owed on open credit card trades verified in past 12 months
+bc33s__tu,Total balance of open credit card trades verified in past 12 months
+bc34s__tu,Utilization for open credit card trades verified in past 12 months
+bc35s__tu,Average balance of open credit card trades verified in past 12 months
+bc36s__tu,Months since most recent credit card delinquency
+bc57s__tu,Total past due amount of open credit card trades verified in past 12 months
+bc97a__tu,Total open to buy of open credit cards verified in past 3 months
+bc97b__tu,Total open to buy of closed credit cards verified in past 3 months
+bc98a__tu,Total open to buy of open credit cards verified in past 12 months
+bc101s__tu,Total balance of all credit card trades verified in past 12 months
+bc102s__tu,Average credit line of open credit card trades verified in past 12 months
+bc103s__tu,Average balance of all credit card trades with balance > $0 verified in past 12 months
+bc104s__tu,Average of the open credit card trade utilizations verified in past 12 months
+bc106s__tu,Number of credit card trades 30 or more days past due in past 24 months
+bc107s__tu,Number of 30 and 60 days past due ratings on credit card trades
+bc108s__tu,Number of 90 or more days past due ratings on credit card trades
+bc109s__tu,Number of credit card trades with past due amount > $100 verified in past 12 months
+bc110s__tu,Total past due amount of all credit card trades verified in past 12 months
+bi01s__tu,Number of bank installment trades
+bi02s__tu,Number of open bank installment trades
+bi03s__tu,Number of currently satisfactory open bank installment trades
+bi06s__tu,Number of bank installment trades opened in past 6 months
+bi09s__tu,Number of bank installment trades opened in past 24 months
+bi12s__tu,Number of open bank installment trades verified in past 12 months
+bi20s__tu,Months since oldest bank installment trade opened
+bi21s__tu,Months since most recent bank installment trade opened
+bi24s__tu,Number of currently open and satisfactory bank installment trades 6 months or older
+bi25s__tu,Number of currently open and satisfactory bank installment trades 12 months or older
+bi27s__tu,Number of currently open and satisfactory bank installment trades 24 months or older
+bi28s__tu,Total credit line of open bank installment trades verified in past 12 months
+bi29s__tu,Number of open bank installment trades with balance > $0 verified in past 12 months
+bi30s__tu,Percentage of open bank installment trades > 50% of credit line verified in past 12 months
+bi31s__tu,Percentage of open bank installment trades > 75% of credit line verified in past 12 months
+bi32s__tu,Maximum balance owed on open bank installment trades verified in past 12 months
+bi33s__tu,Total balance of open bank installment trades verified in past 12 months
+bi34s__tu,Utilization for open bank installment trades verified in past 12 months
+bi35s__tu,Average balance of open bank installment trades verified in past 12 months
+bi36s__tu,Months since most recent bank installment delinquency
+bi57s__tu,Total past due amount of open bank installment trades verified in past 12 months
+bi101s__tu,Total balance of all bank installment trades verified in past 12 months
+br01s__tu,Number of bank revolving trades
+br02s__tu,Number of open bank revolving trades
+br03s__tu,Number of currently satisfactory open bank revolving trades
+br06s__tu,Number of bank revolving trades opened in past 6 months
+br09s__tu,Number of bank revolving trades opened in past 24 months
+br12s__tu,Number of open bank revolving trades verified in past 12 months
+br20s__tu,Months since oldest bank revolving trade opened
+br21s__tu,Months since most recent bank revolving trade opened
+br24s__tu,Number of currently open and satisfactory bank revolving trades 6 months or older
+br25s__tu,Number of currently open and satisfactory bank revolving trades 12 months or older
+br27s__tu,Number of currently open and satisfactory bank revolving trades 24 months or older
+br28s__tu,Total credit line of open bank revolving trades verified in past 12 months
+br29s__tu,Number of open bank revolving trades with balance > $0 verified in past 12 months
+br30s__tu,Percentage of open bank revolving trades > 50% of credit line verified in past 12 months
+br31s__tu,Percentage of open bank revolving trades > 75% of credit line verified in past 12 months
+br32s__tu,Maximum balance owed on open bank revolving trades verified in past 12 months
+br33s__tu,Total balance of open bank revolving trades verified in past 12 months
+br34s__tu,Utilization for open bank revolving trades verified in past 12 months
+br35s__tu,Average balance of open bank revolving trades verified in past 12 months
+br36s__tu,Months since most recent bank revolving delinquency
+br57s__tu,Total past due amount of open bank revolving trades verified in past 12 months
+br101s__tu,Total balance of all bank revolving trades verified in past 12 months
+br109s__tu,Number of bank revolving trades with past due amount > $50 verified in past 12 months
+co01s__tu,Number of charged-off trades
+co02s__tu,Number of charge-off trades in past 12 months
+co03s__tu,Number of charge-off trades in past 24 months
+co04s__tu,Months since most recent charged-off trade reported
+co05s__tu,Total balance of trades that charged-off
+co06s__tu,Total balance of trades that charged-off in the past 12 months
+co07s__tu,Total balance of trades that charged-off in the past 24 months
+fc01s__tu,Number of foreclosure trades
+fc02s__tu,Number of foreclosure trades in past 12 months
+fc03s__tu,Number of foreclosure trades in past 24 months
+fc04s__tu,Months since most recent foreclosure trade reported
+fc05s__tu,Total balance of foreclosure trades
+fc06s__tu,Total balance of foreclosure trades in past 12 months
+fc07s__tu,Total balance of foreclosure trades in past 24 months
+fi01s__tu,Number of finance installment trades
+fi02s__tu,Number of open finance installment trades
+fi03s__tu,Number of currently satisfactory open finance installment trades
+fi06s__tu,Number of finance installment trades opened in past 6 months
+fi09s__tu,Number of finance installment trades opened in past 24 months
+fi12s__tu,Number of open finance installment trades verified in past 12 months
+fi20s__tu,Months since oldest finance installment trade opened
+fi21s__tu,Months since most recent finance installment trade opened
+fi24s__tu,Number of currently open and satisfactory finance installment trades 6 months or older
+fi25s__tu,Number of currently open and satisfactory finance installment trades 12 months or older
+fi27s__tu,Number of currently open and satisfactory finance installment trades 24 months or older
+fi28s__tu,Total credit line of open finance installment trades verified in past 12 months
+fi29s__tu,Number of open finance installment trades with balance > $0 verified in past 12 months
+fi30s__tu,Percentage of open finance installment trades > 50% of credit line verified in past 12 months
+fi31s__tu,Percentage of open finance installment trades > 75% of credit line verified in past 12 months
+fi32s__tu,Maximum balance owed on open finance installment trades verified in past 12 months
+fi33s__tu,Total balance of open finance installment trades verified in past 12 months
+fi34s__tu,Utilization for open finance installment trades verified in past 12 months
+fi35s__tu,Average balance of open finance installment trades verified in past 12 months
+fi36s__tu,Months since most recent finance installment delinquency
+fi57s__tu,Total past due amount of open finance installment trades verified in past 12 months
+fi101s__tu,Total balance of all finance installment trades verified in past 12 months
+fr01s__tu,Number of finance revolving trades
+fr02s__tu,Number of open finance revolving trades
+fr03s__tu,Number of currently satisfactory open finance revolving trades
+fr06s__tu,Number of finance revolving trades opened in past 6 months
+fr09s__tu,Number of finance revolving trades opened in past 24 months
+fr12s__tu,Number of open finance revolving trades verified in past 12 months
+fr20s__tu,Months since oldest finance revolving trade opened
+fr21s__tu,Months since most recent finance revolving trade opened
+fr24s__tu,Number of currently open and satisfactory finance revolving trades 6 months or older
+fr25s__tu,Number of currently open and satisfactory finance revolving trades 12 months or older
+fr27s__tu,Number of currently open and satisfactory finance revolving trades 24 months or older
+fr28s__tu,Total credit line of open finance revolving trades verified in past 12 months
+fr29s__tu,Number of open finance revolving trades with balance > $0 verified in past 12 months
+fr30s__tu,Percentage of open finance revolving trades > 50% of credit line verified in past 12 months
+fr31s__tu,Percentage of open finance revolving trades > 75% of credit line verified in past 12 months
+fr32s__tu,Maximum balance owed on open finance revolving trades verified in past 12 months
+fr33s__tu,Total balance of open finance revolving trades verified in past 12 months
+fr34s__tu,Utilization for open finance revolving trades verified in past 12 months
+fr35s__tu,Average balance of open finance revolving trades verified in past 12 months
+fr36s__tu,Months since most recent finance revolving delinquency
+fr57s__tu,Total past due amount of open finance revolving trades verified in past 12 months
+fr101s__tu,Total balance of all finance revolving trades verified in past 12 months
+g001s__tu,Number of 30 days past due ratings in past 12 months
+g001b__tu,Number of 30 or more days past due ratings in past 12 months
+g001c__tu,Number of real estate trades with 30 or more days past due ratings in past 12 months
+g002s__tu,Number of 60 days past due ratings in past 12 months
+g002b__tu,Number of 60 or more days past due ratings in past 12 months
+g002c__tu,Number of real estate trades with 60 or more days past due ratings in past 12 months
+g003s__tu,Number of 90 or more days past due ratings in past 12 months
+g003c__tu,Number of real estate trades with 90 or more days past due ratings in past 12 months
+g020s__tu,Number of trades with maximum delinquency of 30 days past due in past 24 months
+g041s__tu,Number of trades 30 or more days past due ever
+g041c__tu,Number of real estate trades 30 or more days past due ever
+g042s__tu,Number of trades 60 or more days past due ever
+g042c__tu,Number of real estate trades 60 or more days past due ever
+g043s__tu,Number of trades 90 or more days past due ever
+g043c__tu,Number of real estate trades 90 or more days past due ever
+g051s__tu,Percentage of trades ever delinquent
+g057s__tu,Number of trades 30 or more days past due in past 3 months
+g058s__tu,Number of trades 30 or more days past due in past 6 months
+g059s__tu,Number of trades 30 or more days past due in past 12 months
+g061s__tu,Number of trades 30 or more days past due in past 24 months
+g063s__tu,Number of trades 60 or more days past due in past 6 months
+g064s__tu,Number of trades 60 or more days past due in past 12 months
+g066s__tu,Number of trades 60 or more days past due in past 24 months
+g068s__tu,Number of trades 90 or more days past due in past 6 months
+g069s__tu,Number of trades 90 or more days past due in past 12 months
+g071s__tu,Number of trades 90 or more days past due in past 24 months
+g093s__tu,Number of public records
+g094s__tu,Number of public record bankruptcies
+g095s__tu,Months since most recent public record
+g099s__tu,Number of public record bankruptcies in past 24 months
+g100s__tu,Number of tradeline bankruptcies
+g102s__tu,Months since most recent inquiry
+g105s__tu,Months since most recent mortgage inquiry
+g199s__tu,Total monthly obligation for contractually liable accounts verified in past 12 months
+g200s__tu,Percentage of contractually liable debt
+g201a__tu,Total open to buy of open trades verified in past 3 months (excluding installments and mortgages)
+g201b__tu,Total open to buy of closed trades verified in past 3 months (excluding installments and mortgages)
+g202a__tu,Total open to buy of open trades verified in past 12 months (excluding installments and mortgages)
+g202b__tu,Total open to buy of closed trades verified in past 12 months (excluding installments and mortgages)
+g205s__tu,Total monthly obligation for individual account verified in past 12 months
+g206s__tu,Total monthly obligation for joint account verified in past 12 months
+g207s__tu,Total monthly obligation for all accounts
+g208s__tu,Percentage of individual debt
+g209s__tu,Months since most recent charged-off trade opened
+g210s__tu,Total past due amount of charged-off trades verified in past 12 months
+g211s__tu,Highest balance of charged-off trades
+g212s__tu,Number of charged-off trades opened in past 24 months
+g213a__tu,Highest balance of third party collections verified in 24 months
+g213b__tu,Highest balance of non-medical third party collections verified in 24 months
+g215a__tu,Number of third party collections with balance > $0
+g215b__tu,Number of non-medical third party collections with balance > $0
+g216s__tu,Number of trades with a delinquency of 90 or more days past due since opening a new trade (within past 24 months)
+g217s__tu,Total past due amount of all trades verified in past 12 months
+g218a__tu,Number of trades verified in the past 12 months that are currently 30 days past due
+g218b__tu,Number of trades verified in the past 12 months that are currently 30 days or more past due
+g218c__tu,Number of credit card trades verified in the past 12 months that are currently 30 days past due
+g218d__tu,Number of credit card trades verified in the past 12 months that are currently 30 days or more past due
+g219a__tu,Number of trades verified in the past 12 months that are currently 60 days past due
+g219b__tu,Number of trades verified in the past 12 months that are currently 60 days or more past due
+g219c__tu,Number of credit card trades verified in the past 12 months that are currently 60 days past due
+g219d__tu,Number of credit card trades verified in the past 12 months that are currently 60 days or more past due
+g220a__tu,Number of trades verified in the past 12 months that are currently 90 days past due
+g220b__tu,Number of trades verified in the past 12 months that are currently 90 days or more past due
+g220c__tu,Number of credit card trades verified in the past 12 months that are currently 90 days past due
+g220d__tu,Number of credit card trades verified in the past 12 months that are currently 90 days or more past due
+g221a__tu,Number of trades verified in the past 12 months that are currently 120 days past due
+g221b__tu,Number of trades verified in the past 12 months that are currently 120 days or more past due
+g221c__tu,Number of credit card trades verified in the past 12 months that are currently 120 days past due
+g221d__tu,Number of credit card trades verified in the past 12 months that are currently 120 days or more past due
+g222s__tu,"Number of trades prior 30 days past due, now current, verified in past 12 months"
+g223s__tu,"Number of trades prior 60 days past due, now current, verified in past 12 months"
+g224a__tu,Number of 90 days past due or worse items ever (excluding medical collection items)
+g224b__tu,Number of 90 days past due or worse items in the past 12 months (excluding medical collection items)
+g224c__tu,Number of 90 days past due or worse items in the past 24 months (excluding medical collection items)
+g225s__tu,Total past due amount of currently 90 or more days past due trades
+g226s__tu,Number of 60 or more days past due trades (current MOP only) with balance > $0 opened in past 12 months
+g227s__tu,Number of 90 or more days past due trades (current MOP only) with balance > $0 opened in past 12 months
+g228s__tu,Number of 90 or more days past due trades (current MOP only) with balance > $0 opened in past 24 months
+g230s__tu,Number of 60 or more days past due trades (current MOP only) with balance > $0 opened in past 24 months
+g232s__tu,Number of inquiries (includes duplicates)
+g234s__tu,Number of days with inquiry occurring in past 30 days
+g235s__tu,Number of trades opened since most recent delinquency (delinquency search limited to 24 months)
+g237s__tu,Number of credit inquiries in past 6 months
+g238s__tu,Number of credit inquiries in past 12 months
+g240s__tu,Number of mortgage inquiries
+g241s__tu,Number of mortgage inquiries in past 6 months
+g250a__tu,Number of 30 days past due or worse items ever (excluding medical collection items)
+g250b__tu,Number of 30 days past due or worse items in the past 12 months (excluding medical collection items)
+g250c__tu,Number of 30 days past due or worse items in the past 24 months (excluding medical collection items)
+g251a__tu,Number of 60 days past due or worse items ever (excluding medical collection items)
+g251b__tu,Number of 60 days past due or worse items in the past 12 months (excluding medical collection items)
+g251c__tu,Number of 60 days past due or worse items in the past 24 months (excluding medical collection items)
+g300s__tu,Worst rating on credit card trades in past 12 months
+g301s__tu,Worst rating on credit card trades
+g302s__tu,Worst rating on revolving trades in past 12 months
+g303s__tu,Worst rating on revolving trades
+g304s__tu,Worst rating on installment trades in past 12 months
+g305s__tu,Worst rating on installment trades
+g306s__tu,Worst rating on auto trades in past 12 months
+g307s__tu,Worst rating on auto trades
+g308s__tu,Worst rating on mortgage trades in past 12 months
+g309s__tu,Worst rating on mortgage trades
+g310s__tu,Worst rating on all trades in past 12 months
+g311s__tu,Worst rating on all trades
+g312s__tu,Worst rating on home equity line of credit trades in past 12 months
+g313s__tu,Worst rating on home equity line of credit trades
+g314s__tu,Worst rating on home equity loan trades in past 12 months
+g315s__tu,Worst rating on home equity loan trades
+g960s__tu,Number of deduped inquiries
+g980s__tu,Number of deduped inquiries in past 6 months
+g990s__tu,Number of deduped inquiries in past 12 months
+hi01s__tu,Number of home equity loan trades
+hi02s__tu,Number of open home equity loan trades
+hi03s__tu,Number of currently satisfactory open home equity loan trades
+hi06s__tu,Number of home equity loan trades opened in past 6 months
+hi09s__tu,Number of home equity loan trades opened in past 24 months
+hi12s__tu,Number of open home equity loan trades verified in past 12 months
+hi20s__tu,Months since oldest home equity loan trade opened
+hi21s__tu,Months since most recent home equity loan trade opened
+hi24s__tu,Number of currently open and satisfactory home equity loan trades 6 months or older
+hi25s__tu,Number of currently open and satisfactory home equity loan trades 12 months or older
+hi27s__tu,Number of currently open and satisfactory home equity loan trades 24 months or older
+hi28s__tu,Total credit line of open home equity loan trades verified in past 12 months
+hi29s__tu,Number of open home equity loan trades with balance > $0 verified in past 12 months
+hi30s__tu,Percentage of open home equity loan trades > 50% of credit line verified in past 12 months
+hi31s__tu,Percentage of open home equity loan trades > 75% of credit line verified in past 12 months
+hi32s__tu,Maximum balance owed on open home equity loan trades verified in past 12 months
+hi33s__tu,Total balance of open home equity loan trades verified in past 12 months
+hi34s__tu,Utilization for open home equity loan trades verified in past 12 months
+hi35s__tu,Average balance of open home equity loan trades verified in past 12 months
+hi36s__tu,Months since most recent home equity loan delinquency
+hi57s__tu,Total past due amount of open hoem equity loan trades verified in past 12 months
+hi101s__tu,Total balance of all home equity trades verified in past 12 months
+hr01s__tu,Number of home equity line of credit trades
+hr02s__tu,Number of open home equity line of credit trades
+hr03s__tu,Number of currently satisfactory open home equity line of credit trades
+hr06s__tu,Number of home equity line of credit trades opened in past 6 months
+hr09s__tu,Number of home equity line of credit trades opened in past 24 months
+hr12s__tu,Number of open home equity line of credit trades verified in past 12 months
+hr20s__tu,Months since oldest home equity line of credit trade opened
+hr21s__tu,Months since most recent home equity line of credit trade opened
+hr24s__tu,Number of currently open and satisfactory home equity line of credit trades 6 months or older
+hr25s__tu,Number of currently open and satisfactory home equity line of credit trades 12 months or older
+hr27s__tu,Number of currently open and satisfactory home equity line of credit trades 24 months or older
+hr28s__tu,Total credit line of open home equity line of credit trades verified in past 12 months
+hr29s__tu,Number of open home equity line of credit trades with balance > $0 verified in past 12 months
+hr30s__tu,Percentage of open home equity line of credit trades > 50% of credit line verified in past 12 months
+hr31s__tu,Percentage of open home equity line of credit trades > 75% of credit line verified in past 12 months
+hr32s__tu,Maximum balance owed on open home equity line of credit trades verified in past 12 months
+hr33s__tu,Total balance of open home equity line of credit trades verified in past 12 months
+hr34s__tu,Utilization for open home equity line of credit trades verified in past 12 months
+hr35s__tu,Average balance of open home equity line of credit trades verified in past 12 months
+hr36s__tu,Months since most recent home equity line of credit delinquency
+hr57s__tu,Total past due amount of open hoem equity line of credit trades verified in past 12 months
+hr101s__tu,Total balance of all home equity line of credit trades verified in past 12 months
+in01s__tu,Number of installment trades
+in02s__tu,Number of open installment trades
+in03s__tu,Number of currently satisfactory open installment trades
+in06s__tu,Number of installment trades opened in past 6 months
+in09s__tu,Number of installment trades opened in past 24 months
+in12s__tu,Number of open installment trades verified in past 12 months
+in20s__tu,Months since oldest installment trade opened
+in21s__tu,Months since most recent installment trade opened
+in24s__tu,Number of currently open and satisfactory installment trades 6 months or older
+in25s__tu,Number of currently open and satisfactory installment trades 12 months or older
+in27s__tu,Number of currently open and satisfactory installment trades 24 months or older
+in28s__tu,Total credit line of open installment trades verified in past 12 months
+in29s__tu,Number of open installment trades with balance > $0 verified in past 12 months
+in30s__tu,Percentage of open installment trades > 50% of credit line verified in past 12 months
+in31s__tu,Percentage of open installment trades > 75% of credit line verified in past 12 months
+in32s__tu,Maximum balance owed on installment trades verified in past 12 months
+in33s__tu,Total balance of open installment trades verified in past 12 months
+in34s__tu,Utilization for open installment trades verified in past 12 months
+in35s__tu,Average balance of open installment trades verified in past 12 months
+in36s__tu,Months since most recent installment delinquency
+in57s__tu,Total past due amount of open installment trades verified in past 12 months
+in101s__tu,Total balance of all installment trades verified in past 12 months
+lm01s__tu,Number of mortgage trades with a loan modification
+lm02s__tu,Months since oldest loan modification on a mortgage trade
+lm03s__tu,Total balance of mortgage trades with a loan modification
+lm04s__tu,Total credit line of mortgage trades with a loan modification
+lm05s__tu,Utilization of mortgage trades with a loan modification
+lm06s__tu,Number of mortgage trades that are 30 or more days past due with a loan modification
+lm07s__tu,Number of mortgage trades that are 60 or more days past due with a loan modification
+lm08s__tu,Number of mortgage trades that are 90 or more days past due with a loan modification
+lm09s__tu,Months since most recent mortgage trade with a loan modification delinquency
+lm10s__tu,Number of trades that are 30 or more days past due since the most recent loan modification on a mortgage trade
+lm11s__tu,Number of trades that are 60 or more days past due since the most recent loan modification on a mortgage trade
+lm12s__tu,Number of trades that are 90 or more days past due since the most recent loan modification on a mortgage trade
+lm13s__tu,Number of mortgage trades with a government loan modification
+lm14s__tu,Months since oldest government loan modification on a mortgage trade
+lm15s__tu,Total balance of mortgage trades with a government loan modification
+lm16s__tu,Total credit line of mortgage trades with a government loan modification
+lm17s__tu,Utilization of mortgage trades with a government loan modification
+lm18s__tu,Number of mortgage trades that are 30 or more days past due with a government loan modification
+lm19s__tu,Number of mortgage trades that are 60 or more days past due with a government loan modification
+lm20s__tu,Number of mortgage trades that are 90 or more days past due with a government loan modification
+lm21s__tu,Months since most recent mortgage trade with a government loan modification delinquency
+lm22s__tu,Number of trades that are 30 or more days past due since the most recent government loan modification on a mortgage trade
+lm23s__tu,Number of trades that are 60 or more days past due since the most recent government loan modification on a mortgage trade
+lm24s__tu,Number of trades that are 90 or more days past due since the most recent government loan modification on a mortgage trade
+lm25s__tu,Number of mortgage trades with a bank-backed loan modification
+lm26s__tu,Months since oldest bank-backed loan modification on a mortgage trade
+lm27s__tu,Total balance of mortgage trades with a bank-backed loan modification
+lm28s__tu,Total credit line of mortgage trades with a bank-backed loan modification
+lm29s__tu,Utilization of mortgage trades with a bank-backed loan modification
+lm30s__tu,Number of mortgage trades that are 30 or more days past due with a bank-backed loan modification
+lm31s__tu,Number of mortgage trades that are 60 or more days past due with a bank-backed loan modification
+lm32s__tu,Number of mortgage trades that are 90 or more days past due with a bank-backed loan modification
+lm33s__tu,Months since most recent mortgage trade with a bank-backed loan modification delinquency
+lm34s__tu,Number of trades that are 30 or more days past due since the most recent bank-backed loan modification on a mortgage trade
+lm35s__tu,Number of trades that are 60 or more days past due since the most recent bank-backed loan modification on a mortgage trade
+lm36s__tu,Number of trades that are 90 or more days past due since the most recent bank-backed loan modification on a mortgage trade
+lm37s__tu,Age of mortgage trade with the oldest loan modification
+lm38s__tu,Age of mortgage trade with the oldest government loan modification
+lm39s__tu,Age of mortgage trade with the oldest bank-backed loan modification
+mt01s__tu,Number of mortgage trades
+mt02s__tu,Number of open mortgage trades
+mt03s__tu,Number of currently satisfactory open mortgage trades
+mt06s__tu,Number of mortgage trades opened in past 6 months
+mt09s__tu,Number of mortgage trades opened in past 24 months
+mt12s__tu,Number of open mortgage trades verified in past 12 months
+mt20s__tu,Months since oldest mortgage trade opened
+mt21s__tu,Months since most recent mortgage trade opened
+mt24s__tu,Number of currently open and satisfactory mortgage trades 6 months or older
+mt25s__tu,Number of currently open and satisfactory mortgage trades 12 months or older
+mt27s__tu,Number of currently open and satisfactory mortgage trades 24 months or older
+mt28s__tu,Total credit line of open mortgage trades verified in past 12 months
+mt29s__tu,Number of open mortgage trades with balance > $0 verified in past 12 months
+mt30s__tu,Percentage of open mortgage trades > 50% of credit line verified in past 12 months
+mt31s__tu,Percentage of open mortgage trades > 75% of credit line verified in past 12 months
+mt32s__tu,Maximum balance owed on mortgage trades verified in past 12 months
+mt33s__tu,Total balance of open mortgage trades verified in past 12 months
+mt34s__tu,Utilization for open mortgage trades verified in past 12 months
+mt34b__tu,Utilization for open mortgage trades older than 12 months and verified in past 12 months at the consumer level
+mt34c__tu,Utilization for open mortgage trades older than 12 months and verified in past 12 months at the tradeline level
+mt35s__tu,Average balance of open mortgage trades verified in past 12 months
+mt36s__tu,Months since most recent mortgage delinquency
+mt47s__tu,Number of mortgage trade delinquencies (30 or more days past due) in the past 12 months
+mt57s__tu,Total past due amount of open mortgage trades verified in past 12 months
+mt101s__tu,Total balance of all mortgage trades verified in past 12 months
+md02s__tu,Number of open medical trades
+md33s__tu,Total balance of open medical trades verified in past 12 months
+md106s__tu,Number of medical trades 30 or more days past due in past 24 months
+of01s__tu,Number of credit union trades
+of02s__tu,Number of open credit union trades
+of03s__tu,Number of currently satisfactory open credit union trades
+of06s__tu,Number of credit union trades opened in past 6 months
+of09s__tu,Number of credit union trades opened in past 24 months
+of12s__tu,Number of open credit union trades verified in past 12 months
+of20s__tu,Months since oldest credit union trade opened
+of21s__tu,Months since most recent credit union trade opened
+of24s__tu,Number of currently open and satisfactory credit union trades 6 months or older
+of25s__tu,Number of currently open and satisfactory credit union trades 12 months or older
+of27s__tu,Number of currently open and satisfactory credit union trades 24 months or older
+of28s__tu,Total credit line of open credit union trades verified in past 12 months
+of29s__tu,Number of open credit union trades with balance > $0 verified in past 12 months
+of30s__tu,Percentage of open credit union trades > 50% of credit line verified in past 12 months
+of31s__tu,Percentage of open credit union trades > 75% of credit line verified in past 12 months
+of32s__tu,Maximum balance owed on credit union trades verified in past 12 months
+of33s__tu,Total balance of open credit union trades verified in past 12 months
+of34s__tu,Utilization for open credit union trades verified in past 12 months
+of35s__tu,Average balance of open credit union trades verified in past 12 months
+of36s__tu,Months since most recent credit union delinquency
+of57s__tu,Total past due amount of open credit union trades verified in past 12 months
+of101s__tu,Total balance of all credit union trades verified in past 12 months
+pb01s__tu,Number of premium credit card trades
+pb02s__tu,Number of open premium credit card trades
+pb03s__tu,Number of currently satisfactory open premium credit card trades
+pb06s__tu,Number of premium credit card trades opened in past 6 months
+pb09s__tu,Number of premium credit card trades opened in past 24 months
+pb12s__tu,Number of open premium credit card trades verified in past 12 months
+pb20s__tu,Months since oldest premium credit card trade opened
+pb21s__tu,Months since most recent premium credit card trade opened
+pb24s__tu,Number of currently open and satisfactory premium credit card trades 6 months or older
+pb25s__tu,Number of currently open and satisfactory premium credit card trades 12 months or older
+pb27s__tu,Number of currently open and satisfactory premium credit card trades 24 months or older
+pb28s__tu,Total credit line of open premium credit card trades verified in past 12 months
+pb29s__tu,Number of open premium credit card trades with balance > $0 verified in past 12 months
+pb30s__tu,Percentage of open premium credit card trades > 50% of credit line verified in past 12 months
+pb31s__tu,Percentage of open premium credit card trades > 75% of credit line verified in past 12 months
+pb32s__tu,Maximum balance owed on open premium redit card trades verified in past 12 months
+pb33s__tu,Total balance of open premium credit card trades verified in past 12 months
+pb34s__tu,Utilization for open premium credit card trades verified in past 12 months
+pb35s__tu,Average balance of open premium credit card trades verified in past 12 months
+pb36s__tu,Months since most recent premium credit card delinquency
+pb57s__tu,Total past due amount of open premium credit card trades verified in past 12 months
+pb101s__tu,Total balance of all premium credit card trades verified in past 12 months
+re01s__tu,Number of revolving trades
+re02s__tu,Number of open revolving trades
+re03s__tu,Number of currently satisfactory open revolving trades
+re06s__tu,Number of revolving trades opened in past 6 months
+re09s__tu,Number of revolving trades opened in past 24 months
+re12s__tu,Number of open revolving trades verified in past 12 months
+re20s__tu,Months since oldest revolving trade opened
+re21s__tu,Months since most recent revolving trade opened
+re24s__tu,Number of currently open and satisfactory revolving trades 6 months or older
+re25s__tu,Number of currently open and satisfactory revolving trades 12 months or older
+re27s__tu,Number of currently open and satisfactory revolving trades 24 months or older
+re28s__tu,Total credit line of open revolving trades verified in past 12 months
+re29s__tu,Number of open revolving trades with balance > $0 verified in past 12 months
+re30s__tu,Percentage of open revolving trades > 50% of credit line verified in past 12 months
+re31s__tu,Percentage of open revolving trades > 75% of credit line verified in past 12 months
+re32s__tu,Maximum balance owed on open revolving trades verified in past 12 months
+re33s__tu,Total balance of open revolving trades verified in past 12 months
+re34s__tu,Utilization for open revolving trades verified in past 12 months
+re35s__tu,Average balance of open revolving trades verified in past 12 months
+re36s__tu,Months since most recent revolving delinquency
+re57s__tu,Total past due amount of open revolving trades verified in past 12 months
+re101s__tu,Total balance of all revolving trades verified in past 12 months
+re102s__tu,Average credit line of open revolving trades verified in past 12 months
+rp01s__tu,Number of repossession trades
+rp02s__tu,Number of repossession trades in past 12 months
+rp03s__tu,Number of repossession trades in past 24 months
+rp04s__tu,Months since most recent repossession trade reported
+rp05s__tu,Total balance of repossession trades
+rp06s__tu,Total balance of repossession trades in past 12 months
+rp07s__tu,Total balance of repossession trades in past 24 months
+rp08s__tu,Number of paid/redeemed repossession trades
+rt01s__tu,Number of retail trades
+rt02s__tu,Number of open retail trades
+rt03s__tu,Number of currently satisfactory open retail trades
+rt06s__tu,Number of retail trades opened in past 6 months
+rt09s__tu,Number of retail trades opened in past 24 months
+rt12s__tu,Number of open retail trades verified in past 12 months
+rt20s__tu,Months since oldest retail trade opened
+rt21s__tu,Months since most recent retail trade opened
+rt24s__tu,Number of currently open and satisfactory retail trades 6 months or older
+rt25s__tu,Number of currently open and satisfactory retail trades 12 months or older
+rt27s__tu,Number of currently open and satisfactory retail trades 24 months or older
+rt28s__tu,Total credit line of open retail trades verified in past 12 months
+rt29s__tu,Number of open retail trades with balance > $0 verified in past 12 months
+rt30s__tu,Percentage of open retail trades > 50% of credit line verified in past 12 months
+rt31s__tu,Percentage of open retail trades > 75% of credit line verified in past 12 months
+rt32s__tu,Maximum balance owed on open retail trades verified in past 12 months
+rt33s__tu,Total balance of open retail trades verified in past 12 months
+rt34s__tu,Utilization for open retail trades verified in past 12 months
+rt35s__tu,Average balance of open retail trades verified in past 12 months
+rt36s__tu,Months since most recent retail delinquency
+rt57s__tu,Total past due amount of open retail trades verified in past 12 months
+rt101s__tu,Total balance of all retail trades verified in past 12 months
+rt201s__tu,Highest balance of retail trades
+s004s__tu,Average number of months trades have been on file
+s043s__tu,Number of open trades > 50% of credit line verified in past 12 months (excluding installments and mortgages)
+s061s__tu,Months since most recent 60 or more days past due
+s062s__tu,Months since most recent 90 or more days past due
+s064a__tu,Total placement amount of third party collections
+s064b__tu,Total placement amount of non-medical third party collections
+s068a__tu,Number of third party collections
+s068b__tu,Number of non-medical third party collections
+s071a__tu,Number of third party collections opened in past 36 months
+s071b__tu,Number of non-medical third party collections opened in past 36 months
+s073a__tu,Number of third party collections with balance > $100
+s073b__tu,Number of non-medical third party collections with balance > $100
+s114s__tu,Number of deduped inquiries in past 6 months (excluding auto and mortgage inquiries)
+st01s__tu,Number of student loan trades
+st02s__tu,Number of open student loan trades
+st03s__tu,Number of currently satisfactory open student loan trades
+st05s__tu,Number of open co-borrower student loan trades
+st06s__tu,Number of student loan trades opened in past 6 months
+st09s__tu,Number of student loan trades opened in past 24 months
+st12s__tu,Number of open student loan trades verified in past 12 months
+st20s__tu,Months since oldest student loan trade opened
+st21s__tu,Months since most recent student loan trade opened
+st24s__tu,Number of currently open and satisfactory student loan trades 6 months or older
+st25s__tu,Number of currently open and satisfactory student loan trades 12 months or older
+st27s__tu,Number of currently open and satisfactory student loan trades 24 months or older
+st28s__tu,Total credit line of open student loan trades verified in past 12 months
+st29s__tu,Number of open student loan trades with balance > $0 verified in past 12 months
+st30s__tu,Percentage of open student loan trades > 50% of credit line verified in past 12 months
+st31s__tu,Percentage of open student loan trades > 75% of credit line verified in past 12 months
+st32s__tu,Maximum balance owed on open student loan trades verified in past 12 months
+st33s__tu,Total balance of open student loan trades verified in past 12 months
+st34s__tu,Utilization for open student loan trades verified in past 12 months
+st35s__tu,Average balance of open student loan trades verified in past 12 months
+st36s__tu,Months since most recent student loan delinquency
+st45s__tu,Months since oldest student loan in repayment trade opened
+st50s__tu,Number of 90 or more days past due ratings on student loan trades
+st57s__tu,Total past due amount of open student loan trades verified in past 12 months
+st60s__tu,Only trade(s) is student loan(s)
+st99s__tu,Total balance of all student loan trades ever delinquent
+st101s__tu,Total balance of all student loan trades verified in past 12 months
+atap01__tu,Total scheduled monthly payment for all trades verified in past 12 months
+hiap01__tu,Total scheduled monthly payment for open home equity loan trades verified in past 12 months
+hrap01__tu,Total scheduled monthly payment for all home equity line of credit trades verified in past 12 months
+inap01__tu,Total scheduled monthly payment for open installment trades verified in past 12 months
+mtap01__tu,Total scheduled monthly payment for open mortgage trades verified in past 12 months
+reap01__tu,Total scheduled monthly payment for all revolving trades verified in past 12 months
+s063s__tu,Total public record amount reported in past 12 months
+s063a__tu,Total public record amount
+s208s__tu,Number of tax liens
+s207s__tu,Months since most recent public record bankruptcy
+s207a__tu,Months since most recent tradeline bankruptcy
+g106s__tu,Months on file
+g099a__tu,Number of tradeline bankruptcies verified in past 24 months
+s209s__tu,Months since most recent third party collection
+s209a__tu,Months since most recent non-medical third party collection
+s204s__tu,Total balance of third party collections verified in past 12 months
+s204a__tu,Total balance of non-medical third party collections verified in past 12 months
+g242s__tu,Number of inquiries (includes duplicates) in past 3 months
+g242f__tu,Number of finance inquiries (includes duplicates) in past 3 months
+g243f__tu,Number of finance inquiries (includes duplicates) in past 6 months
+g244f__tu,Number of finance inquiries (includes duplicates) in past 12 months
+g242b__tu,Number of bank inquiries (includes duplicates) in past 3 months
+g243b__tu,Number of bank inquiries (includes duplicates) in past 6 months
+g244b__tu,Number of bank inquiries (includes duplicates) in past 12 months
+st102s__tu,Number of student loans in repayment
+st103s__tu,Number of student loans in deferment
+at01a__tu,Number of authorized user trades
+us01s__tu,Number of unsecured installment trades
+us02s__tu,Number of open unsecured installment trades
+us03s__tu,Number of currently satisfactory open unsecured installment trades
+us06s__tu,Number of unsecured installment trades opened in past 6 months
+us09s__tu,Number of unsecured installment trades opened in past 24 months
+us12s__tu,Number of open unsecured installment trades verified in past 12 months
+us20s__tu,Months since oldest unsecured installment trade opened
+us21s__tu,Months since most recent unsecured installment trade opened
+us24s__tu,Number of currently open and satisfactory unsecured installment trades 6 months or older
+us25s__tu,Number of currently open and satisfactory unsecured installment trades 12 months or older
+us27s__tu,Number of currently open and satisfactory unsecured installment trades 24 months or older
+us28s__tu,Total credit line of open unsecured installment trades verified in past 12 months
+us29s__tu,Number of open unsecured installment trades with balance > $0 verified in past 12 months
+us30s__tu,Percentage of open unsecured installment trades > 50% of credit line verified in past 12 months
+us31s__tu,Percentage of open unsecured installment trades > 75% of credit line verified in past 12 months
+us32s__tu,Maximum balance owed on open unsecured installment trades verified in past 12 months
+us33s__tu,Total balance of open unsecured installment trades verified in past 12 months
+us34s__tu,Utilization for open unsecured installment trades verified in past 12 months
+us35s__tu,Average balance of open unsecured installment trades verified in past 12 months
+us36s__tu,Months since most recent unsecured installment delinquency
+us57s__tu,Total past due amount of open unsecured installment trades verified in past 12 months
+us101s__tu,Total balance of all unsecured installment trades verified in past 12 months (BKAGBAL)
+se01s__tu,Number of secured installment trades
+se02s__tu,Number of open secured installment trades
+se03s__tu,Number of currently satisfactory open secured installment trades
+se06s__tu,Number of secured installment trades opened in past 6 months
+se09s__tu,Number of secured installment trades opened in past 24 months
+se12s__tu,Number of open secured installment trades verified in past 12 months
+se20s__tu,Months since oldest secured installment trade opened
+se21s__tu,Months since most recent secured installment trade opened
+se24s__tu,Number of currently open and satisfactory secured installment trades 6 months or older
+se25s__tu,Number of currently open and satisfactory secured installment trades 12 months or older
+se27s__tu,Number of currently open and satisfactory secured installment trades 24 months or older
+se28s__tu,Total credit line of open secured installment trades verified in past 12 months
+se29s__tu,Number of open secured installment trades with balance > $0 verified in past 12 months
+se30s__tu,Percentage of open secured installment trades > 50% of credit line verified in past 12 months
+se31s__tu,Percentage of open secured installment trades > 75% of credit line verified in past 12 months
+se32s__tu,Maximum balance owed on open secured installment trades verified in past 12 months
+se33s__tu,Total balance of open secured installment trades verified in past 12 months
+se34s__tu,Utilization for open secured installment trades verified in past 12 months
+se35s__tu,Average balance of open secured installment trades verified in past 12 months
+se36s__tu,Months since most recent secured installment delinquency
+se57s__tu,Total past due amount of open secured installment trades verified in past 12 months
+se101s__tu,Total balance of all secured installment trades verified in past 12 months (BKAGBAL)
+jt01s__tu,Number of joint trades
+jt02s__tu,Number of open joint trades
+jt03s__tu,Number of open joint trades currently satisfactory
+jt20s__tu,Months since oldest joint trade opened
+jt21s__tu,Months since most recent joint trade opened
+jt28s__tu,Total credit line of open joint trade verified in the past 12 months
+jt33s__tu,Total balance of joint trades in the last 12 months
+jt34s__tu,Utilization of open joint trades verified in past 12 months
+jt40s__tu,Number of joint revolving trades
+jt41s__tu,Number of joint installment or joint mortgage trades
+jt42s__tu,Ratio of open joint trades to open trades
+jt44s__tu,Total past due amount of joint trades
+jt51s__tu,Months since most recent 30+ days past due on a joint trade
+jt53s__tu,Number of joint trades in collections or 3rd party non-medical collections with balance > $0 in past 24 months
+jt70s__tu,Ratio of dollars past due joint trades to total dollars past due trades
+jt75s__tu,Number of joint trades 30 days past due or worse in the last 12 months
+jt80s__tu,Number of non-Mortgage and non-Auto joint trades with greater than 75% utilization
+au200s__tu,Number of auto trades that are 30 days or more past due ever
+au201s__tu,Number of auto trades that are 30 days or more past due in the past 12 months
+au202s__tu,Number of auto trades that are 60 days or more past due ever
+au203s__tu,Number of auto trades that are 60 days or more past due in the past 12 months
+au204s__tu,Number of auto trades that are 90 days or more past due ever
+au205s__tu,Number of auto trades that are 90 days or more past due in the past 12 months
+au206s__tu,Number of auto repossession trades
+au207s__tu,Number of auto charged-off trades
+g400s__tu,Number of deduped mortgage inquiries in past 3 months
+g401s__tu,Number of deduped mortgage inquiries in past 6 months
+g402s__tu,Number of deduped mortgage inquiries in past 12 months
+g403s__tu,Number of deduped mortgage inquiries
+g404s__tu,Number of deduped finance inquiries in past 3 months
+g405s__tu,Number of deduped finance inquiries in past 6 months
+g406s__tu,Number of deduped finance inquiries in past 12 months
+g407s__tu,Number of deduped finance inquiries
+g408s__tu,Number of deduped bank inquiries in past 3 months
+g409s__tu,Number of deduped bank inquiries in past 6 months
+g410s__tu,Number of deduped bank inquiries in past 12 months
+g411s__tu,Number of deduped bank inquiries
+g412s__tu,Number of deduped auto inquiries in past 3 months
+g413s__tu,Number of deduped auto inquiries in past 6 months
+g414s__tu,Number of deduped auto inquiries in past 12 months
+g415s__tu,Number of deduped auto inquiries
+g416s__tu,Months since most recent finance inquiry
+g417s__tu,Months since most recent bank inquiry
+g418s__tu,Months since most recent auto inquiry
+us51a__tu,Terms in months of most recent unsecured installment trade
+hrap02__tu,Total scheduled monthly payment for open home equity line of credit trades verified in past 12 months
+reap02__tu,Total scheduled monthly payment for all revolving and open heloc trades verified in past 12 months
+g199b__tu,Total monthly obligation for contractually liable accounts verified in past 12 months and current balance > 0
+g200b__tu,Percentage of contractually liable debt for trades with a current balance > 0
+g205b__tu,Total monthly obligation for individual account verified in past 12 months and with a current balance > 0
+g206b__tu,Total monthly obligation for joint account verified in past 12 months and with a current balance > 0  (ATTR14)
+g207b__tu,Total monthly obligation for all accounts with a current balance > 0 (ATTR16)
+g208b__tu,Percentage of individual debt for trades with a current balance > 0 (ATTR17)
+cvau__tu,CreditVision Auto Score
+cvam__tu,CreditVision Account Management Score
+cvbk__tu,CreditVision Bankruptcy Score
+cvna__tu,CreditVision New Account Score
+cvpl__tu,Personal Loan Risk Score
+cv_bc_prop__tu,CreditVision Bankcard Propensity Score
+cv_cons_prop__tu,CV Consolidation Propensity Score
+cv_persloan_prop__tu,CreditVision Personal Loan Propensity Score
+syntheticfraud_score__tu,Synthetic ID Score - Value of the likelihood of a consumer being a synthetic identity
+vantagescore3__tu,Vantage Score 3.0
+vantagescore4__tu,Final Score
+credit_as_of_date__tu,Credit as of date
+trd__tu,Number of trades
+bc_trd__tu,Number of bankcard trades
+inst_trd__tu,Number of installment trades
+nomt_trd__tu,Number of non-mortgage trades
+rev_trd__tu,Number of revolving trades
+rtl_trd__tu,Number of retail trades
+agg101__tu,Aggregate non-mortgage balances for month 1
+agg102__tu,Aggregate non-mortgage balances for month 2
+agg103__tu,Aggregate non-mortgage balances for month 3
+agg104__tu,Aggregate non-mortgage balances for month 4
+agg105__tu,Aggregate non-mortgage balances for month 5
+agg106__tu,Aggregate non-mortgage balances for month 6
+agg107__tu,Aggregate non-mortgage balances for month 7
+agg108__tu,Aggregate non-mortgage balances for month 8
+agg109__tu,Aggregate non-mortgage balances for month 9
+agg110__tu,Aggregate non-mortgage balances for month 10
+agg111__tu,Aggregate non-mortgage balances for month 11
+agg112__tu,Aggregate non-mortgage balances for month 12
+agg113__tu,Aggregate non-mortgage balances for month 13
+agg114__tu,Aggregate non-mortgage balances for month 14
+agg115__tu,Aggregate non-mortgage balances for month 15
+agg116__tu,Aggregate non-mortgage balances for month 16
+agg117__tu,Aggregate non-mortgage balances for month 17
+agg118__tu,Aggregate non-mortgage balances for month 18
+agg119__tu,Aggregate non-mortgage balances for month 19
+agg120__tu,Aggregate non-mortgage balances for month 20
+agg121__tu,Aggregate non-mortgage balances for month 21
+agg122__tu,Aggregate non-mortgage balances for month 22
+agg123__tu,Aggregate non-mortgage balances for month 23
+agg124__tu,Aggregate non-mortgage balances for month 24
+agg201__tu,Aggregate non-mortgage credit line for month 1
+agg202__tu,Aggregate non-mortgage credit line for month 2
+agg203__tu,Aggregate non-mortgage credit line for month 3
+agg204__tu,Aggregate non-mortgage credit line for month 4
+agg205__tu,Aggregate non-mortgage credit line for month 5
+agg206__tu,Aggregate non-mortgage credit line for month 6
+agg207__tu,Aggregate non-mortgage credit line for month 7
+agg208__tu,Aggregate non-mortgage credit line for month 8
+agg209__tu,Aggregate non-mortgage credit line for month 9
+agg210__tu,Aggregate non-mortgage credit line for month 10
+agg211__tu,Aggregate non-mortgage credit line for month 11
+agg212__tu,Aggregate non-mortgage credit line for month 12
+agg213__tu,Aggregate non-mortgage credit line for month 13
+agg214__tu,Aggregate non-mortgage credit line for month 14
+agg215__tu,Aggregate non-mortgage credit line for month 15
+agg216__tu,Aggregate non-mortgage credit line for month 16
+agg217__tu,Aggregate non-mortgage credit line for month 17
+agg218__tu,Aggregate non-mortgage credit line for month 18
+agg219__tu,Aggregate non-mortgage credit line for month 19
+agg220__tu,Aggregate non-mortgage credit line for month 20
+agg221__tu,Aggregate non-mortgage credit line for month 21
+agg222__tu,Aggregate non-mortgage credit line for month 22
+agg223__tu,Aggregate non-mortgage credit line for month 23
+agg224__tu,Aggregate non-mortgage credit line for month 24
+agg301__tu,Aggregate non-mortgage amount past due for month 1
+agg302__tu,Aggregate non-mortgage amount past due for month 2
+agg303__tu,Aggregate non-mortgage amount past due for month 3
+agg304__tu,Aggregate non-mortgage amount past due for month 4
+agg305__tu,Aggregate non-mortgage amount past due for month 5
+agg306__tu,Aggregate non-mortgage amount past due for month 6
+agg307__tu,Aggregate non-mortgage amount past due for month 7
+agg308__tu,Aggregate non-mortgage amount past due for month 8
+agg309__tu,Aggregate non-mortgage amount past due for month 9
+agg310__tu,Aggregate non-mortgage amount past due for month 10
+agg311__tu,Aggregate non-mortgage amount past due for month 11
+agg312__tu,Aggregate non-mortgage amount past due for month 12
+agg313__tu,Aggregate non-mortgage amount past due for month 13
+agg314__tu,Aggregate non-mortgage amount past due for month 14
+agg315__tu,Aggregate non-mortgage amount past due for month 15
+agg316__tu,Aggregate non-mortgage amount past due for month 16
+agg317__tu,Aggregate non-mortgage amount past due for month 17
+agg318__tu,Aggregate non-mortgage amount past due for month 18
+agg319__tu,Aggregate non-mortgage amount past due for month 19
+agg320__tu,Aggregate non-mortgage amount past due for month 20
+agg321__tu,Aggregate non-mortgage amount past due for month 21
+agg322__tu,Aggregate non-mortgage amount past due for month 22
+agg323__tu,Aggregate non-mortgage amount past due for month 23
+agg324__tu,Aggregate non-mortgage amount past due for month 24
+agg401__tu,Aggregate non-mortgage actual payment for month 1
+agg402__tu,Aggregate non-mortgage actual payment for month 2
+agg403__tu,Aggregate non-mortgage actual payment for month 3
+agg404__tu,Aggregate non-mortgage actual payment for month 4
+agg405__tu,Aggregate non-mortgage actual payment for month 5
+agg406__tu,Aggregate non-mortgage actual payment for month 6
+agg407__tu,Aggregate non-mortgage actual payment for month 7
+agg408__tu,Aggregate non-mortgage actual payment for month 8
+agg409__tu,Aggregate non-mortgage actual payment for month 9
+agg410__tu,Aggregate non-mortgage actual payment for month 10
+agg411__tu,Aggregate non-mortgage actual payment for month 11
+agg412__tu,Aggregate non-mortgage actual payment for month 12
+agg413__tu,Aggregate non-mortgage actual payment for month 13
+agg414__tu,Aggregate non-mortgage actual payment for month 14
+agg415__tu,Aggregate non-mortgage actual payment for month 15
+agg416__tu,Aggregate non-mortgage actual payment for month 16
+agg417__tu,Aggregate non-mortgage actual payment for month 17
+agg418__tu,Aggregate non-mortgage actual payment for month 18
+agg419__tu,Aggregate non-mortgage actual payment for month 19
+agg420__tu,Aggregate non-mortgage actual payment for month 20
+agg421__tu,Aggregate non-mortgage actual payment for month 21
+agg422__tu,Aggregate non-mortgage actual payment for month 22
+agg423__tu,Aggregate non-mortgage actual payment for month 23
+agg424__tu,Aggregate non-mortgage actual payment for month 24
+agg501__tu,Aggregate bankcard balances for month 1
+agg502__tu,Aggregate bankcard balances for month 2
+agg503__tu,Aggregate bankcard balances for month 3
+agg504__tu,Aggregate bankcard balances for month 4
+agg505__tu,Aggregate bankcard balances for month 5
+agg506__tu,Aggregate bankcard balances for month 6
+agg507__tu,Aggregate bankcard balances for month 7
+agg508__tu,Aggregate bankcard balances for month 8
+agg509__tu,Aggregate bankcard balances for month 9
+agg510__tu,Aggregate bankcard balances for month 10
+agg511__tu,Aggregate bankcard balances for month 11
+agg512__tu,Aggregate bankcard balances for month 12
+agg513__tu,Aggregate bankcard balances for month 13
+agg514__tu,Aggregate bankcard balances for month 14
+agg515__tu,Aggregate bankcard balances for month 15
+agg516__tu,Aggregate bankcard balances for month 16
+agg517__tu,Aggregate bankcard balances for month 17
+agg518__tu,Aggregate bankcard balances for month 18
+agg519__tu,Aggregate bankcard balances for month 19
+agg520__tu,Aggregate bankcard balances for month 20
+agg521__tu,Aggregate bankcard balances for month 21
+agg522__tu,Aggregate bankcard balances for month 22
+agg523__tu,Aggregate bankcard balances for month 23
+agg524__tu,Aggregate bankcard balances for month 24
+agg601__tu,Aggregate bankcard credit line for month 1
+agg602__tu,Aggregate bankcard credit line for month 2
+agg603__tu,Aggregate bankcard credit line for month 3
+agg604__tu,Aggregate bankcard credit line for month 4
+agg605__tu,Aggregate bankcard credit line for month 5
+agg606__tu,Aggregate bankcard credit line for month 6
+agg607__tu,Aggregate bankcard credit line for month 7
+agg608__tu,Aggregate bankcard credit line for month 8
+agg609__tu,Aggregate bankcard credit line for month 9
+agg610__tu,Aggregate bankcard credit line for month 10
+agg611__tu,Aggregate bankcard credit line for month 11
+agg612__tu,Aggregate bankcard credit line for month 12
+agg613__tu,Aggregate bankcard credit line for month 13
+agg614__tu,Aggregate bankcard credit line for month 14
+agg615__tu,Aggregate bankcard credit line for month 15
+agg616__tu,Aggregate bankcard credit line for month 16
+agg617__tu,Aggregate bankcard credit line for month 17
+agg618__tu,Aggregate bankcard credit line for month 18
+agg619__tu,Aggregate bankcard credit line for month 19
+agg620__tu,Aggregate bankcard credit line for month 20
+agg621__tu,Aggregate bankcard credit line for month 21
+agg622__tu,Aggregate bankcard credit line for month 22
+agg623__tu,Aggregate bankcard credit line for month 23
+agg624__tu,Aggregate bankcard credit line for month 24
+agg701__tu,Aggregate bankcard amount past due for month 1
+agg702__tu,Aggregate bankcard amount past due for month 2
+agg703__tu,Aggregate bankcard amount past due for month 3
+agg704__tu,Aggregate bankcard amount past due for month 4
+agg705__tu,Aggregate bankcard amount past due for month 5
+agg706__tu,Aggregate bankcard amount past due for month 6
+agg707__tu,Aggregate bankcard amount past due for month 7
+agg708__tu,Aggregate bankcard amount past due for month 8
+agg709__tu,Aggregate bankcard amount past due for month 9
+agg710__tu,Aggregate bankcard amount past due for month 10
+agg711__tu,Aggregate bankcard amount past due for month 11
+agg712__tu,Aggregate bankcard amount past due for month 12
+agg713__tu,Aggregate bankcard amount past due for month 13
+agg714__tu,Aggregate bankcard amount past due for month 14
+agg715__tu,Aggregate bankcard amount past due for month 15
+agg716__tu,Aggregate bankcard amount past due for month 16
+agg717__tu,Aggregate bankcard amount past due for month 17
+agg718__tu,Aggregate bankcard amount past due for month 18
+agg719__tu,Aggregate bankcard amount past due for month 19
+agg720__tu,Aggregate bankcard amount past due for month 20
+agg721__tu,Aggregate bankcard amount past due for month 21
+agg722__tu,Aggregate bankcard amount past due for month 22
+agg723__tu,Aggregate bankcard amount past due for month 23
+agg724__tu,Aggregate bankcard amount past due for month 24
+agg801__tu,Aggregate bankcard actual payment for month 1
+agg802__tu,Aggregate bankcard actual payment for month 2
+agg803__tu,Aggregate bankcard actual payment for month 3
+agg804__tu,Aggregate bankcard actual payment for month 4
+agg805__tu,Aggregate bankcard actual payment for month 5
+agg806__tu,Aggregate bankcard actual payment for month 6
+agg807__tu,Aggregate bankcard actual payment for month 7
+agg808__tu,Aggregate bankcard actual payment for month 8
+agg809__tu,Aggregate bankcard actual payment for month 9
+agg810__tu,Aggregate bankcard actual payment for month 10
+agg811__tu,Aggregate bankcard actual payment for month 11
+agg812__tu,Aggregate bankcard actual payment for month 12
+agg813__tu,Aggregate bankcard actual payment for month 13
+agg814__tu,Aggregate bankcard actual payment for month 14
+agg815__tu,Aggregate bankcard actual payment for month 15
+agg816__tu,Aggregate bankcard actual payment for month 16
+agg817__tu,Aggregate bankcard actual payment for month 17
+agg818__tu,Aggregate bankcard actual payment for month 18
+agg819__tu,Aggregate bankcard actual payment for month 19
+agg820__tu,Aggregate bankcard actual payment for month 20
+agg821__tu,Aggregate bankcard actual payment for month 21
+agg822__tu,Aggregate bankcard actual payment for month 22
+agg823__tu,Aggregate bankcard actual payment for month 23
+agg824__tu,Aggregate bankcard actual payment for month 24
+agg901__tu,Number of aggregate non-mortgage balance increases over last 3 months
+agg902__tu,Number of aggregate non-mortgage balance decreases over last 3 months
+agg903__tu,Number of aggregate non-mortgage credit line increases over last 3 months
+agg904__tu,Number of aggregate non-mortgage credit line decreases over last 3 months
+agg905__tu,Average aggregate bankcard utilization over last 3 months
+agg906__tu,Average aggregate bankcard utilization over last 12 months
+agg907__tu,Max aggregate bankcard balance over last 3 months
+agg908__tu,Max aggregate bankcard balance over last 12 months
+agg909__tu,Months since max aggregate bankcard balance over last 12 months
+agg910__tu,Max aggregate bankcard utilization over last 3 months
+agg911__tu,Max aggregate bankcard utilization over last 12 months
+trv01__tu,Number of months since overlimit on a bankcard
+trv02__tu,Number of months overlimit on a bankcard over last 12 months
+trv03__tu,Number of non-mortgage trades with a balance increase last month
+trv04__tu,Number of non-mortgage balance increases last 3 months
+trv05__tu,Number of non-mortgage trades with a balance increase YOY
+trv06__tu,Number of months non-mortgage balance increases last 12 months
+trv07__tu,Number of non-mortgage balance decreases last month
+trv08__tu,Number of non-mortgage balance decreases last 3 months
+trv09__tu,Number of non-mortgage balance decreases YOY
+trv10__tu,Number of months non-mortgage balance decreases last 12 months
+trv11__tu,Number of revolving high credit increases last month
+trv12__tu,Number of revolving high credit increases last 3 months
+trv13__tu,Number of revolving high credit increases YOY
+trv14__tu,Number of months revolving high credit increases last 12 months
+trv15__tu,Number of bankcard credit limit increases last month
+trv16__tu,Number of bankcard credit limit increases last 3 months
+trv17__tu,Number of bankcard credit limit increases YOY
+trv18__tu,Number of months bankcard credit limit increases last 12 months
+trv19__tu,Number of bankcard credit limit decreases last month
+trv20__tu,Number of bankcard credit limit decreases last 3 months
+trv21__tu,Number of bankcard credit limit decreases YOY
+trv22__tu,Number of months bankcard credit limit decreases last 12 months
+trv23__tu,Number of mortgages with a balance decrease 6 months ago to last month
+balmag01__tu,Non-mortgage balance magnitude algorithm over last 24 months
+balmag02__tu,Bankcard balance magnitude algorithm over last 24 months
+rvlr01__tu,Bankcard revolver trade utilization last month
+rvlr02__tu,Retail revolver trade utilization last month
+rvlr03__tu,Total bankcard revolver trade balance
+rvlr04__tu,Total retail revolver trade balance
+rvlr05__tu,Ratio of bankcard revolver trade balance to total bankcard balance
+rvlr06__tu,Ratio of retail revolver trade balance to total retail balance
+rvlr07__tu,Number of bankcard revolver trades over last month
+rvlr08__tu,Number of bankcard revolver trades over last 3 months
+rvlr09__tu,Number of bankcard revolver trades over last 6 months
+rvlr10__tu,Number of bankcard revolver trades on newly opened cards
+rvlr11__tu,Number of retail revolver trades over last month
+rvlr12__tu,Number of retail revolver trades over last 3 months
+rvlr13__tu,Number of retail revolver trades over last 6 months
+rvlr14__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with highest balance  - month 1 - 8
+rvlr15__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with highest balance  - month 9 - 16
+rvlr16__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with highest balance  - month 17 - 24
+rvlr17__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with second highest balance : month 1 -8
+rvlr18__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with second highest balance  - month 9 - 16
+rvlr19__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with second highest balance  - month 17- 24
+rvlr20__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with third highest balance   - month 1- 8
+rvlr21__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with third highest balance   - month 9- 16
+rvlr22__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with third highest balance   - month 17-24
+rvlr23__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with fourth highest balance    month 1 to 8
+rvlr24__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with fourth highest balance   - month 9 to16
+rvlr25__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with fourth highest balance   - month 17 to 24
+rvlr26__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with fifth highest balance   - month 1 to 8
+rvlr27__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with fifth highest balance   - month 9 to 16
+rvlr28__tu,Bankcard Revolver/Transactor/Inactive pattern for bankcard with fifth highest balance   - month 17 to 24
+rvlr29__tu,Bankcard balance for bankcard with highest balance
+rvlr30__tu,Bankcard balance for bankcard with second highest balance
+rvlr31__tu,Bankcard balance for bankcard with third highest balance
+rvlr32__tu,Bankcard balance for bankcard with fourth highest balance
+rvlr33__tu,Bankcard balance for bankcard with fifth highest balance
+walshr01__tu,Number of bankcard wallet share shifts > 25% last month
+walshr02__tu,Number of bankcard wallet share shifts > 25% last 3 months
+walshr03__tu,Number of bankcard wallet share shifts > 25% last 12 months
+walshr04__tu,Number of bankcard wallet share shifts > 50% last month
+walshr05__tu,Number of bankcard wallet share shifts > 50% last 3 months
+walshr06__tu,Number of bankcard wallet share shifts > 50% last 12 months
+walshr07__tu,Max wallet share shift in last 3 months
+walshr08__tu,Max wallet share shift in last 12 months
+walshr09__tu,Months since most recent wallet share shift > 25% in last 24 months
+walshr10__tu,Months since most recent wallet share shift > 50% in last 24 months
+paymnt01__tu,Number of prepayments on installment loans last 3 months
+paymnt02__tu,Number of prepayments on installment loans last 12 months
+paymnt03__tu,Total amount of prepayments on installment loans last month
+paymnt04__tu,Total amount of prepayments on installment loans last 3 months
+paymnt05__tu,Total amount of prepayments on installment loans last 12 months
+paymnt06__tu,Ratio of actual to minimum payment over last 6 months for installment trades
+paymnt07__tu,Ratio of actual to minimum payment for non-mortgage trades last month
+paymnt08__tu,Ratio of actual to minimum payment for revolving trades last month
+paymnt09__tu,Ratio of actual to minimum payment for bankcard trades last month
+paymnt10__tu,Number of payments in last 3 months
+paymnt11__tu,Number of payments in last 12 months
+cv01__tu,Months since most recent charge-off occurrence
+cv02__tu,Months since most recent foreclosure occurrence
+cv03__tu,Months since most recent repossession occurrence
+cv04__tu,Months since most recent third party collection occurrence
+cv05__tu,Months since most recent non-medical third party collection occurrence
+cv06__tu,Number of mortgage trades with a loan modification
+cv07__tu,Total balance of mortgage trades with a loan modification updated in past 12 months
+cv08__tu,Total credit line of mortgage trades with a loan modification
+cv09__tu,Number of mortgage trades that are 30 or more days past due since a loan modification
+cv10__tu,Number of trades 30 or more days past due ever
+cv11__tu,Number of trades 60 or more days past due ever
+cv12__tu,Number of trades 90 or more days past due ever
+cv13__tu,Percentage of trades ever delinquent
+cv14__tu,Number of deduped inquiries
+cv15__tu,Number of deduped auto inquiries
+cv16__tu,Number of deduped mortgage inquiries
+cv17__tu,"Number of trades prior 30 days past due, now current, verified in past 12 months"
+cv18__tu,"Number of trades prior 60 days past due, now current, verified in past 12 months"
+cv19__tu,Total balance of trades verified in past 3 months
+cv20__tu,Total monthly obligation of trades verified in past 3 months
+cv21__tu,Total payment amount of trades verified in past 3 months
+cv22__tu,Total balance of credit card trades verified in past 3 months
+cv23__tu,Total monthly obligation of bankcard trades verified in past 3 months
+cv24__tu,Total payment amount of bankcard trades verified in past 3 months
+cv25__tu,Percent of trades from inactive to active status in the past 12 months
+cv26__tu,Percent of trades from active to inactive status in the past 12 months
+cv27__tu,Percent of credit card trades from inactive to active status in the past 12 months
+cv28__tu,Percent of credit card trades from active to inactive status in the past 12 months
+cv29__tu,Number of trades in credit counseling over the past 12 months
+cv30__tu,Months since most recent credit counseling
+aggs101__tu,Aggregate Spend for Month M = 01
+aggs102__tu,Aggregate Spend for Month M = 02
+aggs103__tu,Aggregate Spend for Month M = 03
+aggs104__tu,Aggregate Spend for Month M = 04
+aggs105__tu,Aggregate Spend for Month M = 05
+aggs106__tu,Aggregate Spend for Month M = 06
+aggs107__tu,Aggregate Spend for Month M = 07
+aggs108__tu,Aggregate Spend for Month M = 08
+aggs109__tu,Aggregate Spend for Month M = 09
+aggs110__tu,Aggregate Spend for Month M = 10
+aggs111__tu,Aggregate Spend for Month M = 11
+aggs112__tu,Aggregate Spend for Month M = 12
+aggs113__tu,Aggregate Spend for Month M = 13
+aggs114__tu,Aggregate Spend for Month M = 14
+aggs115__tu,Aggregate Spend for Month M = 15
+aggs116__tu,Aggregate Spend for Month M = 16
+aggs117__tu,Aggregate Spend for Month M = 17
+aggs118__tu,Aggregate Spend for Month M = 18
+aggs119__tu,Aggregate Spend for Month M = 19
+aggs120__tu,Aggregate Spend for Month M = 20
+aggs121__tu,Aggregate Spend for Month M = 21
+aggs122__tu,Aggregate Spend for Month M = 22
+aggs123__tu,Aggregate Spend for Month M = 23
+aggs124__tu,Aggregate Spend for Month M = 24
+aggs901__tu,Aggregate Monthly Spend over last 3 Month
+aggs902__tu,Aggregate Monthly Spend over last 6 Months
+aggs903__tu,Aggregate Monthly Spend over last 12 Months
+aggs904__tu,Max Aggregate Monthly Spend over last 12 Months
+aggs905__tu,Months since max. monthly spend over last 12 months
+index01__tu,Annual year-over-year spend index
+index02__tu,Most recent quarter year-over-year spend index
+indexq1__tu,Q1 (Jan - March) spend indexed to annual spend
+indexq2__tu,Q2 (Apr - Jun) spend indexed to annual spend
+indexq3__tu,Q3 (Jul - Sep) spend indexed to annual spend
+indexq4__tu,Q4 (Oct - Dec) spend indexed to annual spend
+walshrs1__tu,Spend on current dominant bankcard relative to total spend over the past month
+walshrs2__tu,Spend on current dominant bankcard relative to total spend over the past year
+aggs906__tu,Current credit limit of top-of-wallet bankcard (highest annual spend).
+aggs907__tu,Annual Spend of top-of-wallet bankcard (highest annual spend).
+aggs908__tu,Age of top-of-wallet bankcard (highest annual spend).
+aggs909__tu,Current Balance of top-of-wallet bankcard (highest annual spend).
+aggs910__tu,Current High Credit of top-of-wallet bankcard (highest annual spend)
+aggs911__tu,Current Utilization of top-of-wallet bankcard (highest annual spend).
+rets101__tu,Aggregate Retail Spend for Month M = 01
+rets102__tu,Aggregate Retail Spend for Month M = 02
+rets103__tu,Aggregate Retail Spend for Month M = 03
+rets104__tu,Aggregate Retail Spend for Month M = 04
+rets105__tu,Aggregate Retail Spend for Month M = 05
+rets106__tu,Aggregate Retail Spend for Month M = 06
+rets107__tu,Aggregate Retail Spend for Month M = 07
+rets108__tu,Aggregate Retail Spend for Month M = 08
+rets109__tu,Aggregate Retail Spend for Month M = 09
+rets110__tu,Aggregate Retail Spend for Month M = 10
+rets111__tu,Aggregate Retail Spend for Month M = 11
+rets112__tu,Aggregate Retail Spend for Month M = 12
+rets113__tu,Aggregate Retail Spend for Month M = 13
+rets114__tu,Aggregate Retail Spend for Month M = 14
+rets115__tu,Aggregate Retail Spend for Month M = 15
+rets116__tu,Aggregate Retail Spend for Month M = 16
+rets117__tu,Aggregate Retail Spend for Month M = 17
+rets118__tu,Aggregate Retail Spend for Month M = 18
+rets119__tu,Aggregate Retail Spend for Month M = 19
+rets120__tu,Aggregate Retail Spend for Month M = 20
+rets121__tu,Aggregate Retail Spend for Month M = 21
+rets122__tu,Aggregate Retail Spend for Month M = 22
+rets123__tu,Aggregate Retail Spend for Month M = 23
+rets124__tu,Aggregate Retail Spend for Month M = 24
+rets901__tu,Aggregate Retail Monthly Spend over last 3 Months
+rets902__tu,Aggregate Retail Monthly Spend over last 6 Months
+rets903__tu,Aggregate Retail Monthly Spend over last 12 Months
+rets904__tu,Max Aggregate Retail Monthly Spend over last 12 Months
+rets905__tu,Months since max. retail monthly spend over last 12 months
+rtdex01__tu,Annual year-over-year retail spend index
+rtdex02__tu,Most recent quarter year-over-year retail spend index
+rtdexq1__tu,Q1 (Jan - March) retail spend indexed to annual retail spend
+rtdexq2__tu,Q2 (Apr - Jun) retail spend indexed to retail annual spend
+rtdexq3__tu,Q3 (Jul - Sep) retail spend indexed to retail annual spend
+rtdexq4__tu,Q4 (Oct - Dec) retail spend indexed to retail annual spend
+walsrts1__tu,Spend on current dominant retail trade relative to total spend over the past month
+walsrts2__tu,Spend on current dominant retail trade relative to total spend over the past year
+revs101__tu,Aggregate Revolving Spend for Month M = 01
+revs102__tu,Aggregate Revolving Spend for Month M = 02
+revs103__tu,Aggregate Revolving Spend for Month M = 03
+revs104__tu,Aggregate Revolving Spend for Month M = 04
+revs105__tu,Aggregate Revolving Spend for Month M = 05
+revs106__tu,Aggregate Revolving Spend for Month M = 06
+revs107__tu,Aggregate Revolving Spend for Month M = 07
+revs108__tu,Aggregate Revolving Spend for Month M = 08
+revs109__tu,Aggregate Revolving Spend for Month M = 09
+revs110__tu,Aggregate Revolving Spend for Month M = 10
+revs111__tu,Aggregate Revolving Spend for Month M = 11
+revs112__tu,Aggregate Revolving Spend for Month M = 12
+revs113__tu,Aggregate Revolving Spend for Month M = 13
+revs114__tu,Aggregate Revolving Spend for Month M = 14
+revs115__tu,Aggregate Revolving Spend for Month M = 15
+revs116__tu,Aggregate Revolving Spend for Month M = 16
+revs117__tu,Aggregate Revolving Spend for Month M = 17
+revs118__tu,Aggregate Revolving Spend for Month M = 18
+revs119__tu,Aggregate Revolving Spend for Month M = 19
+revs120__tu,Aggregate Revolving Spend for Month M = 20
+revs121__tu,Aggregate Revolving Spend for Month M = 21
+revs122__tu,Aggregate Revolving Spend for Month M = 22
+revs123__tu,Aggregate Revolving Spend for Month M = 23
+revs124__tu,Aggregate Revolving Spend for Month M = 24
+revs901__tu,Aggregate Revolving Monthly Spend over last 3 Months
+revs902__tu,Aggregate Revolving Monthly Spend over last 6 Months
+revs903__tu,Aggregate Revolving Monthly Spend over last 12 Months
+revs904__tu,Max Aggregate Revolving Monthly Spend over last 12 Months
+revs905__tu,Months since max. revolving monthly spend over last 12 months
+rvdex01__tu,Annual year-over-year revolving spend index
+rvdex02__tu,Most recent quarter year-over-year revolving spend index
+rvdexq1__tu,Q1 (Jan - March) revolving spend indexed to annual revolving spend
+rvdexq2__tu,Q2 (Apr - Jun) revolving spend indexed to revolving annual spend
+rvdexq3__tu,Q3 (Jul - Sep) revolving spend indexed to revolving annual spend
+rvdexq4__tu,Q4 (Oct - Dec) revolving spend indexed to revolving annual spend
+walsrvs1__tu,Spend on current dominant revolving trade relative to total spend over the past month
+walsrvs2__tu,Spend on current dominant revolving trade relative to total spend over the past year
+cv_bc_behav_seg__tu,CreditVision Bankcard Behavior Segment
+rvlr61__tu,Flag indicating that the consumer revolved at least one time on at least one of his top 5 bankcards in the past 6 months
+rvlr62__tu,Flag indicating that the consumer revolved at least two times on at least one of his top 5 bankcards in the past 6 months
+rvlr63__tu,Flag indicating that the consumer revolved at least three times on at least one of his top 5 bankcards in the past 6 months
+rvlr64__tu,Flag indicating that the consumer revolved at least four times on at least one of his top 5 bankcards in the past 6 months
+rvlr65__tu,Flag indicating that the consumer revolved at least five times on at least one of his top 5 bankcards in the past 6 months
+rvlr66__tu,Flag indicating that the consumer revolved at least six times on at least one of his top 5 bankcards in the past 6 months
+rvlr70__tu,Number of top five Bankcards that were revolver at least once in the past 3 months
+rvlr71__tu,"Number of top five Bankcards that were never revolver, but transacted at least once in the past 3 months"
+rvlr72__tu,Number of top five Bankcards that were revolver at least once in the past 6 months
+rvlr73__tu,"Number of top five Bankcards that were never revolver, but transacted at least once in the past 6 months"
+rvlr74__tu,Number of top five Bankcards that were revolver at least once in the past 12 months
+rvlr75__tu,"Number of top five Bankcards that were never revolver, but transacted at least once in the past 12 months"
+rvlr76__tu,Number of top five Bankcards that were revolver at least once in the past 24 months
+rvlr77__tu,"Number of top five Bankcards that were never revolver, but transacted at least once in the past 24 months"
+rvlr78__tu,Revolver/Transactor tag for the top five Bankcards in the past 3 months
+rvlr79__tu,Revolver/Transactor tag for the top five Bankcards in the past 6 months
+rvlr80__tu,Revolver/Transactor tag for the top five Bankcards in the past 12 months
+rvlr81__tu,Revolver/Transactor tag for the top five Bankcards in the past 24 months
+rev315__tu,Number of months since Max Total Open-to-Buy for Revolving accounts
+rev316__tu,Max Total Open-to-Buy for Revolving accounts over the past 3 months
+rev317__tu,Max Total Open-to-Buy for Revolving accounts over the past 6 months
+rev318__tu,Max Total Open-to-Buy for Revolving accounts over the past 12 months
+rev319__tu,Max Total Open-to-Buy for Revolving accounts over the past 24 months
+rev320__tu,Number of months since Min Total Open-to-Buy for Revolving accounts
+rev321__tu,Min Total Open-to-Buy for Revolving accounts over the past 3 months
+rev322__tu,Min Total Open-to-Buy for Revolving accounts over the past 6 months
+rev323__tu,Min Total Open-to-Buy for Revolving accounts over the past 12 months
+rev324__tu,Min Total Open-to-Buy for Revolving accounts over the past 24 months
+rev325__tu,Average Total Open-to-Buy for Revolving accounts over the past 3 months
+rev326__tu,Average Total Open-to-Buy for Revolving accounts over the past 6 months
+rev327__tu,Average Total Open-to-Buy for Revolving accounts over the past 12 months
+rev328__tu,Average Total Open-to-Buy for Revolving accounts over the past 24 months
+bkc315__tu,Number of months since Max Total Open-to-Buy for Bankcard accounts
+bkc316__tu,Max Total Open-to-Buy for Bankcard accounts over the past 3 months
+bkc317__tu,Max Total Open-to-Buy for Bankcard accounts over the past 6 months
+bkc318__tu,Max Total Open-to-Buy for Bankcard accounts over the past 12 months
+bkc319__tu,Max Total Open-to-Buy for Bankcard accounts over the past 24 months
+bkc320__tu,Number of months since Min Total Open-to-Buy for Bankcard accounts
+bkc321__tu,Min Total Open-to-Buy for Bankcard accounts over the past 3 months
+bkc322__tu,Min Total Open-to-Buy for Bankcard accounts over the past 6 months
+bkc323__tu,Min Total Open-to-Buy for Bankcard accounts over the past 12 months
+bkc324__tu,Min Total Open-to-Buy for Bankcard accounts over the past 24 months
+bkc325__tu,Average Total Open-to-Buy for Bankcard accounts over the past 3 months
+bkc326__tu,Average Total Open-to-Buy for Bankcard accounts over the past 6 months
+bkc327__tu,Average Total Open-to-Buy for Bankcard accounts over the past 12 months
+bkc328__tu,Average Total Open-to-Buy for Bankcard accounts over the past 24 months
+ret315__tu,Number of months since Max Total Open-to-Buy for Retail accounts
+ret316__tu,Max Total Open-to-Buy for Retail accounts over the past 3 months
+ret317__tu,Max Total Open-to-Buy for Retail accounts over the past 6 months
+ret318__tu,Max Total Open-to-Buy for Retail accounts over the past 12 months
+ret319__tu,Max Total Open-to-Buy for Retail accounts over the past 24 months
+ret320__tu,Number of months since Min Total Open-to-Buy for Retail accounts
+ret321__tu,Min Total Open-to-Buy for Retail accounts over the past 3 months
+ret322__tu,Min Total Open-to-Buy for Retail accounts over the past 6 months
+ret323__tu,Min Total Open-to-Buy for Retail accounts over the past 12 months
+ret324__tu,Min Total Open-to-Buy for Retail accounts over the past 24 months
+ret325__tu,Average Total Open-to-Buy for Retail accounts over the past 3 months
+ret326__tu,Average Total Open-to-Buy for Retail accounts over the past 6 months
+ret327__tu,Average Total Open-to-Buy for Retail accounts over the past 12 months
+ret328__tu,Average Total Open-to-Buy for Retail accounts over the past 24 months
+rev11__tu,Number of instances where a Revolving trade was utilized more than 25% in the past 12 months
+rev12__tu,Number of instances where a Revolving trade was utilized more than 50% in the past 12 months
+rev13__tu,Number of instances where a Revolving trade was utilized more than 75% in the past 12 months
+rev14__tu,Number of instances where a Revolving trade was utilized more than 90% in the past 12 months
+rev51__tu,Number of Revolving trades utilized more than 25% in the past 12 months
+rev52__tu,Number of Revolving trades utilized more than 50% in the past 12 months
+rev53__tu,Number of Revolving trades utilized more than 75% in the past 12 months
+rev54__tu,Number of Revolving trades utilized more than 90% in the past 12 months
+rev81__tu,Months since a Revolving trade last exceeded 25% utilization
+rev82__tu,Months since a Revolving trade last exceeded 50% utilization
+rev83__tu,Months since a Revolving trade last exceeded 75% utilization
+rev84__tu,Months since a Revolving trade last exceeded 90% utilization
+rev92__tu,Number of months in the past 12 months where percentage of Revolving trades utilized less than 25% was more than 25%
+rev102__tu,Number of months in the past 12 months where percentage of Revolving trades utilized less than 50% was more than 25%
+rev112__tu,Number of months in the past 12 months where percentage of Revolving trades utilized less than 75% was more than 25%
+rev122__tu,Number of months in the past 12 months where percentage of Revolving trades utilized less than 100% was more than 25%
+rev132__tu,Number of months in the past 12 months where percentage of Revolving trades utilized more than 25% was more than 90%
+rev142__tu,Number of months in the past 12 months where percentage of Revolving trades utilized more than 50% was more than 90%
+rev152__tu,Number of months in the past 12 months where percentage of Revolving trades utilized more than 75% was more than 90%
+rev162__tu,Number of months in the past 12 months where percentage of Revolving trades utilized more than 100% was more than 90%
+bkc11__tu,Number of instances where a Bankcard trade was utilized more than 25% in the past 12 months
+bkc12__tu,Number of instances where a Bankcard trade was utilized more than 50% in the past 12 months
+bkc13__tu,Number of instances where a Bankcard trade was utilized more than 75% in the past 12 months
+bkc14__tu,Number of instances where a Bankcard trade was utilized more than 90% in the past 12 months
+bkc51__tu,Number of Bankcard trades utilized more than 25% in the past 12 months
+bkc52__tu,Number of Bankcard trades utilized more than 50% in the past 12 months
+bkc53__tu,Number of Bankcard trades utilized more than 75% in the past 12 months
+bkc54__tu,Number of Bankcard trades utilized more than 90% in the past 12 months
+bkc81__tu,Months since a Bankcard trade last exceeded 25% utilization
+bkc82__tu,Months since a Bankcard trade last exceeded 50% utilization
+bkc83__tu,Months since a Bankcard trade last exceeded 75% utilization
+bkc84__tu,Months since a Bankcard trade last exceeded 90% utilization
+bkc92__tu,Number of months in the past 12 months where percentage of Bankcard trades utilized less than 25% was more than 25%
+bkc102__tu,Number of months in the past 12 months where percentage of Bankcard trades utilized less than 50% was more than 25%
+bkc112__tu,Number of months in the past 12 months where percentage of Bankcard trades utilized less than 75% was more than 25%
+bkc122__tu,Number of months in the past 12 months where percentage of Bankcard trades utilized less than 100% was more than 25%
+bkc132__tu,Number of months in the past 12 months where percentage of Bankcard trades utilized more than 25% was more than 90%
+bkc142__tu,Number of months in the past 12 months where percentage of Bankcard trades utilized more than 50% was more than 90%
+bkc152__tu,Number of months in the past 12 months where percentage of Bankcard trades utilized more than 75% was more than 90%
+bkc162__tu,Number of months in the past 12 months where percentage of Bankcard trades utilized more than 100% was more than 90%
+ret11__tu,Number of instances where a Retail trade was utilized more than 25% in the past 12 months
+ret12__tu,Number of instances where a Retail trade was utilized more than 50% in the past 12 months
+ret13__tu,Number of instances where a Retail trade was utilized more than 75% in the past 12 months
+ret14__tu,Number of instances where a Retail trade was utilized more than 90% in the past 12 months
+ret51__tu,Number of Retail trades utilized more than 25% in the past 12 months
+ret52__tu,Number of Retail trades utilized more than 50% in the past 12 months
+ret53__tu,Number of Retail trades utilized more than 75% in the past 12 months
+ret54__tu,Number of Retail trades utilized more than 90% in the past 12 months
+ret81__tu,Months since a Retail trade last exceeded 25% utilization
+ret82__tu,Months since a Retail trade last exceeded 50% utilization
+ret83__tu,Months since a Retail trade last exceeded 75% utilization
+ret84__tu,Months since a Retail trade last exceeded 90% utilization
+ret92__tu,Number of months in the past 12 months where percentage of Retail trades utilized less than 25% was more than 25%
+ret102__tu,Number of months in the past 12 months where percentage of Retail trades utilized less than 50% was more than 25%
+ret112__tu,Number of months in the past 12 months where percentage of Retail trades utilized less than 75% was more than 25%
+ret122__tu,Number of months in the past 12 months where percentage of Retail trades utilized less than 100% was more than 25%
+ret132__tu,Number of months in the past 12 months where percentage of Retail trades utilized more than 25% was more than 90%
+ret142__tu,Number of months in the past 12 months where percentage of Retail trades utilized more than 50% was more than 90%
+ret152__tu,Number of months in the past 12 months where percentage of Retail trades utilized more than 75% was more than 90%
+ret162__tu,Number of months in the past 12 months where percentage of Retail trades utilized more than 100% was more than 90%
+rev201__tu,Total Payment Ratio for Revolving accounts over the past 1 month
+rev202__tu,Total Payment Ratio for Revolving accounts over the past 3 months
+rev203__tu,Total Payment Ratio for Revolving accounts over the past 6 months
+rev204__tu,Total Payment Ratio for Revolving accounts over the past 12 months
+rev205__tu,Total Payment Ratio for Revolving accounts over the past 24 months
+rev222__tu,Average total Payment Ratio for Revolving accounts over the past 3 months
+rev223__tu,Average total Payment Ratio for Revolving accounts over the past 6 months
+rev224__tu,Average total Payment Ratio for Revolving accounts over the past 12 months
+rev225__tu,Average total Payment Ratio for Revolving accounts over the past 24 months
+ret201__tu,Total Payment Ratio for Retail accounts over the past 1 month
+ret202__tu,Total Payment Ratio for Retail accounts over the past 3 months
+ret203__tu,Total Payment Ratio for Retail accounts over the past 6 months
+ret204__tu,Total Payment Ratio for Retail accounts over the past 12 months
+ret205__tu,Total Payment Ratio for Retail accounts over the past 24 months
+ret222__tu,Average total Payment Ratio for Retail accounts over the past 3 months
+ret223__tu,Average total Payment Ratio for Retail accounts over the past 6 months
+ret224__tu,Average total Payment Ratio for Retail accounts over the past 12 months
+ret225__tu,Average total Payment Ratio for Retail accounts over the past 24 months
+aut201__tu,Total Payment Ratio for Auto accounts over the past 1 month
+aut202__tu,Total Payment Ratio for Auto accounts over the past 3 months
+aut203__tu,Total Payment Ratio for Auto accounts over the past 6 months
+aut204__tu,Total Payment Ratio for Auto accounts over the past 12 months
+aut205__tu,Total Payment Ratio for Auto accounts over the past 24 months
+aut222__tu,Average total Payment Ratio for Auto accounts over the past 3 months
+aut223__tu,Average total Payment Ratio for Auto accounts over the past 6 months
+aut224__tu,Average total Payment Ratio for Auto accounts over the past 12 months
+aut225__tu,Average total Payment Ratio for Auto accounts over the past 24 months
+std201__tu,Total Payment Ratio for Student Loan accounts over the past 1 month
+std202__tu,Total Payment Ratio for Student Loan accounts over the past 3 months
+std203__tu,Total Payment Ratio for Student Loan accounts over the past 6 months
+std204__tu,Total Payment Ratio for Student Loan accounts over the past 12 months
+std205__tu,Total Payment Ratio for Student Loan accounts over the past 24 months
+std222__tu,Average total Payment Ratio for Student Loan accounts over the past 3 months
+std223__tu,Average total Payment Ratio for Student Loan accounts over the past 6 months
+std224__tu,Average total Payment Ratio for Student Loan accounts over the past 12 months
+std225__tu,Average total Payment Ratio for Student Loan accounts over the past 24 months
+per201__tu,Total Payment Ratio for Personal Loan accounts over the past 1 month
+per202__tu,Total Payment Ratio for Personal Loan accounts over the past 3 months
+per203__tu,Total Payment Ratio for Personal Loan accounts over the past 6 months
+per204__tu,Total Payment Ratio for Personal Loan accounts over the past 12 months
+per205__tu,Total Payment Ratio for Personal Loan accounts over the past 24 months
+per222__tu,Average total Payment Ratio for Personal Loan accounts over the past 3 months
+per223__tu,Average total Payment Ratio for Personal Loan accounts over the past 6 months
+per224__tu,Average total Payment Ratio for Personal Loan accounts over the past 12 months
+per225__tu,Average total Payment Ratio for Personal Loan accounts over the past 24 months
+rev231__tu,Aggregate Excess Payment for Revolving accounts over the past 1 month
+rev232__tu,Aggregate Excess Payment for Revolving accounts over the past 3 months
+rev233__tu,Aggregate Excess Payment for Revolving accounts over the past 6 months
+rev234__tu,Aggregate Excess Payment for Revolving accounts over the past 12 months
+rev235__tu,Aggregate Excess Payment for Revolving accounts over the past 24 months
+rev252__tu,Average Aggregate Excess Payment for Revolving accounts over the past 3 months
+rev253__tu,Average Aggregate Excess Payment for Revolving accounts over the past 6 months
+rev254__tu,Average Aggregate Excess Payment for Revolving accounts over the past 12 months
+rev255__tu,Average Aggregate Excess Payment for Revolving accounts over the past 24 months
+ret231__tu,Aggregate Excess Payment for Retail accounts over the past 1 month
+ret232__tu,Aggregate Excess Payment for Retail accounts over the past 3 months
+ret233__tu,Aggregate Excess Payment for Retail accounts over the past 6 months
+ret234__tu,Aggregate Excess Payment for Retail accounts over the past 12 months
+ret235__tu,Aggregate Excess Payment for Retail accounts over the past 24 months
+ret252__tu,Average Aggregate Excess Payment for Retail accounts over the past 3 months
+ret253__tu,Average Aggregate Excess Payment for Retail accounts over the past 6 months
+ret254__tu,Average Aggregate Excess Payment for Retail accounts over the past 12 months
+ret255__tu,Average Aggregate Excess Payment for Retail accounts over the past 24 months
+aut231__tu,Aggregate Excess Payment for Auto accounts over the past 1 month
+aut232__tu,Aggregate Excess Payment for Auto accounts over the past 3 months
+aut233__tu,Aggregate Excess Payment for Auto accounts over the past 6 months
+aut234__tu,Aggregate Excess Payment for Auto accounts over the past 12 months
+aut235__tu,Aggregate Excess Payment for Auto accounts over the past 24 months
+aut252__tu,Average Aggregate Excess Payment for Auto accounts over the past 3 months
+aut253__tu,Average Aggregate Excess Payment for Auto accounts over the past 6 months
+aut254__tu,Average Aggregate Excess Payment for Auto accounts over the past 12 months
+aut255__tu,Average Aggregate Excess Payment for Auto accounts over the past 24 months
+std231__tu,Aggregate Excess Payment for Student Loan accounts over the past 1 month
+std232__tu,Aggregate Excess Payment for Student Loan accounts over the past 3 months
+std233__tu,Aggregate Excess Payment for Student Loan accounts over the past 6 months
+std234__tu,Aggregate Excess Payment for Student Loan accounts over the past 12 months
+std235__tu,Aggregate Excess Payment for Student Loan accounts over the past 24 months
+std252__tu,Average Aggregate Excess Payment for Student Loan accounts over the past 3 months
+std253__tu,Average Aggregate Excess Payment for Student Loan accounts over the past 6 months
+std254__tu,Average Aggregate Excess Payment for Student Loan accounts over the past 12 months
+std255__tu,Average Aggregate Excess Payment for Student Loan accounts over the past 24 months
+per231__tu,Aggregate Excess Payment for Personal Loan accounts over the past 1 month
+per232__tu,Aggregate Excess Payment for Personal Loan accounts over the past 3 months
+per233__tu,Aggregate Excess Payment for Personal Loan accounts over the past 6 months
+per234__tu,Aggregate Excess Payment for Personal Loan accounts over the past 12 months
+per235__tu,Aggregate Excess Payment for Personal Loan accounts over the past 24 months
+per252__tu,Average Aggregate Excess Payment for Personal Loan accounts over the past 3 months
+per253__tu,Average Aggregate Excess Payment for Personal Loan accounts over the past 6 months
+per254__tu,Average Aggregate Excess Payment for Personal Loan accounts over the past 12 months
+per255__tu,Average Aggregate Excess Payment for Personal Loan accounts over the past 24 months
+all231__tu,Aggregate Excess Payment for All accounts over the past 1 month
+all232__tu,Aggregate Excess Payment for All accounts over the past 3 months
+all233__tu,Aggregate Excess Payment for All accounts over the past 6 months
+all234__tu,Aggregate Excess Payment for All accounts over the past 12 months
+all235__tu,Aggregate Excess Payment for All accounts over the past 24 months
+all252__tu,Average Aggregate Excess Payment for All accounts over the past 3 months
+all253__tu,Average Aggregate Excess Payment for All accounts over the past 6 months
+all254__tu,Average Aggregate Excess Payment for All accounts over the past 12 months
+all255__tu,Average Aggregate Excess Payment for All accounts over the past 24 months
+rle901__tu,Number of over-payments on Real-Estate accounts in the past 6 months
+rle902__tu,Number of over-payments on Real-Estate accounts in the past 12 months
+rle903__tu,Number of over-payments on Real-Estate accounts in the past 24 months
+rle904__tu,Amount of over-payments on Real-Estate accounts in the past 6 months
+rle905__tu,Amount of over-payments on Real-Estate accounts in the past 12 months
+rle906__tu,Amount of over-payments on Real-Estate accounts in the past 24 months
+rle907__tu,Months since most recent over-payment on a Real-Estate account
+uniqueid__tu,UniqueID
+bigaccountid__tu,bigAccountId
+bigdebtorid__tu,bigDebtorId
+bitdebtor__tu,bitDebtor
+city__tu,city
+state__tu,state
+zip5__tu,zip5
+observationdate__tu,observationDate
+dtmapproved__tu,dtmApproved
+dtmdeclined__tu,dtmDeclined
+dtmfunded__tu,dtmFunded
+archive__tu,Archive
+tu_creditbureaudate__tu,TU CreditBureauDate
+analyticsmatchkey__tu,MatchKey
+linka004__tu,Number of bank account closures identified as fraudulent
+linka002__tu,"Number of credit issuance inquiries in the last year (credit card, secured card, line of credit, revolving credit, and other credit account originations) "
+linka023__tu,"Number of credit issuance inquiries in the last 3 years (credit card, secured card, line of credit, revolving credit, and other credit account originations) "
+linka024__tu,"Number of days since oldest credit issuance inquiry (credit card, secured card, line of credit, revolving credit, and other credit account originations) "
+linka048__tu,Number of checking account inquiries in the last month
+linka049__tu,Number of checking account inquiries in the last 2 months
+linka001__tu,Number of checking account inquiries in the last 3 months
+linka050__tu,Number of checking account inquiries in the last 6 months
+linka051__tu,Number of checking account inquiries in the last year
+linka052__tu,Number of checking account inquiries in the last 2 years
+linka029__tu,Number of checking account inquiries in the last 3 years
+linka030__tu,Number of days since most recent checking account inquiry
+linka053__tu,Number of days since the first (oldest) checking account inquiry
+linka022__tu,Number of auto inquiries in the last 3 years
+linka026__tu,Number of payday inquiries in the last 3 years
+linka027__tu,Number of days since most recent payday inquiry
+linka028__tu,"Number of utility inquiries in last 3 years (cable/dish/satellite, gas, electric, mobile, and landline)"
+linka021__tu,"Number of credit inquiries in the last year.  
+These include credit issuance (credit card, secured card, line of credit, revolving credit, and other credit account originations) , auto, payday, utility, and other credit (installment loan, secured loan, short-term installment loan, insurance, and other non-classified credit)"
+linka020__tu,"Number of credit inquiries in the last 3 years.  
+These include credit issuance (credit card, secured card, line of credit, revolving credit, and other credit account originations) , auto, payday, utility, and other credit (installment loan, secured loan, short-term installment loan, insurance, and other non-classified credit)"
+linka006__tu,"Number of total inquiries in the last 3 years.  
+These include checking, credit issuance (credit card, secured card, line of credit, revolving credit, and other credit account originations) , auto, payday, utility, and other credit (installment loan, secured loan, short-term installment loan, insurance, and other non-classified credit)"
+linka003__tu,"Number of other inquiries in the last 2 years.  
+Inquiries that do not fall into the other specified categories (installment loan, secured loan, short-term installment loan, insurance, and other non-classified credit)"
+linka025__tu,"Number of other inquiries in the last 3 years.  
+Inquiries that do not fall into the other specified categories (installment loan, secured loan, short-term installment loan, insurance, and other non-classified credit)"
+linka011__tu,Number of checks ordered in the last 3 years
+linka005__tu,Average number of checks ordered in the last 3 years
+linka010__tu,Maximum number of checks ordered in a single order in the last 3 years
+linka040__tu,Minimum number of checks ordered in a single order in the last 3 years
+linka033__tu,Number of check orders in the last month
+linka034__tu,Number of check orders in the last 2 months
+linka035__tu,Number of check orders in the last 3 months
+linka036__tu,Number of check orders in the last 6 months
+linka007__tu,Number of check orders in the last year
+linka037__tu,Number of check orders in the last 2 years
+linka008__tu,Number of check orders in the last 3 years
+linka009__tu,Number of days since most recent check order
+linka039__tu,Number of days since first (oldest) check order
+linka042__tu,Number of checking account closures for cause in the last month
+linka043__tu,Number of checking account closures for cause in the last 2 months
+linka044__tu,Number of checking account closures for cause in the last 3 months
+linka015__tu,Number of checking account closures for cause in the last 6 months
+linka045__tu,Number of checking account closures for cause in the last year
+linka046__tu,Number of checking account closures for cause in the last 2 years
+linka047__tu,Number of checking account closures for cause in the last 3 years
+linka017__tu,Number of checking account closures for cause in the last 5 years
+linka018__tu,Number of days since most recent checking account closure for cause
+linka019__tu,Number of days since first checking account closure for cause
+linka041__tu,Average number of days between checking account closures for cause
+linka012__tu,Number of unpaid checking account closures for cause in the last 2 years
+linka014__tu,Number of unpaid checking account closures for cause in the last 5 years
+linka016__tu,Number of paid checking account closures for cause in the last 5 years
+linka013__tu,Total dollar amount of unpaid checking account closures for cause in the last 4 years
+linka038__tu,Number of reported accounts consumer is actively accessing/transacting on
+linka054__tu,Number of open (unpaid) non-sufficient funds in the last month
+linka055__tu,Number of open (unpaid) non-sufficient funds in the last 2 months
+linka056__tu,Number of open (unpaid) non-sufficient funds in the last 3 months
+linka057__tu,Number of open (unpaid) non-sufficient funds in the last 6 months
+linka058__tu,Number of open (unpaid) non-sufficient funds in the last year
+linka059__tu,Number of open (unpaid) non-sufficient funds in the last 2 years
+linka031__tu,Number of open (unpaid) non-sufficient funds in the last 3 years
+linka080__tu,Number of days since last (most recent) open (unpaid) non-sufficient funds
+linka060__tu,Total amount of open (unpaid) non-sufficient funds in the last month
+linka061__tu,Total amount of open (unpaid) non-sufficient funds in the last 2 months
+linka062__tu,Total amount of open (unpaid) non-sufficient funds in the last 3 months
+linka063__tu,Total amount of open (unpaid) non-sufficient funds in the last 6 months
+linka064__tu,Total amount of open (unpaid) non-sufficient funds in the last year
+linka065__tu,Total amount of open (unpaid) non-sufficient funds in the last 2 years
+linka066__tu,Total amount of open (unpaid) non-sufficient funds in the last 3 years
+linka082__tu,Amount of largest open (unpaid) non-sufficient funds (single check)
+linka067__tu,Number of paid non-sufficient funds in the last month
+linka068__tu,Number of paid non-sufficient funds in the last 2 months
+linka069__tu,Number of paid non-sufficient funds in the last 3 months
+linka070__tu,Number of paid non-sufficient funds in the last 6 months
+linka071__tu,Number of paid non-sufficient funds in the last year
+linka072__tu,Number of paid non-sufficient funds in the last 2 years
+linka032__tu,Number of paid non-sufficient funds in the last 3 years
+linka081__tu,Number of days since last (most recent) paid non-sufficient funds
+linka084__tu,Minimum days taken to pay a non-sufficient funds
+linka085__tu,Maximum days taken to pay a non-sufficient funds
+linka073__tu,Total amount of paid non-sufficient funds in the last month
+linka074__tu,Total amount of paid non-sufficient funds in the last 2 months
+linka075__tu,Total amount of paid non-sufficient funds in the last 3 months
+linka076__tu,Total amount of paid non-sufficient funds in the last 6 months
+linka077__tu,Total amount of paid non-sufficient funds in the last year
+linka078__tu,Total amount of paid non-sufficient funds in the last 2 years
+linka079__tu,Total amount of paid non-sufficient funds in the last 3 years
+linka083__tu,Amount of largest paid non-sufficient funds (single check)
+linkb004__tu,Total assessed value of the parcel's land and improvement values as provided by the county or local taxing/assessment authority
+linkb011__tu,Most recently reported deed mortgage term based on recording date (in months and capped at 720)
+linkb012__tu,Presence of a foreclosure
+linkc006__tu,"Number of inquiries in the last 3 months.  
+This includes payday, alternative auto finance, rent-to-own, and other financial services (consumer finance, furniture finance, credit cards, and title loans)"
+linkc020__tu,"Number of inquiries in the last 6 months.  
+This includes payday, alternative auto finance, rent-to-own, and other financial services (consumer finance, furniture finance, credit cards, and title loans)"
+linkc007__tu,"Number of inquiries in the last 24 months.  
+This includes payday, alternative auto finance, rent-to-own, and other financial services (consumer finance, furniture finance, credit cards, and title loans)"
+linkc048__tu,"Number of inquiries in the last 7 years.  
+This includes payday, alternative auto finance, rent-to-own, and other financial services (consumer finance, furniture finance, credit cards, and title loans)"
+linkc025__tu,Number of inquiries for alternative auto financing in the last 3 months
+linkc026__tu,Number of inquiries for alternative auto financing in the last 6 months
+linkc027__tu,Number of inquiries for alternative auto financing in the last 9 months
+linkc028__tu,Number of inquiries for alternative auto financing in the last 12 months
+linkc029__tu,Number of inquiries for alternative auto financing in the last 24 months
+linkc024__tu,Number of inquiries for alternative auto financing in the last 7 years
+linkc031__tu,Number of payday loan inquiries in the last 3 months
+linkc032__tu,Number of payday loan inquiries in the last 6 months
+linkc033__tu,Number of payday loan inquiries in the last 9 months
+linkc034__tu,Number of payday loan inquiries in the last 12 months
+linkc035__tu,Number of payday loan inquiries in the last 24 months
+linkc030__tu,Number of payday loan inquiries in the last 7 years
+linkc038__tu,Number of rent-to-own inquiries in the last 3 months
+linkc039__tu,Number of rent-to-own inquiries in the last 6 months
+linkc040__tu,Number of rent-to-own inquiries in the last 9 months
+linkc041__tu,Number of rent-to-own inquiries in the last 12 months
+linkc042__tu,Number of rent-to-own inquiries in the last 24 months
+linkc037__tu,Number of rent-to-own inquiries in the last 7 years
+linkc036__tu,"Number of inquiries for other financial services (includes consumer finance, furniture finance, credit cards, and title loans) in the last 7 years"
+linkc008__tu,"Number of paid charge-offs in the last 3 months.  
+This includes payday, alternative auto finance, rent-to-own, and other financial services (consumer finance, furniture finance, credit cards, and title loans)"
+linkc009__tu,"Number of paid charge-offs in the last 24 months.  
+This includes payday, alternative auto finance, rent-to-own, and other financial services (consumer finance, furniture finance, credit cards, and title loans)"
+linkc050__tu,"Number of paid charge-offs in the last 7 years.  
+This includes payday, alternative auto finance, rent-to-own, and other financial services (consumer finance, furniture finance, credit cards, and title loans)"
+linkc012__tu,Number of paid alternative auto finance charge-offs in the last 24 months
+linkc011__tu,Number of paid payday loan charge-offs in the last 24 months
+linkc010__tu,Number of paid rent-to-own charge-offs in the last 24 months
+linkc043__tu,"Number of unpaid charge-offs in the last 3 months.  
+This includes payday, alternative auto finance, rent-to-own, and other financial services (consumer finance, furniture finance, credit cards, and title loans)"
+linkc044__tu,"Number of unpaid charge-offs in the last 6 months.  
+This includes payday, alternative auto finance, rent-to-own, and other financial services (consumer finance, furniture finance, credit cards, and title loans)"
+linkc045__tu,"Number of unpaid charge-offs in the last 9 months.  
+This includes payday, alternative auto finance, rent-to-own, and other financial services (consumer finance, furniture finance, credit cards, and title loans)"
+linkc046__tu,"Number of unpaid charge-offs in the last 12 months.  
+This includes payday, alternative auto finance, rent-to-own, and other financial services (consumer finance, furniture finance, credit cards, and title loans)"
+linkc047__tu,"Number of unpaid charge-offs in the last 24 months.  
+This includes payday, alternative auto finance, rent-to-own, and other financial services (consumer finance, furniture finance, credit cards, and title loans)"
+linkc049__tu,"Number of unpaid charge-offs in the last 7 years.  
+This includes payday, alternative auto finance, rent-to-own, and other financial services (consumer finance, furniture finance, credit cards, and title loans)"
+linkc005__tu,Number of unpaid alternative auto finance charge-offs in the last 24 months
+linkc004__tu,Number of unpaid payday loan charge-offs in the last 24 months
+linkc051__tu,Number of unpaid rent-to-own charge-offs in the last 24 months
+linkd001__tu,"An address-level fraud indicator from the club and continuity data identifying: 
+(a) high-order delivery points with 95% write-off rate (Flag = 1)
+(b) reported fraudulent activity by one or more contributors (Flag = 1)
+(c) address not associated with fraud in this database (Flag = 0)
+(d) address not found in this database (Flag - missing)"
+linkd004__tu,"Number of continuity club enrollments within last 3 months 
+(includes repeat enrollments in the same club)"
+linkd014__tu,Total dollar amount of transactions placed in the last 5 years
+linkd008__tu,Total number of days since the last payment was made
+linkd002__tu,Number of write-offs within the last 5 magazine subscriptions (includes renewals)
+linkd003__tu,"Number of write-offs within the last 5 continuity club (e.g., book sets delivered over time) and subscription transactions"
+linkd005__tu,Number of merchandise (non-publication goods) write-off transactions within the last 5 years
+linkd009__tu,Number of write-offs in the last 5 years of club/subscription transactions (orders or shipments)
+linkd011__tu,Number of club write-offs in the last 5 years
+linkd010__tu,Write-off percent:  total number of write-off club/subscription transactions within the last 5 years divided by total number of club/subscription transactions within the last 5 years
+linkd013__tu,Number of days since last club/subscription transaction write-off
+linkd006__tu,Number of single payment (order is for a single product with a single delivery and one invoice) write-off transactions within the last 5 years
+linkd007__tu,Total dollar amount sent to collections for club/subscriptions in the last 5 years
+linkd012__tu,Number of days since last club/subscription return
+linkt001__tu,Number of non-military addresses in last 7 years
+linkt002__tu,Number of months at current address
+linkt003__tu,Number of non-military non-corroborated addresses in past 12 months
+linkt004__tu,Number of non-military non-corroborated addresses in last 5 years
+linkt006__tu,Number of derogatory public records
+linkt007__tu,Months since most recent derogatory public record
+linkt008__tu,Number of public record bankruptcies in the last 24 months
+linkt009__tu,Number of tradeline bankruptcies
+linkt010__tu,Number of public record bankruptcies 
+linkt011__tu,Number of foreclosure trades
+linkf001__tu,Hit flag
+linkf002__tu,Number of NSF within last 12 months
+linkf003__tu,Number of NSF within last 18 months
+linkf004__tu,Number of NSF within last 24 months
+linkf005__tu,Number of NSF within last 3 months
+linkf006__tu,Number of NSF within last 6 months
+linkf007__tu,Number of NSF within last 9 months
+linkf008__tu,Amount of NSF within last 12 months
+linkf009__tu,Amount of NSF within last 18 months
+linkf010__tu,Amount of NSF within last 24 months
+linkf011__tu,Amount of NSF within last 3 months
+linkf012__tu,Amount of NSF within last 6 months
+linkf013__tu,Amount of NSF within last 9 months
+linkf014__tu,Amount of NSF within last 7 years
+linkf015__tu,Number of NSF within last 7 years
+linkf016__tu,Age of newest NSF on open and closed tradelines (months)
+linkf017__tu,Age of oldest NSF on open and closed tradelines (months)
+linkf018__tu,Number of satisfactory ACH transactions within last 12 months
+linkf019__tu,Number of satisfactory ACH transactions within last 18 months
+linkf020__tu,Number of satisfactory ACH transactions within last 24 months
+linkf021__tu,Number of satisfactory ACH transactions within last 3 months
+linkf022__tu,Number of satisfactory ACH transactions within last 6 months
+linkf023__tu,Number of satisfactory ACH transactions within last 9 months
+linkf024__tu,Amount of satisfactory ACH transactions within last 12 months
+linkf025__tu,Amount of satisfactory ACH transactions within last 18 months
+linkf026__tu,Amount of satisfactory ACH transactions within last 24 months
+linkf027__tu,Amount of satisfactory ACH transactions within last 3 months
+linkf028__tu,Amount of satisfactory ACH transactions within last 6 months
+linkf029__tu,Amount of satisfactory ACH transactions within last 9 months
+linkf030__tu,Amount of satisfactory ACH transactions within last 7 years
+linkf031__tu,Number of satisfactory ACH transactions within last 7 years
+linkf032__tu,Y / N indicator of lender-reported bankruptcy
+linkf033__tu,Last payment amount
+linkf034__tu,Last payment amount ONLINE LENDER
+linkf035__tu,Number of open delinquent and charge-off trade segments ONLINE LENDER
+linkf036__tu,Number of inquiries within last 1 month ONLINE LENDER
+linkf037__tu,Number of inquiries within last 3 months ONLINE LENDER
+linkf038__tu,Number of inquiries all time ONLINE LENDER
+linkf039__tu,"Number of charge-off, collection and return trade segments opened within last 12 months ONLINE LENDER"
+linkf040__tu,Number of lenders / locations with inquiries or trades all time ONLINE LENDER
+linkf041__tu,Number of lenders / locations with inquiries or trades within last 1 month ONLINE LENDER
+linkf042__tu,Number of lenders / locations with inquiries or trades within last 3 months ONLINE LENDER
+linkf043__tu,Number of trades opened within last 12 months ONLINE LENDER
+linkf044__tu,"Number of open, collection or charge-off trade segments ONLINE LENDER"
+linkf045__tu,"Total dollar amount of closed delinquent, return and collection trade segments within last 12 months ONLINE LENDER"
+linkf046__tu,"Number of closed delinquent, return and collection trade segments within last 12 months ONLINE LENDER"
+linkf047__tu,Number of trade segments opened within last 12 months ONLINE LENDER
+linkf048__tu,Total balance on open or collection trade segments ONLINE LENDER
+linkf049__tu,Last payment amount STOREFRONT LENDER
+linkf050__tu,Number of open delinquent and charge-off trade segments STOREFRONT LENDER
+linkf051__tu,Number of inquiries within last 1 month STOREFRONT LENDER
+linkf052__tu,Number of inquiries within last 3 months STOREFRONT LENDER
+linkf053__tu,Number of inquiries all time STOREFRONT LENDER
+linkf054__tu,"Number of charge-off, collection and return trade segments opened within last 12 months STOREFRONT LENDER"
+linkf055__tu,Number of lenders / locations with inquiries or trades all time STOREFRONT LENDER
+linkf056__tu,Number of lenders / locations with inquiries or trades within last 1 month STOREFRONT LENDER
+linkf057__tu,Number of lenders / locations with inquiries or trades within last 3 months STOREFRONT LENDER
+linkf058__tu,Number of trades opened within last 12 months STOREFRONT LENDER
+linkf059__tu,"Number of open, collection or charge-off trade segments STOREFRONT LENDER"
+linkf060__tu,"Total dollar amount of closed delinquent, return and collection trade segments within last 12 months STOREFRONT LENDER"
+linkf061__tu,"Number of closed delinquent, return and collection trade segments within last 12 months STOREFRONT LENDER"
+linkf062__tu,Number of trade segments opened within last 12 months STOREFRONT LENDER
+linkf063__tu,Total balance on open or collection trade segments STOREFRONT LENDER
+linkf064__tu,Number of charged-off and open past due trade segments
+linkf065__tu,Number of inquiries within last 24 hours
+linkf066__tu,Number of inquiries within last 3 days
+linkf067__tu,Number of inquiries within last 7 days
+linkf068__tu,Number of inquiries all time
+linkf069__tu,Number of Auto inquiries all time
+linkf070__tu,"Number of charged-off, collection, and return trade segments opened within last 12 months"
+linkf071__tu,Number of lenders / locations with inquiries or trades all time
+linkf072__tu,Number of lenders / locations with inquiries or trades within last 1 month
+linkf073__tu,Number of lenders / locations with inquiries or trades within last 3 months
+linkf074__tu,Number of trades opened within last 12 months
+linkf075__tu,"Number of open, collection or charge-off trade segments"
+linkf076__tu,"Total dollar amount of return, collection, and closed delinquent trade segments within last 12 months"
+linkf077__tu,"Number of return, collection, and closed delinquent trade segments within last 12 months"
+linkf078__tu,Number of trade segments opened within last 12 months
+linkf079__tu,Total balance on open or collection trade segments
+linkf080__tu,Total amount past due within last 12 months (excluding collection)
+linkf081__tu,Days since most recent delinquency
+linkf082__tu,Number of open trades with balance > 0 (excluding collection)
+linkf083__tu,Number of inquiries within last 1 month
+linkf084__tu,Number of inquiries within last 2 months
+linkf085__tu,Number of inquiries within last 3 months
+linkf086__tu,Number of inquiries within last 6 months
+linkf087__tu,Number of inquiries within last 9 months
+linkf088__tu,Number of inquiries within last 12 months
+linkf089__tu,Number of inquiries within last 18 months
+linkf090__tu,Number of inquiries within last 24 months
+linkf091__tu,Number of trades
+linkf092__tu,Number of trades within last 3 months
+linkf093__tu,Number of trades within last 6 months
+linkf094__tu,Number of trades within last 9 months
+linkf095__tu,Number of trades within last 12 months
+linkf096__tu,Number of trades within last 18 months
+linkf097__tu,Number of trades within last 24 months
+linkf098__tu,Number of satisfactory trades
+linkf099__tu,Number of satisfactory trades with an age of at least 3 months
+linkf100__tu,Number of satisfactory trades with an age of at least 6 months
+linkf101__tu,Number of satisfactory trades with an age of at least 9 months
+linkf102__tu,Number of satisfactory trades with an age of at least 12 months
+linkf103__tu,Number of satisfactory trades with an age of at least 18 months
+linkf104__tu,Number of satisfactory trades with an age of at least 24 months
+linkf105__tu,Time (days) since most recent inquiry or trade update
+linkf106__tu,Time (days) since oldest inquiry or trade update
+linkf107__tu,Number of lenders / locations with inquiries within last 7 years
+linkf108__tu,Number of lenders / locations with inquiries within last 1 month
+linkf109__tu,Number of lenders / locations with inquiries within last 2 months
+linkf110__tu,Number of lenders / locations with inquiries within last 3 months
+linkf111__tu,Number of lenders / locations with inquiries within last 6 months
+linkf112__tu,Number of lenders / locations with inquiries within last 9 months
+linkf113__tu,Number of lenders / locations with inquiries within last 12 months
+linkf114__tu,Number of lenders / locations with inquiries within last 18 months
+linkf115__tu,Number of lenders / locations with inquiries within last 24 months
+linkf116__tu,Number of trade segments
+linkf117__tu,Number of trade segments within last 3 months
+linkf118__tu,Number of trade segments within last 6 months
+linkf119__tu,Number of trade segments within last 9 months
+linkf120__tu,Number of trade segments within last 12 months
+linkf121__tu,Number of trade segments within last 18 months
+linkf122__tu,Number of trade segments within last 24 months
+linkf123__tu,Average balance of open trades (excluding collection)
+linkf124__tu,Total balance of open trades (excluding collection)
+linkf125__tu,Number of trade segments (excluding new trades)
+linkf126__tu,Number of trade segments (excluding new trades) within last 3 months
+linkf127__tu,Number of trade segments (excluding new trades) within last 6 months
+linkf128__tu,Number of trade segments (excluding new trades) within last 9 months
+linkf129__tu,Number of trade segments (excluding new trades) within last 12 months
+linkf130__tu,Number of trade segments (excluding new trades) within last 18 months
+linkf131__tu,Number of trade segments (excluding new trades) within last 24 months
+linkf132__tu,Consumer-stated income included in most recent inquiry
+linkf133__tu,Average balance of open trades (including collection)
+linkf134__tu,Number of open trades with balance > 0 (including collection)
+linkf135__tu,Total balance of open trades (including collection)
+linkf136__tu,Highest credit among all open trades
+linkf137__tu,Number of distinct bank accounts within last 12 months
+linkf138__tu,Number of distinct bank accounts within last 18 months
+linkf139__tu,Number of distinct bank accounts within last 1 month
+linkf140__tu,Number of distinct bank accounts within last 24 months
+linkf141__tu,Number of distinct bank accounts within last 2 months
+linkf142__tu,Number of distinct bank accounts within last 3 months
+linkf143__tu,Number of distinct bank accounts within last 6 months
+linkf144__tu,Number of distinct bank accounts within last 9 months
+linkf145__tu,Number of distinct bank accounts
+linkf146__tu,Number of distinct cell phones within last 12 months
+linkf147__tu,Number of distinct cell phones within last 18 months
+linkf148__tu,Number of distinct cell phones within last 1 month
+linkf149__tu,Number of distinct cell phones within last 24 months
+linkf150__tu,Number of distinct cell phones within last 2 months
+linkf151__tu,Number of distinct cell phones within last 3 months
+linkf152__tu,Number of distinct cell phones within last 6 months
+linkf153__tu,Number of distinct cell phones within last 9 months
+linkf154__tu,Number of distinct cell phones
+linkf155__tu,Number of distinct email addresses within last 12 months
+linkf156__tu,Number of distinct email addresses within last 18 months
+linkf157__tu,Number of distinct email addresses within last 1 month
+linkf158__tu,Number of distinct email addresses within last 24 months
+linkf159__tu,Number of distinct email addresses within last 2 months
+linkf160__tu,Number of distinct email addresses within last 3 months
+linkf161__tu,Number of distinct email addresses within last 6 months
+linkf162__tu,Number of distinct email addresses within last 9 months
+linkf163__tu,Number of distinct email addresses
+linkf164__tu,Number of distinct home phone within last 12 months
+linkf165__tu,Number of distinct home phones within last 18 months
+linkf166__tu,Number of distinct home phones within last 1 month
+linkf167__tu,Number of distinct home phones within last 24 months
+linkf168__tu,Number of distinct home phones within last 2 months
+linkf169__tu,Number of distinct home phones within last 3 months
+linkf170__tu,Number of distinct home phones within last 6 months
+linkf171__tu,Number of distinct home phones within last 9 months
+linkf172__tu,Number of distinct home phones
+linkf173__tu,Number of distinct zip codes within last 12 months
+linkf174__tu,Number of distinct zip codes within last 18 months
+linkf175__tu,Number of distinct zip codes within last 1 month
+linkf176__tu,Number of distinct zip codes within last 24 months
+linkf177__tu,Number of distinct zip codes within last 2 monthss
+linkf178__tu,Number of distinct zip codes within last 3 months
+linkf179__tu,Number of distinct zip codes within last 6 months
+linkf180__tu,Number of distinct zip codes within last 9 months
+linkf181__tu,Number of distinct zip codes
+linkf182__tu,Days since most recent delinquent trade opened within last 12 months
+linkf183__tu,Days since most recent payment
+linkf184__tu,Days since most recent return payment
+linkf185__tu,Age of newest inquiry ONLINE LENDER
+linkf186__tu,Days since most recent delinquent trade opened within last 12 months ONLINE LENDER
+linkf187__tu,Days since most recent payment ONLINE LENDER
+linkf188__tu,Days since most recent return payment ONLINE LENDER
+linkf189__tu,Age of newest inquiry STOREFRONT LENDER
+linkf190__tu,Days since most recent delinquent trade opened within last 12 months STOREFRONT LENDER
+linkf191__tu,Days since most recent payment STOREFRONT LENDER
+linkf192__tu,Days since most recent return payment STOREFRONT LENDER
+linkf193__tu,Age of newest inquiry (days)
+linkf194__tu,Age of newest trade (days)
+linkf195__tu,Age of oldest inquiry (days)
+linkf196__tu,Age of oldest trade (days)
+linkf197__tu,Total Good ACH events
+linkf198__tu,Total Bad ACH events in last 1 Month
+linkf199__tu,Total Good ACH amount
+linkf200__tu,Total Bad ACH amount in last 1 Month
+linkf201__tu,Total Good ACH events in last 1 Month
+linkf202__tu,Total Bad ACH events in last 3 Months
+linkf203__tu,Total Good ACH amount in last 1 Month
+linkf204__tu,Total Bad ACH amount in last 3 Months
+linkf205__tu,Total Good ACH events in last 3 Months
+linkf206__tu,Total Bad ACH events in last 6 Months
+linkf207__tu,Total Good ACH amount in last 3 Months
+linkf208__tu,Total Bad ACH amount in last 6 Months
+linkf209__tu,Total Good ACH events in last 6 Months
+linkf210__tu,Total Bad ACH events
+linkf211__tu,Total Good ACH amount in last 6 Months
+linkf212__tu,Total Bad ACH amount
+linkf213__tu,Ratio of total balance to highest credit for all currently open trades.
+scr_linka2__tu,CreditVision Link A 2.0 Score
+scr_alta2__tu,CreditVision Alternative A 2.0 Score
+scr_linkb2__tu,CreditVision Link B 2.0 Score
+scr_altb2__tu,CreditVision Alternative B  2.0 Score
+cvlst_s1__tu,Credit Vision Link Short-Term Loan Risk Score (short-term loan)
+cvlst_i1__tu,Credit Vision Link Short-Term Loan Risk Score (installment loan)
+eadms1__tu,"Scorecard: 1=No Hit, 2=No Score, 3=Thin (1-4 non-authorized user trades), 4=Thick (5+ non-authorized user trades)"
+indflag__tu,Deceased
+observationdate__tu,YYYY-MM-DD
+dpd60plus__tu,"1: proxy auto loan present, was 60 days past due or worse within 24-mos.
+0: proxy auto loan present, was not 60 days past due or worse within 24-mos.
+blank: no proxy auto loan present"
+uniqueid__tu,CUSTOMER INPUT
+bigaccountid__tu,CUSTOMER INPUT
+bigdebtorid__tu,CUSTOMER INPUT
+acctno__ln,Unique customer account number provided on input 
+lexid__ln,"Unique, proprietary identity linking technology that returns a numerical value identifying each consumer"
+auto_index__ln,Internal value
+auto_score_name__ln,Name of the score model
+auto_score __ln,3-digit score value
+auto_reason1__ln,3-byte reason code
+auto_reason2__ln,3-byte reason code
+auto_reason3__ln,3-byte reason code
+auto_reason4__ln,3-byte reason code
+auto_reason5__ln,3-byte reason code
+bankcard_index__ln,Internal value
+bankcard_score_name__ln,Name of the score model
+bankcard_score __ln,3-digit score value
+bankcard_reason1__ln,3-byte reason code
+bankcard_reason2__ln,3-byte reason code
+bankcard_reason3__ln,3-byte reason code
+bankcard_reason4__ln,3-byte reason code
+bankcard_reason5__ln,3-byte reason code
+short_term_lending_index__ln,Internal value
+short_term_lending_score_name__ln,Name of the score model
+short_term_lending_score __ln,3-digit score value
+short_term_lending_reason1__ln,3-byte reason code
+short_term_lending_reason2__ln,3-byte reason code
+short_term_lending_reason3__ln,3-byte reason code
+short_term_lending_reason4__ln,3-byte reason code
+short_term_lending_reason5__ln,3-byte reason code
+telecommunications_index__ln,Internal value
+telecommunications_score_name__ln,Name of the score model
+telecommunications_score __ln,3-digit score value
+telecommunications_reason1__ln,3-byte reason code
+telecommunications_reason2__ln,3-byte reason code
+telecommunications_reason3__ln,3-byte reason code
+telecommunications_reason4__ln,3-byte reason code
+telecommunications_reason5__ln,3-byte reason code
+custom_index__ln,Internal value
+custom_score_name__ln,Name of the score model
+custom_score __ln,3-digit score value
+custom_reason1__ln,3-byte reason code
+custom_reason2__ln,3-byte reason code
+custom_reason3__ln,3-byte reason code
+custom_reason4__ln,3-byte reason code
+custom_reason5__ln,3-byte reason code
+inputprovidedfirstname__ln,Indicates if the first name of the subject was provided on input
+inputprovidedlastname__ln,Indicates if the last name of the subject was provided on input
+inputprovidedstreetaddress__ln,Indicates if the street address for the subject was provided on input
+inputprovidedcity__ln,Indicates if the city for the subject was provided on input
+inputprovidedstate__ln,Indicates if the state for the subject was provided on input
+inputprovidedzipcode__ln,Indicates if the ZIP code for the subject was provided on input
+inputprovidedssn__ln,Indicates if the SSN (Social Security Number) for the subject was provided on input
+inputprovideddateofbirth__ln,Indicates if the DOB (date of birth) for the subject was provided on input
+inputprovidedphone__ln,Indicates if the phone number for the subject was provided on input
+inputprovidedlexid__ln,Indicates if the LexID for the subject was provided on input
+subjectrecordtimeoldest__ln,Time (in months) since the oldest recorded event on file for subject
+subjectrecordtimenewest__ln,Time (in months) since the most recently reported event on file for subject
+subjectnewestrecord12month__ln,Indicates subject's last reported event on file was within the last 12 months
+subjectactivityindex03month__ln,A risk index summarizing derogatory and non-derogatory source activity for the subject as reported within the past three months
+subjectactivityindex06month__ln,A risk index summarizing derogatory and non-derogatory source activity for the subject as reported on file within the past six months
+subjectactivityindex12month__ln,A risk index summarizing derogatory and non-derogatory source activity for the subject as reported on file within the past 12 months
+subjectage__ln,"Indicates subject's age in years, based on date of birth records found on file 
+
+(Note: This attribute cannot be used to discriminate against subjects over the age of 62)"
+subjectdeceased__ln,Records on file indicate subject is reported as being deceased
+subjectssncount__ln,Total number of unique SSNs on file for subject
+subjectstabilityindex__ln,Modeled risk index indicating the subject's stability in fulfilling a credit obligation on the basis of address history and non-derogatory public records on file
+subjectstabilityprimaryfactor__ln,Indicates the primary factor behind the value returned for the SubjectStabilityIndex attribute
+subjectabilityindex__ln,"Modeled risk index indicating the subject's ability to fulfill a credit obligation on the basis of their time on file, post-secondary education history, asset ownership, and outstanding financial obligations on file"
+subjectabilityprimaryfactor__ln,Indicates the primary factor behind the value returned for the SubjectAbilityIndex attribute
+subjectwillingnessindex__ln,Modeled risk index indicating the subject's willingness to fulfill a credit obligation on the basis of recent or historical non-derogatory and derogatory public record activity on file
+subjectwillingnessprimaryfactor__ln,Indicates the primary factor behind the value returned for the SubjectWillingnessIndex attribute
+confirmationsubjectfound__ln,"Indicates if LexisNexis is able to identify and confirm the subject based on identity elements (name, address, phone, and SSN records) on file"
+confirmationinputname__ln,Indicates input subject's name is confirmed by records on file
+confirmationinputdob__ln,Indicates input date of birth (DOB) is confirmed by records on file
+confirmationinputssn__ln,Indicates input Social Security Number (SSN) is confirmed by records on file
+confirmationinputaddress__ln,Indicates input address is confirmed by records on file
+sourcenonderogprofileindex__ln,"Index summarizing the number and nature of the non-derogatory sources reporting the depth and breadth of the subject's reporting history, excluding property and derogatory court records"
+sourcenonderogcount__ln,Total non-derogatory source types on file for subject
+sourcenonderogcount03month__ln,Total non-derogatory source types on file for subject reported within the last three months
+sourcenonderogcount06month__ln,Total non-derogatory source types on file for subject reported within the last six months
+sourcenonderogcount12month__ln,Total non-derogatory source types on file for subject reported within the last 12 months
+sourcecredheadertimeoldest__ln,Time (in months) since the subject first reported by a credit header source on file
+sourcecredheadertimenewest__ln,Time (in months) since the subject last reported by a credit header source on file
+sourcevoterregistration__ln,Indicates voter registration record on subject's file
+educationattendance__ln,Indicates subject attended college based on student directory information on file
+educationevidence__ln,"Indicates evidence of college attendance on the subject's file based on college institution address, professional licensure, student directories, and email domains such as '.edu' that are affiliated with institutions of higher education "
+educationprogramattended__ln,Indicates the type of program most recently attended based on student directories and other college attendance sources on subject's file
+educationinstitutionprivate__ln,Indicates most recently attended program is a private institution based on student directories and other college attendance sources on subject's file
+educationinstitutionrating__ln,"Indicates the education program rating for the most recently attended program on subject's file, based on student directories and other college attendance sources. Rating is based on various institution statistics and national ratings (Tier 1 = highest rating, Tier 6 =lowest rating)"
+profliccount__ln,Total number of active and inactive professional licenses on subject's file
+proflictypecategory__ln,"Most recent professional license type category on subject's file, grouped based on published U.S. Census occupation data"
+businessassociation__ln,Indicates the subject has a formal connection with a business based on associations with business records on the subject's file
+businessassociationindex__ln,Index indicating the status of the subject's formal business associations on file
+businessassociationtimeoldest__ln,Time (in months) since a formal business association with the subject first seen on file
+businesstitleleadership__ln,"Indicates the business title for the most recent formal business association on subject's file is associated with a leadership position such as director, owner, founder, executive, or president"
+assetindex__ln,Modeled risk index indicating the type and relative value of real property and personal property associated with the subject
+assetindexprimaryfactor__ln,Indicates the primary factor behind the value returned for the AssetIndex attribute
+assetownership__ln,"Indicates subject has ownership of assets (watercraft, aircraft, or real property) based on asset ownership records on file"
+assetprop__ln,Indicates subject has ownership of real property based on real property ownership records on file
+assetpropindex__ln,Index indicating level of historical property ownership based on real property ownership records on subject's file
+assetpropevercount__ln,Total number of real property ever owned based on real property ownership records on subject's file
+assetpropcurrentcount__ln,Total number of real property currently owned based on real property ownership records on subject's file
+assetpropcurrenttaxtotal__ln,The total sum of tax assessed values for all real property currently owned by the subject based on real property ownership records on subject's file
+assetproppurchasecount12month__ln,Total number of real properties identified as purchased by subject within the last 12 months based on real property ownership records on subject's file
+assetproppurchasetimeoldest__ln,Time (in months) since earliest recorded real property purchase based on real property ownership records on subject's file
+assetproppurchasetimenewest__ln,Time (in months) since most recently recorded real property purchase based on real property ownership records on subject's file
+assetpropnewestmortgagetype__ln,Mortgage type associated with the most recently recorded real property purchase based on real property ownership records on subject's file
+assetpropeversoldcount__ln,Total number of real properties identified as ever sold based on real property ownership records on subject's file
+assetpropsoldcount12month__ln,Total number of real properties identified as sold within the last 12 months based on real property ownership records on subject's file
+assetpropsaletimeoldest__ln,Time (in months) since subject's earliest recorded real property sale based on real property ownership records on subject's file
+assetpropsaletimenewest__ln,Time (in months) since subject's most recently recorded real property sale based on real property ownership records on subject's file
+assetpropnewestsaleprice__ln,Subject's most recent real property sale price based on real property ownership records on file
+assetpropsalepurchaseratio__ln,Ratio price comparison of subject's most recent property sale to its original purchase price based on real property ownership records on subject's file
+assetpersonal__ln,Indicates subject has ownership of personal property (watercraft and aircraft) based on personal property ownership records on file
+assetpersonalcount__ln,Total watercraft registrations and/or aircraft registration records associated with the subject based on personal property ownership records on file
+purchaseactivityindex__ln,Index indicating the level of purchase activity on subject's file
+purchaseactivitycount__ln,"Total retail, offline, and/or online purchases on subject's file"
+purchaseactivitydollartotal__ln,"Total dollar amount of all retail, offline, and/or online purchases on subject's file"
+derogseverityindex__ln,Index indicating severity of derogatory records on subject's file
+derogcount__ln,"Total derogatory source records (criminal felony, criminal non-felony, sexual offender registry, lien, judgment, bankruptcy, and eviction) on subject's file"
+derogcount12month__ln,"Number of derogatory source records (criminal felony, criminal non-felony, lien, judgment, bankruptcy, and eviction) within the last 12 months on subject's file
+NOTE: This attribute does not include sexual offender registry records"
+derogtimenewest__ln,"Time (in months) since most recently recorded derogatory record (criminal felony, criminal non-felony, lien, judgment, bankruptcy, and eviction) on the subject's file
+NOTE: This attribute does not include sexual offender registry records"
+criminalfelonycount__ln,Total felony criminal convictions on subject's file
+criminalfelonycount12month__ln,Total felony criminal convictions in the last 12 months on subject's file
+criminalfelonytimenewest__ln,Time (in months) since most recently recorded felony criminal conviction on subject's file
+criminalnonfelonycount__ln,Total non-felony criminal convictions or sexual offender registry records on subject's file
+criminalnonfelonycount12month__ln,"Total non-felony criminal convictions in the last 12 months on subject's file
+NOTE: This attribute does not include sexual offender registry records"
+criminalnonfelonytimenewest__ln,"Time (in months) since most recently recorded non-felony criminal conviction on subject's file
+NOTE: This attribute does not include sexual offender registry records"
+evictioncount__ln,Total eviction records on subject's file indicating the plaintiff has sought an eviction and does not necessarily mean the defendant has vacated the premises
+evictioncount12month__ln,Total eviction records on subject's file in the last 12 months
+evictiontimenewest__ln,Time (in months) since most recently recorded eviction on subject's file
+lienjudgmentseverityindex__ln,Index indicating severity of lien and judgment records on subject's file
+lienjudgmentcount__ln,"Total lien and judgment records on subject's file, excluding evictions"
+lienjudgmentcount12month__ln,"Total lien and judgment records in the last 12 months on subject's file, excluding evictions"
+lienjudgmentsmallclaimscount__ln,Total small claims court judgments on subject's file
+lienjudgmentcourtcount__ln,Total civil court judgments on subject's file
+lienjudgmenttaxcount__ln,"Total federal, state, and county tax liens on subject's file"
+lienjudgmentforeclosurecount__ln,Total foreclosures on subject's file
+lienjudgmentothercount__ln,Total other liens or court judgments on subject's file
+lienjudgmenttimenewest__ln,"Time (in months) since the most recently recorded lien or judgment on subject's file, excluding evictions"
+lienjudgmentdollartotal__ln,"Total dollar amount of all liens and judgments on subject's file, excluding evictions"
+bankruptcycount __ln,Total unique bankruptcy case filings on file showing the subject as debtor
+bankruptcycount24month__ln,Total unique bankruptcy case filings on file showing the subject as debtor in the last 24 months
+bankruptcytimenewest__ln,Time (in months) since most recent bankruptcy case filing on file showing the subject as debtor
+bankruptcychapter__ln,"Indicates bankruptcy chapter of most recent bankruptcy case filing on file showing the subject as debtor, if the bankruptcy is a Chapter 7 or Chapter 13 bankruptcy"
+bankruptcystatus__ln,Indicates status of most recent bankruptcy filing on file showing the subject as debtor
+bankruptcydismissed24month__ln,Indicates subject has one or more dismissed bankruptcies on file in the last 24 months
+shorttermloanrequest__ln,Indicates the subject has one or more short-term loan offer requests on file
+shorttermloanrequest12month__ln,Indicates the subject has one or more short-term loan offer requests on file in the last 12 months
+shorttermloanrequest24month__ln,Indicates the subject has one or more short-term loan offer requests on file in the last 24 months
+inquiryauto12month__ln,Indicates subject has one or more LexisNexis auto financing credit inquiries on file in the last 12 months (multiple auto inquiries within a 14-day period are counted as one inquiry)
+inquirybanking12month__ln,Indicates subject has one or more LexisNexis banking credit inquiries on file in the last 12 months
+inquirytelcom12month__ln,Indicates subject has one or more LexisNexis telecommunications credit inquiries on file in the last 12 months
+inquirynonshortterm12month__ln,"Indicates subject has one or more LexisNexis credit inquiries on file in the last 12 months, excluding personal finance credit and collection inquiries
+NOTE: This attribute indicates the subject has any LexisNexis credit inquiry on file, excluding any short-term or collection inquiries. This will include auto, banking, and telecom inquiries returned in other attributes as well as other credit-related inquiries not categorically classified in the attributes."
+inquiryshortterm12month__ln,Indicates subject has one or more LexisNexis personal finance credit inquiries on file in the last 12 months (multiple personal finance inquiries within a 24-hour period are counted as one inquiry)
+inquirycollections12month__ln,Indicates subject has one or more LexisNexis collection inquiries on file in the last 12 months
+ssnsubjectcount__ln,Total number of unique identities found on file with the input SSN 
+ssndeceased__ln,Indicates input SSN was reported on a death record on file
+ssndatelowissued__ln,"Date of earliest issuance for the input SSN based on the block group issued by the Social Security Administration prior to SSN Randomization on June 25, 2011 that was assigned based on the issuance state and issuance date of the SSN"
+ssnproblems__ln,Indicates problems on file associated with the input SSN
+addronfilecount__ln,Total number of addresses found on file in subject's address history
+addronfilecorrectional__ln,Indicates an address in subject's address history on file is associated with a correctional institution
+addronfilecollege__ln,Indicates an address in subject's address history on file is associated with a college or other post-secondary education institutional address
+addronfilehighrisk__ln,"Indicates an address in subject's address history on file is associated with a transient or higher risk address, such as a hotel, campground, warehouse, mail drop, or non-residential"
+addrinputtimeoldest__ln,Time on file (in months) since subject was first reported at the input address
+addrinputtimenewest__ln,Time on file (in months) since the subject was most recently reported at the input address
+addrinputlengthofres__ln,Indicates length of time (in months) between oldest and newest records on file for the input address
+addrinputsubjectcount__ln,"Total number of unique subjects on file currently reported at the input address, if the address has been designated as a single family dwelling unit"
+addrinputmatchindex__ln,Index indicating if the input address matches the current or historical address on file
+addrinputsubjectowned__ln,Indicates a property ownership record is on file for the subject at the input address
+addrinputdeedmailing__ln,Indicates for the input address that the property owner's mailing address is the same as the property address for the property record on file
+addrinputownershipindex__ln,Index indicating subject's ownership level at the input address based on the address property record on file
+addrinputphoneservice__ln,Indicates if phone service was found on file for the input address
+addrinputphonecount__ln,Total number of unique phone service listings on file currently reported with the input address
+addrinputdwelltype__ln,Indicates the dwelling type on file for the input address
+addrinputdwelltypeindex__ln,Index indicating the dwelling type on file for the input address
+addrinputdelivery__ln,Indicates the mail delivery status on file for the input address
+addrinputtimelastsale__ln,Time (in months) since last recorded property sale on file for the input address
+addrinputlastsaleprice__ln,Indicates last recorded sale price on file for the input address
+addrinputtaxvalue__ln,Indicates the most recent tax assessed value on file for the input address
+addrinputtaxyr__ln,Indicates year of most recent tax assessment on file for the input address
+addrinputtaxmarketvalue__ln,Indicates input address tax assessed market value on file
+addrinputavmvalue__ln,Indicates input address estimated market value on file based on LexisNexis Automated Valuation Model (AVM) electronic property appraisal technology 
+addrinputavmvalue12month__ln,Indicates input address AVM value on file 12 months ago
+addrinputavmratio12monthprior__ln,Ratio comparison for the input address indicating the difference in AVM values between the most recent AVM value on file and the value 12 months prior to the most recent value on file
+addrinputavmvalue60month__ln,Indicates input address AVM value on file 60 months ago
+addrinputavmratio60monthprior__ln,Ratio comparison for the input address indicating the difference in AVM values between the most recent AVM value on file and the value 60 months prior to the most recent value on file
+addrinputcountyratio__ln,Ratio comparison of the input address property value to county median property value on file
+addrinputtractratio__ln,Ratio comparison of the input address property value to tract median property value on file
+addrinputblockratio__ln,Ratio comparison of the input address property value to block median property value on file
+addrinputproblems__ln,Indicates any problems on file associated with the input address
+addrcurrenttimeoldest__ln,Time (in months) since the subject was first reported at the current address on subject's file
+addrcurrenttimenewest__ln,Time (in months) since the subject was most recently reported at the current address on subject's file
+addrcurrentlengthofres __ln,Indicates time (in months) between first and last date reported at subject's current address
+addrcurrentsubjectowned __ln,Indicates a property ownership record is on file for the subject at the current address
+addrcurrentdeedmailing__ln,Indicates the property owner's mailing address is the same as the property address on the property record for the current address on subject's file
+addrcurrentownershipindex__ln,"Index indicating subject's ownership level at the current address on subject's file, based on the address property record"
+addrcurrentphoneservice__ln,Indicates if phone service was found at current address on subject's file
+addrcurrentdwelltype __ln,Indicates the dwelling type for current address on subject's file
+addrcurrentdwelltypeindex__ln,Index indicating the dwelling type for current address on subject's file
+addrcurrenttimelastsale__ln,Time (in months) since the last recorded property sale for the current address on the subject's file
+addrcurrentlastsalesprice__ln,Indicates the last recorded sale price for the current address on subject's file
+addrcurrenttaxvalue__ln,Indicates the most recent tax assessed value for the current address on subject's file
+addrcurrenttaxyr__ln,Indicates year of most recent tax assessment for the current address on subject's file
+addrcurrenttaxmarketvalue__ln,Indicates tax assessed market value for the current address on subject's file
+addrcurrentavmvalue__ln,Indicates the estimated market value based on LexisNexis Automated Valuation Model (AVM) electronic property appraisal technology for the current address on subject's file
+addrcurrentavmvalue12month__ln,Indicates AVM value 12 months ago for the current address on subject's file
+addrcurrentavmratio12monthprior__ln,"Ratio comparison for the current address on subject's file, indicating the difference in AVM values between the most recent AVM value and the value 12 months prior to the most recent value"
+addrcurrentavmvalue60month__ln,Indicates AVM value 60 months ago for the current address on subject's file
+addrcurrentavmratio60monthprior__ln,"Ratio comparison for the current address on subject's file, indicating the difference in AVM values between the most recent AVM value and the value 60 months prior to the most recent value"
+addrcurrentcountyratio__ln,Ratio comparison of property value to county median property value for the current address on subject's file
+addrcurrenttractratio__ln,Ratio comparison of property value to tract median property value for the current address on subject's file
+addrcurrentblockratio__ln,Ratio comparison of property value to block median property value for the current address on subject's file
+addrcurrentcorrectional__ln,Indicates current address on subject's file is associated with a correctional institution
+addrprevioustimeoldest__ln,Time (in months) since the subject was first reported at the most previous address on subject's file
+addrprevioustimenewest__ln,Time (in months) since the subject was most recently reported at the most previous address on subject's file
+addrpreviouslengthofres __ln,Indicates time (in months) between first date reported at the previous address and the first date reported at the current address on subject's file
+addrprevioussubjectowned __ln,Indicates if a property ownership record is currently or ever was on file for the subject at the most previous address
+addrpreviousownershipindex__ln,Index indicating subject's ownership level at the most previous address based on the property record on subject's file
+addrpreviousdwelltype __ln,Indicates the dwelling type for the most previous address on subject's file
+addrpreviousdwelltypeindex__ln,Index indicating the dwelling type for the most previous address on the subject's file
+addrpreviouscorrectional__ln,Indicates previous address on subject's file is associated with a correctional institution
+addrstabilityindex__ln,Address stability index indicating how often subject has changed addresses based on the address history on subject's file
+addrchangecount03month__ln,Number of addresses first seen in last three months on subject's file
+addrchangecount06month__ln,Number of addresses first seen in last six months on subject's file
+addrchangecount12month__ln,Number of addresses first seen in last 12 months on subject's file
+addrchangecount24month__ln,Number of addresses first seen in last 24 months on subject's file
+addrchangecount60month__ln,Number of addresses first seen in last 60 months on subject's file
+addrlastmovetaxratiodiff__ln,"Ratio comparing the difference in tax assessed value between the current address and the previous address (current address value divided by the previous address value if both are known) on subject's file, if the move occurred within the last five years"
+addrlastmoveecontrajectory__ln,"Describes the value and home ownership status of the subject’s previous and current addresses in order to determine whether the subject’s most recent residential move (if the move occurred in the past five years) was to a similar property or a more upscale or downscale property. 
+Note: Seniors (age 62 plus) who have moved default to the most positive level to prevent adverse action based on downsizing of empty nesters and retirees."
+addrlastmoveecontrajectoryindex__ln,"For subjects with a move in the past five years, this index summarizes any difference in the relative property value or ownership status of the most recent residential move.  Lower values indicate movement to lower value or rented property, higher values indicate higher value property.  
+Note: Seniors (age 62 plus) who have moved are defaulted to the most positive level to prevent adverse action based on downsizing of empty nesters and retirees."
+phoneinputproblems__ln,Indicates problems associated with the input phone based on information on file
+phoneinputsubjectcount__ln,Total number of unique subjects on file currently reported with the input phone
+phoneinputmobile __ln,Indicates if input phone number is mobile phone based on phone directory information on file
+alertregulatorycondition__ln,"Indicates subject has an alert on their file that is associated with state or federal regulations, consumer identity conditions, or bankruptcies on file"
+alert1__ln,"Regulatory, bankruptcy, or scoring alert"
+alert2__ln,"Regulatory, bankruptcy, or scoring alert"
+alert3__ln,"Regulatory, bankruptcy, or scoring alert"
+alert4__ln,"Regulatory, bankruptcy, or scoring alert"
+alert5__ln,"Regulatory, bankruptcy, or scoring alert"
+alert6__ln,"Regulatory, bankruptcy, or scoring alert"
+alert7__ln,"Regulatory, bankruptcy, or scoring alert"
+alert8__ln,"Regulatory, bankruptcy, or scoring alert"
+alert9__ln,"Regulatory, bankruptcy, or scoring alert"
+alert10__ln,"Regulatory, bankruptcy, or scoring alert"
+consumerstatementtext__ln,Consumer statement on file

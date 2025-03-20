@@ -1,0 +1,65 @@
+# Docker
+# Build a Docker image 
+# https://docs.microsoft.com/azure/devops/pipelines/languages/docker
+
+name: $(date:yyyy).$(date:MM).$(date:dd)+$(rev:r)
+
+trigger:
+- main
+
+resources:
+- repo: self
+
+variables:
+  awsCredentials: 'Shared-Services'
+  gitsha: '$(Build.SourceVersion)'
+  ecr_repo: 'risk-scorecard-genxii'
+  standardVersion: $[ replace(variables['Build.BuildNumber'], '+', '.') ]
+  tag: $[ format('{0}-{1}', replace( replace(variables['Build.SourceBranch'], 'refs/heads/', ''), '/', '-' ), variables['standardVersion'] ) ]
+
+jobs:
+- job: BuildDockerImage
+  pool:
+    vmImage: 'ubuntu-latest'
+  steps:
+  - task: qetza.replacetokens.replacetokens-task.replacetokens@2
+    displayName: 'Replace tokens in chart yaml files'
+    inputs:
+      targetFiles: '**/charts/**/*.yaml'
+  - task: CopyFiles@2
+    displayName: 'Copy Helm Charts to: $(build.artifactstagingdirectory)'
+    inputs:
+      Contents: '**/charts/**'
+      TargetFolder: '$(build.artifactstagingdirectory)'
+  - task: CmdLine@2
+    displayName: Build Docker Image
+    inputs:
+      script: 'docker build . -t service:current'
+      workingDirectory: '$(Build.SourcesDirectory)/07_api/03_for_azure/api/web'
+  - task: ECRPushImage@1
+    displayName: Push Image to ECR with GitSha
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main')) #only if master branch
+    inputs:
+      awsCredentials: $(awsCredentials)
+      regionName: 'us-west-2'
+      imageSource: 'imagename'
+      repositoryName: '$(ecr_repo)'
+      sourceImageName: 'service'
+      sourceImageTag: 'current'
+      pushTag: $(gitsha)
+  - task: ECRPushImage@1
+    displayName: Push Image to ECR with Build Id
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main')) #only if master branch
+    inputs:
+      awsCredentials: $(awsCredentials)
+      regionName: 'us-west-2'
+      imageSource: 'imagename'
+      repositoryName: '$(ecr_repo)'
+      sourceImageName: 'service'
+      sourceImageTag: 'current'
+      pushTag: $(tag)
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact: charts'
+    inputs:
+      artifactName: 'charts' 
+    

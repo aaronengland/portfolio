@@ -1,0 +1,19 @@
+Step,Name,Job
+1,NaN Replacer,Replaces string NaN with real NaN
+2,Set strings,Explicitly sets string features as string
+3,Boolean replacer,Replaces booleans with 1 (True) and 0 (False)
+4,Data type setter,Ensures data type consistency
+5,Clean text,Cleans text and cast non-numeric NaN to 'nan'
+6,Inflator,Converts dollar values to 2022 dollars
+7,Clip values,Clips negative dollar values to 0
+8,Clip income sources,Clips the number of income sources to 2
+9,Imputer,Custom policy imputation
+10,Imputer,Imputes 0
+11,Zero replacer,Replaces 0 with a predetermined value
+12,Date features,Engineers date related features
+13,Rounder,Rounds values
+14,Feature engineering,Engineers features
+15,Inf replacer,Replaces inf and -inf values with NaN
+16,Imputer,Imputes 0
+17,Map term,Maps term
+18,Rounder,Rounds values

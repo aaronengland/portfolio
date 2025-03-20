@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Gen 12 Writeup - Home</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='shared/prestige_logo_favicon.PNG') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    <!--
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    -->
+</head>
+<body>
+    <div class="loader" id="loader"></div>
+    <header>
+        <img src="{{ url_for('static', filename='shared/prestige_logo.PNG') }}" alt="Header" style="max-width: 100%;">
+    </header>
+
+    <div id="Top-of-Page" class="navbar">
+        <a href="#Overview">Overview</a>
+        <a href="#Approve-Decline-Model">Approve/Decline Model</a>
+        <a href="#Pricing-PD-Model">Pricing Probability of Default Model</a>
+        <a href="#Pricing-LGD-Model">Pricing Loss Given Default Model</a>
+        <a href="#All-Features">Features</a>
+        <a href="#Back-Testing">Back Testing</a>
+        <a href="#Parser">Parser</a>
+        <a href="#Submit-Payload">Submit Payload</a>
+        <a href="#Payload-Comparison">Payload Comparison</a>
+        <a href="https://bafmqzersa.us-west-2.awsapprunner.com/">Production</a>
+    </div>
+
+    <div class="container">
+
+        <section id="Gen-12-Writeup" class="section">
+            <h2>Gen 12 - Writeup</h2>
+        </section>
+
+        <section id="Schematic" class="section">
+            <h3>Overview</h3>
+            <p>To grasp a comprehensive overview of Gen 12 and the interrelations among the three models, please refer to the diagram below. Within this schematic representation, the payload request, comprising distinct features with their corresponding values, undergoes evaluation through the Approve/Decline (AD) model, generating a respective score. If the score exceeds 0.50, the applicant is declined. Conversely, if the Approve/Decline model score is 0.50 or lower, the request proceeds to undergo assessment by the pricing probability of default (PD) and loss given default (LGD) models. The Expected Cumulative Net Loss (ECNL) is subsequently computed as the product of PD and LGD.</p>
+            <div>
+                <img src="{{ url_for('static', filename='home/schematic.png') }}" alt="Schematic" style="max-width: 100%;">
+            </div>
+        </section>
+
+        <section id="Approve-Decline-Model" class="section">
+            <h3>Approve/Decline Model</h3>
+            <p>The <a href='/ad'>Approve/Decline (AD) model</a> is a sophisticated financial tool designed to assess and make informed decisions on credit applications. At its core, this model evaluates the creditworthiness of applicants by generating a probability of default (PD) score (note: the actual target for this model is 60+ days past due in the first 24 months; a proxy for default). This score serves as a pivotal metric in the decision-making process, representing the likelihood that an applicant may default. The model incorporates a range of relevant factors, including the applicant's financial history, credit score, income, and other pertinent variables. By leveraging advanced statistical algorithms and machine learning techniques, the AD model transforms diverse data into a comprehensive probability assessment. When an application is submitted, the model calculates the PD score and provides a clear recommendation to the financial institution: approve the application if the PD is deemed acceptable or decline it if the risk is considered too high. This approach enables lenders to streamline and optimize their decision-making processes, enhancing efficiency and minimizing the potential for financial losses.</p>
+        </section>
+
+        <section id="Pricing-PD-Model" class="section">
+            <h3>Pricing Probability of Default Model</h3>
+            <p>The <a href='/pd'>Pricing Probability of Default (PD) Model</a> is a robust framework designed to evaluate credit risk by amalgamating deal structure features and historical credit data. By synthesizing these multifaceted elements, the model computes a PD score, quantifying the likelihood of a borrower defaulting on their obligations. Moreover, leveraging the predicted loss, calculated in conjunction with the PD score, this model forecasts the Expected Cumulative Net Loss (ECNL) over the tenure of the investment or loan. This nuanced understanding of potential losses empowers stakeholders to make informed decisions on risk mitigation strategies and pricing structures. Ultimately, armed with these insights, the pricing PD model facilitates the determination of optimal pricing strategies, aligning risk exposure with profitability and ensuring a judicious balance between risk and the success of a customer paying their obligation.</p>
+        </section>
+
+        <section id="Pricing-LGD-Model" class="section">
+            <h3>Pricing Loss Given Default Model</h3>
+            <p>The <a href='/lgd'>Pricing Loss Given Default (LGD) Model</a> stands as a robust framework engineered to appraise credit risk, blending deal structure intricacies with historical credit insights. Within this model, the synthesis of diverse elements culminates in the computation of a LGD score — a metric that precisely gauges the anticipated portion of the financed amount susceptible to loss. Notably, in conjunction with the LGD score, the model utilizes the PD to forecast the ECNL throughout the investment or loan's duration. This comprehensive understanding of potential losses equips stakeholders with invaluable insights, enabling informed choices regarding risk management strategies and pricing frameworks. Ultimately, the pricing LGD model serves as a guiding compass, aiding in the determination of optimal pricing strategies. By harmonizing risk exposure with profitability, it ensures a prudent equilibrium between risk and reward, shaping judicious financial transactions.</p>
+        </section>
+
+        <section id="All-Features" class="section">
+            <h3>Features</h3>
+            <p>Below is a table with all {{ int_n_feats_all }} features used in at least one of the models mentioned above. Additionally, the table contains a tag for the model in which it was included, a sum of number of models in which it was included, the adverse action reason, and a description of the feature.</p>
+            <div class="table-wrapper">
+                {{ df_html_list_cols_all_models|safe }}
+            </div>
+            <a href="/download_index/df_html_list_cols_all_models">Download as CSV</a>
+        </section>
+
+        <section id="Back-Testing" class="section">
+            <h3>Back Testing</h3>
+
+            <p>In order to verify congruence between performance metrics on the test dataset and in a production environment, production payloads underwent parsing and subsequent scoring. The comparative distributions depicting scores derived from the test set (image 1) and those from production payloads (image 2) are presented for assessment below. Image 3 displays the distribution of ECNL by segment. And image 4 shows the Gen 12 scores relative to the Gen XI scores. Image 5 compares the proportions of accounts in Gen 11 that overlap with Gen 12.</p>
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides0 fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="{{ url_for('static', filename='home/plt_test_predictions.png') }}" style="width:100%">
+                </div>
+
+                <div class="mySlides0 fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="{{ url_for('static', filename='home/plt_prod_predictions.png') }}" style="width:100%">
+                </div>
+
+                <div class="mySlides0 fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="{{ url_for('static', filename='home/plt_kde_prod.png') }}" style="width:100%">
+                </div>
+
+                <div class="mySlides0 fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="{{ url_for('static', filename='home/plt_corresponding_scores_prod.png') }}" style="width:100%">
+                </div>
+
+                <div class="mySlides0 fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="{{ url_for('static', filename='home/plt_swap_heatmap.png') }}" style="width:100%">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1,0)"></span>
+                <span class="dot" onclick="currentSlide(2,0)"></span>
+                <span class="dot" onclick="currentSlide(3,0)"></span>
+                <span class="dot" onclick="currentSlide(4,0)"></span>
+                <span class="dot" onclick="currentSlide(5,0)"></span>
+            </div>
+
+            <p>The table below communicates the tier frequencies from Gen 11 that are now scored using Gen 12.</p>
+            <div class="table-wrapper">
+                {{ df_html_tier_dist|safe }}
+            </div>
+        </section>
+
+        <section id="Parser" class="section">
+            <h3>Parser</h3>
+            <p>Upon constructing the models, they were organized within a Python class structure, initialized, and stored as a pickle object referred to as the <i>parser</i>. This parser constitutes the fundamental model components. It is integrated into the API utilized for production purposes, specifically designed to receive requests in .json format and generate responses containing risk scores crucial for credit decision-making.</p>
+            <p>The parser undergoes several sequential steps when invoked through the appropriate method. These steps are dedicated to aggregating data from incoming requests, which are in either .csv or .xml format, into a unified tabular structure termed as <i>X raw</i>. Subsequently, this raw data undergoes a sequence of data cleansing procedures to align with both company guidelines and algorithmic prerequisites, resulting in a refined dataset referred to as <i>X clean</i>.</p>
+            <p>The processed clean data is then subjected to scoring by each model integrated within the parser, ultimately producing a comprehensive response. Each step from within the parser is displayed in the schematic below.</p>
+
+            <h3>Parser Schematic</h3>
+            <div>
+                <img src="{{ url_for('static', filename='home/parser_schematic.png') }}" alt="Parser-Schematic" style="max-width: 100%;">
+            </div>
+
+            <h3>Parser Analysis</h3>
+            <p>While testing the parser with a sample payload, times for each step for a single debtor and a codebtor were recorded. The results are shown below.</p>
+            <div id='graphJSON_parser_analysis' class='chart'></div>            
+        </section>
+
+        <section id="Submit-Payload" class="section">
+            <h3>Submit Payload</h3>
+            <p>To demonstrate the parser please upload and submit a .json request file.</p>
+            <form action="/get_response" method="POST" enctype="multipart/form-data">
+                <div class="form-container">
+                    <div class="form-row">
+                        <div class="form-column">
+                            <label for="str_request">Select .json File:</label>
+                            <input type="file" name="str_request" accept=".json" required>
+                        </div>
+                    </div>
+
+                </div>
+                <button type="submit" class="submit-button">Upload and Submit</button>
+            </form>
+        </section>
+
+        <section id="Payload-Comparison" class="section">
+            <h3>Payload Comparison</h3>
+            <p>Payloads consist of extensive strings of text, presenting formidable challenges for extracting information in their original state. Consequently, assessing alterations within an applicant's loan application across multiple submissions becomes intricate due to the complexity of parsing these payloads. In response to this predicament, a specialized <a href="https://duntnr2zsv.us-west-2.awsapprunner.com/">application for payload comparison</a> was developed. Users can input the account ID, designate the payloads for comparison, and effortlessly discern explicit differences between them.</p>
+        </section>
+
+        <section id="Bottom-of-Page" class="section">
+            <a href="#Top-of-Page">Back to Top</a>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; {{ int_year_today }} Aaron England - Prestige. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+</body>
+
+<script type="text/javascript" charset="utf8" src="{{ url_for('static', filename='js/script_all.js') }}"></script>
+
+<script type='text/javascript'>
+    $(document).ready(function() {
+        $('table.display').DataTable();
+    });
+
+    var graphs = {{graphJSON_parser_analysis | safe}};
+    Plotly.plot('graphJSON_parser_analysis',graphs,{});
+
+    function resizePlot() {
+        var plot = document.getElementById('graphJSON_parser_analysis');
+        var width = plot.offsetWidth;
+        var height = plot.offsetHeight;
+
+        // Update the plot layout based on the new width and height
+        Plotly.relayout(plot, {
+            width: width,
+            height: height
+        });
+    }
+
+    // Event listener for window resize
+    window.addEventListener('resize', function() {
+        resizePlot();
+    });
+
+    // Initial resizing of the plot on page load
+    window.addEventListener('load', function() {
+        resizePlot();
+    });
+</script>
+
+</html>

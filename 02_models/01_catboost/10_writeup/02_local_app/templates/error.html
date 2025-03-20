@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>ERROR!</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='shared/prestige_logo_favicon.PNG') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+
+    <script type="text/javascript" charset="utf8" src="{{ url_for('static', filename='js/script_all.js') }}"></script>
+
+    <!--
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    -->
+</head>
+
+<body>
+    <div class="loader" id="loader"></div>
+    <header>
+        <img src="{{ url_for('static', filename='shared/prestige_logo.PNG') }}" alt="Header" style="max-width: 100%;">
+    </header>
+
+    <div id="Top-of-Page" class="navbar">
+        <a href="/..#Submit-Payload">Back</a>
+    </div>
+
+    <div class="container">
+
+        <section id="Error" class="section">
+            <h3>Whoops!</h3>
+            <p><center>Please check the payload and try again.</center></p>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; {{ int_year_today }} Aaron England - Prestige. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>

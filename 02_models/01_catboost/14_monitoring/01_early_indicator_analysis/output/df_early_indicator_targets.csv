@@ -1,0 +1,5 @@
+col,phi,days_on_books
+Early_Pay_Delinquency_15_60_Flag,0.27244699276884693,60
+Early_Pay_Delinquency_30_90_Flag,0.30996398380897344,90
+Early_Pay_Delinquency_30_180_Flag,0.47021908065720214,180
+Early_Pay_Delinquency_30_360_Flag,0.6206686491071096,360

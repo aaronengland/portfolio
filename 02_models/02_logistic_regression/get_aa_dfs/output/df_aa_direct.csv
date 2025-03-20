@@ -1,0 +1,36 @@
+feature,reason,model,description
+linkt001__tu,Length of residence,dlv2,Number of non-military addresses in last 7 years
+au20s__tu,"Insufficient credit file, Length of Credit",dlv2,Months since oldest auto trade opened
+rtl_trd__tu,"Insufficient credit file, Length of Credit",dlv2,Number of retail trades
+rev326__tu,Excessive Account Balances,dlv2,Average Total Open-to-Buy for Revolving accounts over the past 6 month
+br109s__tu,Delinquent credit obligations,dlv2,Number of bank revolving trades with past due amount > $50 verified in past 12 months
+miles_odometer__app,Value or type of collateral not sufficient,dlv2,Vehicle milegae
+fltgrossmonthly__income_sum,Insufficient income,dlv2,
+balmag01__tu,Excessive Account Balances,dlv2,Non-mortgage balance magnitude algorithm over last 24 months
+ENG-loan_to_value,Value or type of collateral not sufficient,dlv2,Loan to value
+int_n_months_open__tu_pmthx,Insufficient credit history,dlv2,Months on file of most recent open auto
+rp01s__tu,"Garnishment, or attachment, or foreclosure, or repossession, or suit",dlv2,Number of repossession trades
+jt20s__tu,Insufficient length of credit history ,dlv2,Months since oldest joint trade opened
+trv10__tu,Excessive Account Balances,dlv2,Number of months non-mortgage balance decreases last 12 months
+trv13__tu,High revolving credit balances,dlv2,Number of revolving high credit increases YOY
+cv15__tu,Excessive inquiries,dlv2,Number of deduped auto inquiries
+linkt003__tu,Length of residence,dlv2,Number of non-military non-corroborated addresses in past 12 months
+g002s__tu,Delinquent credit obligations,dlv2,Number of 60 days past due ratings in past 12 months
+flt_wtd_avg_closed__tu_pmthx,Derogatory Payments on Accounts,dlv2,Weighted average of payment history string of most recent closed auto loan
+co01s__tu,Delinquent credit obligations,dlv2,Number of charged-off trades
+g407s__tu,Excessive inquiries,dlv2,Number of deduped finance inquiries
+g232s__tu,Excessive inquiries,dlv2,Number of inquiries (includes duplicates)
+linkf098__tu,Delinquent credit obligations,dlv2,Number of satisfactory trades
+st20s__tu,"Insufficient credit file, Length of Credit",dlv2,Months since oldest student loan trade opened
+per235__tu,Excessive Account Balances,dlv2,Aggregate Excess Payment for Personal Loan accounts over the past 24 months
+linka006__tu,Excessive Inquiries,dlv2,"Number of total inquiries in the last 3 years.  
+These include checking, credit issuance (credit card, secured card, line of credit, revolving credit, and other credit account originations) , auto, payday, utility, and other credit (installment loan, secured loan, short-term installment loan, insurance, and other non-classified credit)"
+in30s__tu,Excessive Account Balances,dlv2,Percentage of open installment trades > 50% of credit line verified in past 12 months
+linka003__tu,Excessive Inquiries,dlv2,"Number of other inquiries in the last 2 years.  
+Inquiries that do not fall into the other specified categories (installment loan, secured loan, short-term installment loan, insurance, and other non-classified credit)"
+fi25s__tu,Delinquent credit obligations,dlv2,Number of currently open and satisfactory finance installment trades 12 months or older
+in21s__tu,Insufficient credit history,dlv2,Months since most recent installment trade opened
+fi36s__tu,Delinquent credit obligations,dlv2,Months since most recent finance installment delinquency
+aut252__tu,Excessive Account Balances,dlv2,Average Aggregate Excess Payment for Auto accounts over the past 3 months
+s068b__tu,Delinquent credit obligations,dlv2,Number of non-medical third party collections
+flt_wtd_avg_open__tu_pmthx,Derogatory Payments on Accounts,dlv2,Average of payment history string of most recent open auto loan

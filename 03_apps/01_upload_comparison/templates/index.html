@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Payload Upload Comparison Tool</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/prestige_logo_favicon.PNG') }}">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Plotly -->
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+
+    <!-- Header -->
+    <div class="container" id="Top-of-Page">
+        <header class="text-center">
+            <img src="{{ url_for('static', filename='img/prestige_logo.PNG') }}" alt="Header" style="max-width: 100%;">
+        </header>
+    </div>
+
+    <!-- NavBar -->
+    <nav class="container mb-4 navbar navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav justify-content-between">
+                <li class="nav-item active active">
+                    <a class="nav-link" href="#Upload-Payloads">Upload Payloads</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mb-4" id="Upload-Payloads">
+        <div class="row mb-4">
+            <div class="col-lg-12">
+                <h2>Upload Payloads</h2>
+            </div>
+        </div>
+
+        <form id="upload-form" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-lg-4">
+                    <label for="str_request_1">Select First .json File:</label>
+                    <input type="file" id="file-input-1" name="str_request_1" accept=".json" required>
+                </div>
+
+                <div class="col-lg-4">
+                    <label for="str_request_2">Select Second .json File:</label>
+                    <input type="file" id="file-input-2" name="str_request_2" accept=".json" required>
+                </div>
+
+                <div class="col-lg-4">
+                    <button type="button" id="submit-button" class="submit-button">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Output -->
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="table-wrapper" id="response-table-1">
+                    <!-- PLACEHOLDER -->
+                </div>
+            </div>
+
+            <div class="col-lg-12 mt-5">
+                <div class="table-wrapper" id="response-table-2">
+                    <!-- PLACEHOLDER -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <footer class="footer text-center">
+                    <p>&copy; {{ int_year_now }} <a>Aaron England</a>. All Rights Reserved.</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <!-- jQuery - DataTables JS -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+    
+    <!-- jQuery - DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    
+    <!-- Custom JS -->
+    <script type="text/javascript" charset="utf8" src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</body>
+
+</html>

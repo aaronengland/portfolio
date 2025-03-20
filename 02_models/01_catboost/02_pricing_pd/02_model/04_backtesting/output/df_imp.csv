@@ -1,0 +1,124 @@
+feature,importance,Description
+intopenbktype__app,4.408765879628386,
+fltgrossmonthly__income_sum,3.1351743075391947,
+bankruptcystatus__ln,3.054177996343184,Indicates status of most recent bankruptcy filing on file showing the subject as debtor
+au21s__tu,2.9533641396184107,Months since most recent auto trade opened
+g990s__tu,2.627511629838868,Number of deduped inquiries in past 12 months
+linkt002__tu,2.2170261879157445,Number of months at current address
+addrpreviouslengthofres__ln,2.192577984888631,
+linka029__tu,1.894133382521957,Number of checking account inquiries in the last 3 years
+bankruptcytimenewest__ln,1.7852265555195068,Time (in months) since most recent bankruptcy case filing on file showing the subject as debtor
+g206s__tu,1.7799718743794097,Total monthly obligation for joint account verified in past 12 months
+dealerstate__app,1.7556052861240206,Dealer State
+bc97b__tu,1.6918446247970336,Total open to buy of closed credit cards verified in past 3 months
+g106s__tu,1.6907850322955282,Months on file
+at20s__tu,1.620670140453986,Months since oldest trade opened
+cv26__tu,1.6151034289314607,Percent of trades from active to inactive status in the past 12 months
+addrinputtimenewest__ln,1.5880034564334846,Time on file (in months) since the subject was most recently reported at the input address
+re20s__tu,1.5824578543841639,Months since oldest revolving trade opened
+addrinputownershipindex__ln,1.5820699227579715,Index indicating subject's ownership level at the input address based on the address property record on file
+balmag01__tu,1.5478796341527385,Non-mortgage balance magnitude algorithm over last 24 months
+bc107s__tu,1.4067146109069486,Number of 30 and 60 days past due ratings on credit card trades
+jt20s__tu,1.3604133221568504,Months since oldest joint trade opened
+lienjudgmenttimenewest__ln,1.322356441625129,"Time (in months) since the most recently recorded lien or judgment on subject's file, excluding evictions"
+bc20s__tu,1.3044195775543774,Months since oldest credit card trade opened
+g206b__tu,1.239844484366359,Total monthly obligation for joint account verified in past 12 months and with a current balance > 0  (ATTR14)
+bankruptcycount__ln,1.2343412357114365,
+addrinputavmvalue12month__ln,1.201900558330319,Indicates input address AVM value on file 12 months ago
+linka013__tu,1.1732374970144135,Total dollar amount of unpaid checking account closures for cause in the last 4 years
+at35a__tu,1.1673609820966038,Average balance of open trades verified in past 12 months
+at28b__tu,1.1600259134744353,Total credit line of open trades verified in past 12 months (excluding mortgage and home equity)
+fi24s__tu,1.1485842214865645,Number of currently open and satisfactory finance installment trades 6 months or older
+jt28s__tu,1.1426375978753591,Total credit line of open joint trade verified in the past 12 months
+strname__app,1.1400072716853578,State
+au27s__tu,1.1173942003981692,Number of currently open and satisfactory auto trades 24 months or older
+s207s__tu,1.0848934269897115,Months since most recent public record bankruptcy
+strdealershiptrackertype__app,1.0712558093342919,"Franchise, Independent"
+bankruptcycount24month__ln,1.05228535159431,Total unique bankruptcy case filings on file showing the subject as debtor in the last 24 months
+trv10__tu,1.0492406881354879,Number of months non-mortgage balance decreases last 12 months
+linkf197__tu,1.0422254185574127,Total Good ACH events
+subjectactivityindex06month__ln,1.0159878922786838,A risk index summarizing derogatory and non-derogatory source activity for the subject as reported on file within the past six months
+agg905__tu,1.005675273289303,Average aggregate bankcard utilization over last 3 months
+ENG-loan_to_value,0.9741253902391105,
+g980s__tu,0.9612383025803918,Number of deduped inquiries in past 6 months
+inquirybanking12month__ln,0.9053094419024073,Indicates subject has one or more LexisNexis banking credit inquiries on file in the last 12 months
+rt20s__tu,0.8969775700307903,Months since oldest retail trade opened
+fltadvance__app,0.8836245395000064,
+of21s__tu,0.8789279904505531,Months since most recent credit union trade opened
+bc36s__tu,0.8752642527022877,Months since most recent credit card delinquency
+re01s__tu,0.8655144872736741,Number of revolving trades
+g306s__tu,0.8439704816700719,Worst rating on auto trades in past 12 months
+agg903__tu,0.7373577047403015,Number of aggregate non-mortgage credit line increases over last 3 months
+fltdowncash__app,0.7171463677846741,Cash Down
+s207a__tu,0.7064840191097985,Months since most recent tradeline bankruptcy
+st25s__tu,0.6858396977688617,Number of currently open and satisfactory student loan trades 12 months or older
+addrinputphoneservice__ln,0.6856682199095128,Indicates if phone service was found on file for the input address
+paymnt10__tu,0.6692851840183872,Number of payments in last 3 months
+rev319__tu,0.6540232280719801,Max Total Open-to-Buy for Revolving accounts over the past 24 months
+g095s__tu,0.635779560364397,Months since most recent public record
+at57s__tu,0.6356481415795543,Total past due amount of open trades verified in past 12 months
+at27s__tu,0.6120292430146016,Number of currently open and satisfactory trades 24 months or older
+linka014__tu,0.6041063366853372,Number of unpaid checking account closures for cause in the last 5 years
+vehiclemake__app,0.5994203842501409,
+rev315__tu,0.5956001087212723,Number of months since Max Total Open-to-Buy for Revolving accounts
+derogseverityindex__ln,0.5807599708096101,Index indicating severity of derogatory records on subject's file
+at103s__tu,0.5596591019116695,Percentage of satisfactory open trades to all open trades verified in 24 months
+addrcurrentdwelltype__ln,0.5519508657753595,
+jt01s__tu,0.5503384551445905,Number of joint trades
+ret255__tu,0.5421674806232197,Average Aggregate Excess Payment for Retail accounts over the past 24 months
+s208s__tu,0.5397305014553823,Number of tax liens
+paymnt11__tu,0.5392408790823503,Number of payments in last 12 months
+bi20s__tu,0.5229100620037684,Months since oldest bank installment trade opened
+in25s__tu,0.5193031890149447,Number of currently open and satisfactory installment trades 12 months or older
+bkc321__tu,0.5151531001104984,Min Total Open-to-Buy for Bankcard accounts over the past 3 months
+g208s__tu,0.5096965720457511,Percentage of individual debt
+g218d__tu,0.4925414838931624,Number of credit card trades verified in the past 12 months that are currently 30 days or more past due
+bkc84__tu,0.4907037726852164,Months since a Bankcard trade last exceeded 90% utilization
+fltapproveddowntotal__app,0.4774380359929417,Down Total
+in28s__tu,0.4727710112747254,Total credit line of open installment trades verified in past 12 months
+indexq4__tu,0.45824966360095365,Q4 (Oct - Dec) spend indexed to annual spend
+sourcenonderogcount__ln,0.43425739131000995,Total non-derogatory source types on file for subject
+ret205__tu,0.4266850264619613,Total Payment Ratio for Retail accounts over the past 24 months
+at25s__tu,0.3958351538901878,Number of currently open and satisfactory trades 12 months or older
+g099s__tu,0.39432241395501016,Number of public record bankruptcies in past 24 months
+addrlastmovetaxratiodiff__ln,0.38614053845390883,"Ratio comparing the difference in tax assessed value between the current address and the previous address (current address value divided by the previous address value if both are known) on subject's file, if the move occurred within the last five years"
+rtdexq1__tu,0.383616143006326,Q1 (Jan - March) retail spend indexed to annual retail spend
+criminalnonfelonytimenewest__ln,0.3530538526376373,"Time (in months) since most recently recorded non-felony criminal conviction on subject's file
+NOTE: This attribute does not include sexual offender registry records"
+bitgap__app,0.35187348122260464,
+evictioncount__ln,0.34234800194578696,Total eviction records on subject's file indicating the plaintiff has sought an eviction and does not necessarily mean the defendant has vacated the premises
+linka012__tu,0.32755921274105254,Number of unpaid checking account closures for cause in the last 2 years
+rev224__tu,0.31054022254125485,Average total Payment Ratio for Revolving accounts over the past 12 months
+bitdebtor__app,0.3093159467428066,Debtor or Codebtor
+agg908__tu,0.30255039400893463,Max aggregate bankcard balance over last 12 months
+inquirytelcom12month__ln,0.30186640186875646,Indicates subject has one or more LexisNexis telecommunications credit inquiries on file in the last 12 months
+linka017__tu,0.2940283219541906,Number of checking account closures for cause in the last 5 years
+linkt007__tu,0.29121588101758383,Months since most recent derogatory public record
+addrcurrentsubjectowned__ln,0.2823761261488139,
+rvdexq3__tu,0.27854735628386706,Q3 (Jul - Sep) revolving spend indexed to revolving annual spend
+rev204__tu,0.256847636362479,Total Payment Ratio for Revolving accounts over the past 12 months
+rev205__tu,0.25405772739950244,Total Payment Ratio for Revolving accounts over the past 24 months
+revs905__tu,0.2516848012111086,Months since max. revolving monthly spend over last 12 months
+subjectactivityindex03month__ln,0.24417714931839546,A risk index summarizing derogatory and non-derogatory source activity for the subject as reported within the past three months
+jt80s__tu,0.2335606106832087,Number of non-Mortgage and non-Auto joint trades with greater than 75% utilization
+g301s__tu,0.23307526130168624,Worst rating on credit card trades
+trv01__tu,0.21910185087297815,Number of months since overlimit on a bankcard
+bkc122__tu,0.21135858924917936,Number of months in the past 12 months where percentage of Bankcard trades utilized less than 100% was more than 25%
+evictiontimenewest__ln,0.20020707132589033,Time (in months) since most recently recorded eviction on subject's file
+evictioncount12month__ln,0.19638535419920958,Total eviction records on subject's file in the last 12 months
+bitdealertrack__app,0.18979066988275986,From Dealertrack
+us57s__tu,0.18720179233534306,Total past due amount of open unsecured installment trades verified in past 12 months
+businessassociationtimeoldest__ln,0.1413999101314492,Time (in months) since a formal business association with the subject first seen on file
+rev317__tu,0.1385798831280399,Max Total Open-to-Buy for Revolving accounts over the past 6 months
+ENG-vehicle_age,0.11312826393283966,
+walshr10__tu,0.10846780080827756,Months since most recent wallet share shift > 50% in last 24 months
+criminalnonfelonycount__ln,0.10523362524672451,Total non-felony criminal convictions or sexual offender registry records on subject's file
+linka031__tu,0.10234276539137672,Number of open (unpaid) non-sufficient funds in the last 3 years
+ret322__tu,0.08768708215686784,Min Total Open-to-Buy for Retail accounts over the past 6 months
+linkt008__tu,0.08535546110446038,Number of public record bankruptcies in the last 24 months
+g303s__tu,0.06938257305347298,Worst rating on revolving trades
+alertregulatorycondition__ln,0.056810216351002876,"Indicates subject has an alert on their file that is associated with state or federal regulations, consumer identity conditions, or bankruptcies on file"
+linka060__tu,0.03892614718561077,Total amount of open (unpaid) non-sufficient funds in the last month
+linka015__tu,0.0,Number of checking account closures for cause in the last 6 months
+ret225__tu,0.0,Average total Payment Ratio for Retail accounts over the past 24 months
+g302s__tu,0.0,Worst rating on revolving trades in past 12 months

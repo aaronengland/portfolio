@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: genxiii
+spec:
+  type: NodePort 
+  selector:
+    app: risk-scorecard-genxiii
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: http-port

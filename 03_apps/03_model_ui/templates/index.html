@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>DLv2 UI</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='shared/prestige_logo_favicon.PNG') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+    
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+
+    <!--
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    -->
+</head>
+<body>
+    <div class="loader" id="loader"></div>
+    <header>
+        <img src="{{ url_for('static', filename='shared/prestige_logo.PNG') }}" alt="Header" style="max-width: 100%;">
+    </header>
+
+    <div class="container">
+
+        <section id="Title-Section" class="section">
+            <h2>DLv2 UI</h2>
+        </section>
+
+        <section id="Parse-Payload" class="section">
+            <h3>Parse Payload:</h3>
+            <form id="deal-form" enctype="multipart/form-data">
+                <div class="input-item">
+                    <label for="income-input">Income:</label>
+                    <input type="text" id="income-input" name="int_income" placeholder="3500">
+                </div>
+                <div class="input-item">
+                    <label for="amtfinanced-input">Amount Financed:</label>
+                    <input type="text" id="amtfinanced-input" name="flt_amtfinanced" placeholder="20000">
+                </div>
+                <div class="input-item">
+                    <label for="bookvalue-input">Book Value:</label>
+                    <input type="text" id="bookvalue-input" name="flt_bookvalue" placeholder="16000">
+                </div>               
+                <div class="input-item">
+                    <label for="mileage-input">Vehicle Mileage:</label>
+                    <input type="text" id="mileage-input" name="int_mileage" placeholder="100000">
+                </div>
+                <div class="input-item">
+                    <label for="bk-input">BK:</label>
+                    <input type="text" id="bk-input" name="int_bk" placeholder="0">
+                </div>
+                <div class="input-item">
+                    <label for="franchise-input">Franchise:</label>
+                    <input type="text" id="franchise-input" name="int_franchise" placeholder="1">
+                </div>
+                <div class="input-item">
+                    <label for="class-input">Vehicle Class:</label>
+                    <input type="text" id="class-input" name="int_class" placeholder="1">
+                </div>
+                <div class="input-item">
+                    <label for="state-input">Dealer State:</label>
+                    <input type="text" id="state-input" name="str_state" placeholder="Utah">
+                </div>
+
+                <div class="form-column">
+                    <label for="str_request">Select .json File:</label>
+                    <input type="file" id="file-input" name="str_request" accept=".json" required>
+                </div>
+
+                <button type="button" id="submit-button" class="submit-button">Submit</button>
+
+            </form>
+
+            <div id="error-message" style="display: none; color: red;"></div>
+
+            <div class="table-wrapper" id="response-output">
+                <!-- PLACEHOLDER -->
+            </div>
+
+        </section>
+
+        <section id="Bottom-of-Page" class="section">
+            <a href="#Title-Section">Back to Top</a>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; {{ int_year_today }} Sun Park - Prestige. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+</body>
+
+<script type="text/javascript" charset="utf8" src="{{ url_for('static', filename='js/script_all.js') }}"></script>
+
+</html>

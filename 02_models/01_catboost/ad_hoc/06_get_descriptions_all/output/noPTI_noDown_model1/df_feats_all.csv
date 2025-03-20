@@ -1,0 +1,597 @@
+feature,ad__noPTI_noDown_model1,pricing_pd__noPTI_noDown_model1,pricing_lgd__noPTI_noDown_model1,ad__noPTImodel7,pricing_pd__noPTImodel7,pricing_lgd__noPTImodel7,ad__noPTImodel10,pricing_pd__noPTImodel10,pricing_lgd__noPTImodel10,eng,app,ln,tu,sum,description
+ENG-dealership_age,,,,1.0,1.0,1.0,,,,1,0,0,0,0.0,Dealership age
+linkf204__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total Bad ACH amount in last 3 Months
+linkf152__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of distinct cell phones within last 6 months
+linkf154__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of distinct cell phones
+linkf156__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of distinct email addresses within last 18 months
+linkf163__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of distinct email addresses
+linkf164__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of distinct home phone within last 12 months
+linkf165__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of distinct home phones within last 18 months
+linkf167__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of distinct home phones within last 24 months
+linkf170__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of distinct home phones within last 6 months
+linkf171__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of distinct home phones within last 9 months
+linkf172__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of distinct home phones
+linkf177__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Number of distinct zip codes within last 2 monthss
+linkf178__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of distinct zip codes within last 3 months
+linkf181__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of distinct zip codes
+linkf185__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Age of newest inquiry ONLINE LENDER
+linkf197__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Total Good ACH events
+linkf151__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of distinct cell phones within last 3 months
+linkf147__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of distinct cell phones within last 18 months
+linkf146__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of distinct cell phones within last 12 months
+linkf125__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of trade segments (excluding new trades)
+linkf098__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of satisfactory trades
+linkf108__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of lenders / locations with inquiries within last 1 month
+linkf109__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of lenders / locations with inquiries within last 2 months
+linkf110__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of lenders / locations with inquiries within last 3 months
+linkf111__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Number of lenders / locations with inquiries within last 6 months
+linkf112__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of lenders / locations with inquiries within last 9 months
+linkf133__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Average balance of open trades (including collection)
+linkf144__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of distinct bank accounts within last 9 months
+linkf137__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of distinct bank accounts within last 12 months
+linkf139__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of distinct bank accounts within last 1 month
+linkf140__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of distinct bank accounts within last 24 months
+linkf141__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of distinct bank accounts within last 2 months
+linkf142__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Number of distinct bank accounts within last 3 months
+linkf143__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of distinct bank accounts within last 6 months
+linkf199__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total Good ACH amount
+linkf206__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total Bad ACH events in last 6 Months
+paymnt11__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Number of payments in last 12 months
+linkf208__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total Bad ACH amount in last 6 Months
+mt21s__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Months since most recent mortgage trade opened
+mt25s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of currently open and satisfactory mortgage trades 12 months or older
+mt57s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total past due amount of open mortgage trades verified in past 12 months
+of09s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of credit union trades opened in past 24 months
+of101s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total balance of all credit union trades verified in past 12 months
+of20s__tu,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,0,1,0.0,Months since oldest credit union trade opened
+of21s__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Months since most recent credit union trade opened
+of28s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total credit line of open credit union trades verified in past 12 months
+of32s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Maximum balance owed on credit union trades verified in past 12 months
+of34s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Utilization for open credit union trades verified in past 12 months
+of35s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average balance of open credit union trades verified in past 12 months
+of36s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent credit union delinquency
+paymnt01__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of prepayments on installment loans last 3 months
+paymnt05__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Total amount of prepayments on installment loans last 12 months
+paymnt07__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Ratio of actual to minimum payment for non-mortgage trades last month
+mt20s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Months since oldest mortgage trade opened
+mt101s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total balance of all mortgage trades verified in past 12 months
+mt09s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of mortgage trades opened in past 24 months
+linkt008__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Number of public record bankruptcies in the last 24 months
+linkf210__tu,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,0,1,0.0,Total Bad ACH events
+linkf212__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total Bad ACH amount
+linkt002__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Number of months at current address
+linkt003__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of non-military non-corroborated addresses in past 12 months
+linkt004__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of non-military non-corroborated addresses in last 5 years
+linkt007__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Months since most recent derogatory public record
+linkt009__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of tradeline bankruptcies
+mt06s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of mortgage trades opened in past 6 months
+linkt010__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of public record bankruptcies 
+lm02s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since oldest loan modification on a mortgage trade
+lm14s__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Months since oldest government loan modification on a mortgage trade
+lm29s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Utilization of mortgage trades with a bank-backed loan modification
+miles_odometer__app,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,1,0,0,0.0,Miles on vehicle
+mt01s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of mortgage trades
+linkf091__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of trades
+linkf090__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of inquiries within last 24 months
+linkf089__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of inquiries within last 18 months
+linkf088__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of inquiries within last 12 months
+linka015__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Number of checking account closures for cause in the last 6 months
+linka017__tu,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,1,0.0,Number of checking account closures for cause in the last 5 years
+linka020__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,"Number of credit inquiries in the last 3 years.  
+These include credit issuance (credit card, secured card, line of credit, revolving credit, and other credit account originations) , auto, payday, utility, and other credit (installment loan, secured loan, short-term installment loan, insurance, and other non-classified credit)"
+linka021__tu,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0,0,0,1,0.0,"Number of credit inquiries in the last year.  
+These include credit issuance (credit card, secured card, line of credit, revolving credit, and other credit account originations) , auto, payday, utility, and other credit (installment loan, secured loan, short-term installment loan, insurance, and other non-classified credit)"
+linka022__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of auto inquiries in the last 3 years
+linka024__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,"Number of days since oldest credit issuance inquiry (credit card, secured card, line of credit, revolving credit, and other credit account originations) "
+linka026__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of payday inquiries in the last 3 years
+linka027__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of days since most recent payday inquiry
+linka029__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Number of checking account inquiries in the last 3 years
+linka030__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of days since most recent checking account inquiry
+linka031__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Number of open (unpaid) non-sufficient funds in the last 3 years
+linka039__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Number of days since first (oldest) check order
+linka043__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of checking account closures for cause in the last 2 months
+linka044__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of checking account closures for cause in the last 3 months
+linka045__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of checking account closures for cause in the last year
+linka014__tu,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,1,0.0,Number of unpaid checking account closures for cause in the last 5 years
+linka013__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Total dollar amount of unpaid checking account closures for cause in the last 4 years
+linka012__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Number of unpaid checking account closures for cause in the last 2 years
+jt80s__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Number of non-Mortgage and non-Auto joint trades with greater than 75% utilization
+jt28s__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Total credit line of open joint trade verified in the past 12 months
+jt40s__tu,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,0,1,0.0,Number of joint revolving trades
+jt41s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of joint installment or joint mortgage trades
+jt42s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Ratio of open joint trades to open trades
+jt51s__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Months since most recent 30+ days past due on a joint trade
+jt75s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of joint trades 30 days past due or worse in the last 12 months
+lienjudgmenttaxcount__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,"Total federal, state, and county tax liens on subject's file"
+linka009__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of days since most recent check order
+lienjudgmenttimenewest__ln,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,1,0,0.0,"Time (in months) since the most recently recorded lien or judgment on subject's file, excluding evictions"
+linka001__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of checking account inquiries in the last 3 months
+linka003__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,"Number of other inquiries in the last 2 years.  
+Inquiries that do not fall into the other specified categories (installment loan, secured loan, short-term installment loan, insurance, and other non-classified credit)"
+linka004__tu,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0,0,0,1,0.0,Number of bank account closures identified as fraudulent
+linka005__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Average number of checks ordered in the last 3 years
+linka006__tu,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0,0,0,1,0.0,"Number of total inquiries in the last 3 years.  
+These include checking, credit issuance (credit card, secured card, line of credit, revolving credit, and other credit account originations) , auto, payday, utility, and other credit (installment loan, secured loan, short-term installment loan, insurance, and other non-classified credit)"
+linka046__tu,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,0,1,0.0,Number of checking account closures for cause in the last 2 years
+linka047__tu,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,0,1,0.0,Number of checking account closures for cause in the last 3 years
+linka049__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of checking account inquiries in the last 2 months
+linkf053__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of inquiries all time STOREFRONT LENDER
+linkf035__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of open delinquent and charge-off trade segments ONLINE LENDER
+linkf036__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of inquiries within last 1 month ONLINE LENDER
+linkf037__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of inquiries within last 3 months ONLINE LENDER
+linkf040__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of lenders / locations with inquiries or trades all time ONLINE LENDER
+linkf048__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total balance on open or collection trade segments ONLINE LENDER
+linkf050__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of open delinquent and charge-off trade segments STOREFRONT LENDER
+linkf059__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,"Number of open, collection or charge-off trade segments STOREFRONT LENDER"
+linkf031__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of satisfactory ACH transactions within last 7 years
+linkf061__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,"Number of closed delinquent, return and collection trade segments within last 12 months STOREFRONT LENDER"
+linkf068__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of inquiries all time
+linkf076__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,"Total dollar amount of return, collection, and closed delinquent trade segments within last 12 months"
+linkf078__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of trade segments opened within last 12 months
+linkf084__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of inquiries within last 2 months
+linkf087__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of inquiries within last 9 months
+linkf032__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Y / N indicator of lender-reported bankruptcy
+linkf020__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of satisfactory ACH transactions within last 24 months
+linka050__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of checking account inquiries in the last 6 months
+linka076__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total amount of paid non-sufficient funds in the last 6 months
+linka051__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of checking account inquiries in the last year
+linka052__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of checking account inquiries in the last 2 years
+linka060__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Total amount of open (unpaid) non-sufficient funds in the last month
+linka066__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total amount of open (unpaid) non-sufficient funds in the last 3 years
+linka068__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of paid non-sufficient funds in the last 2 months
+linka072__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of paid non-sufficient funds in the last 2 years
+linka081__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of days since last (most recent) paid non-sufficient funds
+linkf015__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of NSF within last 7 years
+linka082__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Amount of largest open (unpaid) non-sufficient funds (single check)
+linka085__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Maximum days taken to pay a non-sufficient funds
+linkf002__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of NSF within last 12 months
+linkf003__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of NSF within last 18 months
+linkf004__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of NSF within last 24 months
+linkf006__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of NSF within last 6 months
+paymnt10__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Number of payments in last 3 months
+per222__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Average total Payment Ratio for Personal Loan accounts over the past 3 months
+jt03s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of open joint trades currently satisfactory
+std205__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total Payment Ratio for Student Loan accounts over the past 24 months
+sourcenonderogcount__ln,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,0,0,1,0,0.0,Total non-derogatory source types on file for subject
+ssnproblems__ln,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,1,0,0.0,Indicates problems on file associated with the input SSN
+ssnsubjectcount__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Total number of unique identities found on file with the input SSN 
+st01s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of student loan trades
+st09s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of student loan trades opened in past 24 months
+st101s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total balance of all student loan trades verified in past 12 months
+st25s__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Number of currently open and satisfactory student loan trades 12 months or older
+st27s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of currently open and satisfactory student loan trades 24 months or older
+st32s__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Maximum balance owed on open student loan trades verified in past 12 months
+st35s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average balance of open student loan trades verified in past 12 months
+st45s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since oldest student loan in repayment trade opened
+st50s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of 90 or more days past due ratings on student loan trades
+std201__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total Payment Ratio for Student Loan accounts over the past 1 month
+std202__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total Payment Ratio for Student Loan accounts over the past 3 months
+std203__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total Payment Ratio for Student Loan accounts over the past 6 months
+sourcenonderogcount12month__ln,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,1,0,0.0,Total non-derogatory source types on file for subject reported within the last 12 months
+sourcenonderogcount03month__ln,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,1,0,0.0,Total non-derogatory source types on file for subject reported within the last three months
+se57s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total past due amount of open secured installment trades verified in past 12 months
+s204a__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total balance of non-medical third party collections verified in past 12 months
+s064a__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total placement amount of third party collections
+s064b__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total placement amount of non-medical third party collections
+s071b__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of non-medical third party collections opened in past 36 months
+s073a__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of third party collections with balance > $100
+s073b__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of non-medical third party collections with balance > $100
+s114s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of deduped inquiries in past 6 months (excluding auto and mortgage inquiries)
+s204s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total balance of third party collections verified in past 12 months
+se34s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Utilization for open secured installment trades verified in past 12 months
+s207a__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Months since most recent tradeline bankruptcy
+s207s__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Months since most recent public record bankruptcy
+s208s__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Number of tax liens
+s209a__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent non-medical third party collection
+s209s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent third party collection
+se09s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of secured installment trades opened in past 24 months
+std204__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total Payment Ratio for Student Loan accounts over the past 12 months
+std222__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average total Payment Ratio for Student Loan accounts over the past 3 months
+per235__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Aggregate Excess Payment for Personal Loan accounts over the past 24 months
+std223__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Average total Payment Ratio for Student Loan accounts over the past 6 months
+trv04__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of non-mortgage balance increases last 3 months
+trv06__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of months non-mortgage balance increases last 12 months
+trv08__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of non-mortgage balance decreases last 3 months
+trv09__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of non-mortgage balance decreases YOY
+trv10__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Number of months non-mortgage balance decreases last 12 months
+trv12__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of revolving high credit increases last 3 months
+trv13__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of revolving high credit increases YOY
+trv18__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of months bankcard credit limit increases last 12 months
+us01s__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Number of unsecured installment trades
+us06s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of unsecured installment trades opened in past 6 months
+us101s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total balance of all unsecured installment trades verified in past 12 months (BKAGBAL)
+us20s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since oldest unsecured installment trade opened
+us36s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent unsecured installment delinquency
+us57s__tu,0.0,1.0,1.0,,,,0.0,1.0,1.0,0,0,0,1,0.0,Total past due amount of open unsecured installment trades verified in past 12 months
+vehiclemake__app,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,0,1,0,0,0.0,Vehicle make
+trv03__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of non-mortgage trades with a balance increase last month
+trv02__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of months overlimit on a bankcard over last 12 months
+trv01__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Number of months since overlimit on a bankcard
+strname__app,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,1,0,0,0.0,State
+std224__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average total Payment Ratio for Student Loan accounts over the past 12 months
+std225__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average total Payment Ratio for Student Loan accounts over the past 24 months
+std235__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Aggregate Excess Payment for Student Loan accounts over the past 24 months
+std252__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average Aggregate Excess Payment for Student Loan accounts over the past 3 months
+std253__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average Aggregate Excess Payment for Student Loan accounts over the past 6 months
+strdealershiptrackertype__app,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0,1,0,0,0.0,"Franchise, Independent"
+subjectabilityindex__ln,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,1,0,0.0,"Modeled risk index indicating the subject's ability to fulfill a credit obligation on the basis of their time on file, post-secondary education history, asset ownership, and outstanding financial obligations on file"
+subjectwillingnessprimaryfactor__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Indicates the primary factor behind the value returned for the SubjectWillingnessIndex attribute
+subjectabilityprimaryfactor__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Indicates the primary factor behind the value returned for the SubjectAbilityIndex attribute
+subjectactivityindex03month__ln,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,1,0,0.0,A risk index summarizing derogatory and non-derogatory source activity for the subject as reported within the past three months
+subjectactivityindex06month__ln,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,1,0,0.0,A risk index summarizing derogatory and non-derogatory source activity for the subject as reported on file within the past six months
+subjectactivityindex12month__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,A risk index summarizing derogatory and non-derogatory source activity for the subject as reported on file within the past 12 months
+subjectstabilityprimaryfactor__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Indicates the primary factor behind the value returned for the SubjectStabilityIndex attribute
+subjectwillingnessindex__ln,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,1,0,0.0,Modeled risk index indicating the subject's willingness to fulfill a credit obligation on the basis of recent or historical non-derogatory and derogatory public record activity on file
+s063s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total public record amount reported in past 12 months
+s004s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Average number of months trades have been on file
+rvlr81__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Revolver/Transactor tag for the top five Bankcards in the past 24 months
+rvlr65__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Flag indicating that the consumer revolved at least five times on at least one of his top 5 bankcards in the past 6 months
+rev122__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of months in the past 12 months where percentage of Revolving trades utilized less than 100% was more than 25%
+rev132__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of months in the past 12 months where percentage of Revolving trades utilized more than 25% was more than 90%
+rev14__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of instances where a Revolving trade was utilized more than 90% in the past 12 months
+rev201__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Total Payment Ratio for Revolving accounts over the past 1 month
+rev202__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total Payment Ratio for Revolving accounts over the past 3 months
+rev204__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Total Payment Ratio for Revolving accounts over the past 12 months
+rev205__tu,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,1,0.0,Total Payment Ratio for Revolving accounts over the past 24 months
+rev222__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average total Payment Ratio for Revolving accounts over the past 3 months
+rev224__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Average total Payment Ratio for Revolving accounts over the past 12 months
+rev225__tu,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0,0,0,1,0.0,Average total Payment Ratio for Revolving accounts over the past 24 months
+rev232__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Aggregate Excess Payment for Revolving accounts over the past 3 months
+rev233__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Aggregate Excess Payment for Revolving accounts over the past 6 months
+rev234__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Aggregate Excess Payment for Revolving accounts over the past 12 months
+rev235__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Aggregate Excess Payment for Revolving accounts over the past 24 months
+rev253__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Average Aggregate Excess Payment for Revolving accounts over the past 6 months
+rev102__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of months in the past 12 months where percentage of Revolving trades utilized less than 50% was more than 25%
+ret84__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Months since a Retail trade last exceeded 90% utilization
+ret328__tu,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,0,1,0.0,Average Total Open-to-Buy for Retail accounts over the past 24 months
+ret201__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total Payment Ratio for Retail accounts over the past 1 month
+re01s__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Number of revolving trades
+re06s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of revolving trades opened in past 6 months
+re20s__tu,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,1,0.0,Months since oldest revolving trade opened
+re21s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent revolving trade opened
+re34s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Utilization for open revolving trades verified in past 12 months
+reap01__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total scheduled monthly payment for all revolving trades verified in past 12 months
+ret205__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Total Payment Ratio for Retail accounts over the past 24 months
+ret324__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Min Total Open-to-Buy for Retail accounts over the past 24 months
+ret225__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Average total Payment Ratio for Retail accounts over the past 24 months
+ret231__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Aggregate Excess Payment for Retail accounts over the past 1 month
+ret235__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Aggregate Excess Payment for Retail accounts over the past 24 months
+ret255__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Average Aggregate Excess Payment for Retail accounts over the past 24 months
+ret319__tu,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,0,1,0.0,Max Total Open-to-Buy for Retail accounts over the past 24 months
+ret322__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Min Total Open-to-Buy for Retail accounts over the past 6 months
+rev315__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Number of months since Max Total Open-to-Buy for Revolving accounts
+rev317__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Max Total Open-to-Buy for Revolving accounts over the past 6 months
+rev319__tu,,,,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Max Total Open-to-Buy for Revolving accounts over the past 24 months
+rvdex01__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Annual year-over-year revolving spend index
+rt201s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Highest balance of retail trades
+rt20s__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Months since oldest retail trade opened
+rt21s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent retail trade opened
+rt36s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent retail delinquency
+rtdex01__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Annual year-over-year retail spend index
+rtdexq1__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Q1 (Jan - March) retail spend indexed to annual retail spend
+rvdex02__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Most recent quarter year-over-year revolving spend index
+rt01s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of retail trades
+rvdexq1__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Q1 (Jan - March) revolving spend indexed to annual revolving spend
+rvdexq2__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Q2 (Apr - Jun) revolving spend indexed to revolving annual spend
+rvdexq3__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Q3 (Jul - Sep) revolving spend indexed to revolving annual spend
+rvlr13__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of retail revolver trades over last 6 months
+rvlr23__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Bankcard Revolver/Transactor/Inactive pattern for bankcard with fourth highest balance    month 1 to 8
+rvlr26__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Bankcard Revolver/Transactor/Inactive pattern for bankcard with fifth highest balance   - month 1 to 8
+rt02s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of open retail trades
+rp07s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total balance of repossession trades in past 24 months
+rev320__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Number of months since Min Total Open-to-Buy for Revolving accounts
+revs902__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Aggregate Revolving Monthly Spend over last 6 Months
+rev321__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Min Total Open-to-Buy for Revolving accounts over the past 3 months
+rev323__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Min Total Open-to-Buy for Revolving accounts over the past 12 months
+rev328__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average Total Open-to-Buy for Revolving accounts over the past 24 months
+rev84__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Months since a Revolving trade last exceeded 90% utilization
+rev_trd__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of revolving trades
+revs901__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Aggregate Revolving Monthly Spend over last 3 Months
+revs905__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Months since max. revolving monthly spend over last 12 months
+rp06s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total balance of repossession trades in past 12 months
+rle904__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Amount of over-payments on Real-Estate accounts in the past 6 months
+rle905__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Amount of over-payments on Real-Estate accounts in the past 12 months
+rp01s__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Number of repossession trades
+rp03s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of repossession trades in past 24 months
+rp04s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent repossession trade reported
+rp05s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total balance of repossession trades
+jt20s__tu,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,0,0,0,1,0.0,Months since oldest joint trade opened
+jt02s__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Number of open joint trades
+ENG-loan_to_value,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1,0,0,0,0.0,Loan to value
+bc30s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Percentage of open credit card trades > 50% of credit line verified in past 12 months
+aut255__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average Aggregate Excess Payment for Auto accounts over the past 24 months
+balmag01__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Non-mortgage balance magnitude algorithm over last 24 months
+bankruptcychapter__ln,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0,0,1,0,0.0,"Indicates bankruptcy chapter of most recent bankruptcy case filing on file showing the subject as debtor, if the bankruptcy is a Chapter 7 or Chapter 13 bankruptcy"
+bankruptcycount24month__ln,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,1,0,0.0,Total unique bankruptcy case filings on file showing the subject as debtor in the last 24 months
+bankruptcycount__ln,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,1,0,0.0,Number of bankruptcies
+bankruptcydismissed24month__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Indicates subject has one or more dismissed bankruptcies on file in the last 24 months
+bankruptcystatus__ln,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,1,0,0.0,Indicates status of most recent bankruptcy filing on file showing the subject as debtor
+bankruptcytimenewest__ln,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,1,0,0.0,Time (in months) since most recent bankruptcy case filing on file showing the subject as debtor
+bc01s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of credit card trades
+bc06s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of credit card trades opened in past 6 months
+bc104s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average of the open credit card trade utilizations verified in past 12 months
+bc106s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of credit card trades 30 or more days past due in past 24 months
+bc107s__tu,,,,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Number of 30 and 60 days past due ratings on credit card trades
+bc108s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of 90 or more days past due ratings on credit card trades
+bc20s__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Months since oldest credit card trade opened
+aut252__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average Aggregate Excess Payment for Auto accounts over the past 3 months
+aut225__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Average total Payment Ratio for Auto accounts over the past 24 months
+aut223__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Average total Payment Ratio for Auto accounts over the past 6 months
+au34s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Utilization for open auto trades verified in past 12 months
+au207s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of auto charged-off trades
+au20s__tu,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,0,1,0.0,Months since oldest auto trade opened
+au21s__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Months since most recent auto trade opened
+au24s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of currently open and satisfactory auto trades 6 months or older
+au25s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of currently open and satisfactory auto trades 12 months or older
+au27s__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Number of currently open and satisfactory auto trades 24 months or older
+au36s__tu,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,0,1,0.0,Months since most recent auto delinquency
+aut222__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average total Payment Ratio for Auto accounts over the past 3 months
+au51a__tu,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0,0,0,1,0.0,Terms in months of most recent auto trade
+au57s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total past due amount of open auto trades verified in past 12 months
+aut201__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total Payment Ratio for Auto accounts over the past 1 month
+aut202__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total Payment Ratio for Auto accounts over the past 3 months
+aut203__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total Payment Ratio for Auto accounts over the past 6 months
+aut205__tu,,,,1.0,1.0,1.0,0.0,0.0,1.0,0,0,0,1,0.0,Total Payment Ratio for Auto accounts over the past 24 months
+bc21s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent credit card trade opened
+bc34s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Utilization for open credit card trades verified in past 12 months
+co07s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total balance of trades that charged-off in the past 24 months
+bc36s__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Months since most recent credit card delinquency
+bkc326__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Average Total Open-to-Buy for Bankcard accounts over the past 6 months
+bkc54__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of Bankcard trades utilized more than 90% in the past 12 months
+bkc83__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Months since a Bankcard trade last exceeded 75% utilization
+bkc84__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Months since a Bankcard trade last exceeded 90% utilization
+bookvalue__app,,,,1.0,1.0,1.0,,,,0,1,0,0,0.0,Book value
+br01s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of bank revolving trades
+br03s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of currently satisfactory open bank revolving trades
+br06s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of bank revolving trades opened in past 6 months
+br101s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total balance of all bank revolving trades verified in past 12 months
+br20s__tu,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,0,1,0.0,Months since oldest bank revolving trade opened
+br21s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent bank revolving trade opened
+businessassociationtimeoldest__ln,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,1,0,0.0,Time (in months) since a formal business association with the subject first seen on file
+co01s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of charged-off trades
+co04s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent charged-off trade reported
+co05s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total balance of trades that charged-off
+bkc323__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Min Total Open-to-Buy for Bankcard accounts over the past 12 months
+bkc322__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Min Total Open-to-Buy for Bankcard accounts over the past 6 months
+bkc321__tu,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,1,0.0,Min Total Open-to-Buy for Bankcard accounts over the past 3 months
+bitdealertrack__app,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,1,0,0,0.0,From Dealertrack
+bc97a__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total open to buy of open credit cards verified in past 3 months
+bc97b__tu,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,1,0.0,Total open to buy of closed credit cards verified in past 3 months
+bc_trd__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of bankcard trades
+bi20s__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Months since oldest bank installment trade opened
+bi36s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent bank installment delinquency
+bitdealerapplicantsamezip__app,,,,1.0,1.0,1.0,,,,0,1,0,0,0.0,Applicant and Dealer Same Zip
+bitdebtor__app,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,1,0,0,0.0,Debtor or Codebtor
+bkc320__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of months since Min Total Open-to-Buy for Bankcard accounts
+bitgap__app,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,1,0,0,0.0,Gap tag
+bkc112__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of months in the past 12 months where percentage of Bankcard trades utilized less than 75% was more than 25%
+bkc122__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Number of months in the past 12 months where percentage of Bankcard trades utilized less than 100% was more than 25%
+bkc12__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Number of instances where a Bankcard trade was utilized more than 50% in the past 12 months
+bkc152__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of months in the past 12 months where percentage of Bankcard trades utilized more than 75% was more than 90%
+bkc162__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of months in the past 12 months where percentage of Bankcard trades utilized more than 100% was more than 90%
+au204s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of auto trades that are 90 days or more past due ever
+au203s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of auto trades that are 60 days or more past due in the past 12 months
+au202s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of auto trades that are 60 days or more past due ever
+au200s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of auto trades that are 30 days or more past due ever
+addrinputproblems__ln,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,1,0,0.0,Indicates any problems on file associated with the input address
+addrinputsubjectcount__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,"Total number of unique subjects on file currently reported at the input address, if the address has been designated as a single family dwelling unit"
+addrinputtaxmarketvalue__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Indicates input address tax assessed market value on file
+addrinputtimenewest__ln,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,1,0,0.0,Time on file (in months) since the subject was most recently reported at the input address
+addrinputtimeoldest__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Time on file (in months) since subject was first reported at the input address
+addrlastmoveecontrajectory__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,"Describes the value and home ownership status of the subject’s previous and current addresses in order to determine whether the subject’s most recent residential move (if the move occurred in the past five years) was to a similar property or a more upscale or downscale property. 
+Note: Seniors (age 62 plus) who have moved default to the most positive level to prevent adverse action based on downsizing of empty nesters and retirees."
+addrlastmovetaxratiodiff__ln,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,1,0,0.0,"Ratio comparing the difference in tax assessed value between the current address and the previous address (current address value divided by the previous address value if both are known) on subject's file, if the move occurred within the last five years"
+addronfilecount__ln,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,1.0,0,0,1,0,0.0,Total number of addresses found on file in subject's address history
+addrpreviousdwelltype__ln,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,1,0,0.0,Previous dwelling type
+addrpreviouslengthofres__ln,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,1,0,0.0,Length of residency in previous residence
+agg902__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of aggregate non-mortgage balance decreases over last 3 months
+agg903__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Number of aggregate non-mortgage credit line increases over last 3 months
+agg905__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Average aggregate bankcard utilization over last 3 months
+agg908__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Max aggregate bankcard balance over last 12 months
+agg909__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since max aggregate bankcard balance over last 12 months
+addrinputphoneservice__ln,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,1,0,0.0,Indicates if phone service was found on file for the input address
+addrinputphonecount__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Total number of unique phone service listings on file currently reported with the input address
+addrinputownershipindex__ln,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,1,0,0.0,Index indicating subject's ownership level at the input address based on the address property record on file
+addrcurrenttimenewest__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Time (in months) since the subject was most recently reported at the current address on subject's file
+ENG-vehicle_age,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1,0,0,0,0.0,Age of vehicle (years)
+addrchangecount12month__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Number of addresses first seen in last 12 months on subject's file
+addrcurrentavmratio12monthprior__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,"Ratio comparison for the current address on subject's file, indicating the difference in AVM values between the most recent AVM value and the value 12 months prior to the most recent value"
+addrcurrentdwelltype__ln,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,1,0,0.0,Current dwelling type
+addrcurrentdwelltypeindex__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Index indicating the dwelling type for current address on subject's file
+addrcurrentsubjectowned__ln,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,1,0,0.0,Subject owns current address
+addrcurrenttimeoldest__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Time (in months) since the subject was first reported at the current address on subject's file
+addrinputmatchindex__ln,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,1,0,0.0,Index indicating if the input address matches the current or historical address on file
+addrinputavmvalue12month__ln,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,0,0,1,0,0.0,Indicates input address AVM value on file 12 months ago
+addrinputcountyratio__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Ratio comparison of the input address property value to county median property value on file
+addrinputdeedmailing__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Indicates for the input address that the property owner's mailing address is the same as the property address for the property record on file
+addrinputdelivery__ln,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,1,0,0.0,Indicates the mail delivery status on file for the input address
+addrinputdwelltypeindex__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Index indicating the dwelling type on file for the input address
+addrinputlastsaleprice__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Indicates last recorded sale price on file for the input address
+agg910__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Max aggregate bankcard utilization over last 3 months
+aggs911__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Current Utilization of top-of-wallet bankcard (highest annual spend).
+alertregulatorycondition__ln,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,1,0,0.0,"Indicates subject has an alert on their file that is associated with state or federal regulations, consumer identity conditions, or bankruptcies on file"
+at34a__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Utilization for open trades verified in past 12 months
+at25s__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Number of currently open and satisfactory trades 12 months or older
+at27s__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Number of currently open and satisfactory trades 24 months or older
+at28a__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total credit line of open trades verified in past 12 months
+at28b__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Total credit line of open trades verified in past 12 months (excluding mortgage and home equity)
+at33a__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total balance of open trades verified in past 12 months
+at33b__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total balance of open trades verified in past 12 months (excluding mortgage and home equity)
+at34b__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Utilization for open trades verified in past 12 months (excluding mortgage and home equity)
+at20s__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Months since oldest trade opened
+at35a__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Average balance of open trades verified in past 12 months
+at57s__tu,1.0,1.0,1.0,,,,1.0,1.0,1.0,0,0,0,1,0.0,Total past due amount of open trades verified in past 12 months
+atap01__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total scheduled monthly payment for all trades verified in past 12 months
+au01s__tu,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0,0,0,1,0.0,Number of auto trades
+au03s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of currently satisfactory open auto trades
+au101s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total balance of all auto trades verified in past 12 months
+at21s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Months since most recent trade opened
+at104s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Percentage of all trades opened in past 24 months to all trades
+all232__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Aggregate Excess Payment for All accounts over the past 3 months
+assetpropeversoldcount__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Total number of real properties identified as ever sold based on real property ownership records on subject's file
+all235__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Aggregate Excess Payment for All accounts over the past 24 months
+all252__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average Aggregate Excess Payment for All accounts over the past 3 months
+all253__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Average Aggregate Excess Payment for All accounts over the past 6 months
+all254__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Average Aggregate Excess Payment for All accounts over the past 12 months
+assetindex__ln,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,1,0,0.0,Modeled risk index indicating the type and relative value of real property and personal property associated with the subject
+assetpropevercount__ln,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,1,0,0.0,Total number of real property ever owned based on real property ownership records on subject's file
+assetpropindex__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Index indicating level of historical property ownership based on real property ownership records on subject's file
+at103s__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Percentage of satisfactory open trades to all open trades verified in 24 months
+assetpropnewestsaleprice__ln,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,1,0,0.0,Subject's most recent real property sale price based on real property ownership records on file
+assetproppurchasetimenewest__ln,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,1,0,0.0,Time (in months) since most recently recorded real property purchase based on real property ownership records on subject's file
+assetproppurchasetimeoldest__ln,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,1,0,0.0,Time (in months) since earliest recorded real property purchase based on real property ownership records on subject's file
+at01a__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of authorized user trades
+at01s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of trades
+at101b__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Total balance of all trades verified in past 12 months (excluding mortgage and home equity)
+co06s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total balance of trades that charged-off in the past 12 months
+confirmationinputaddress__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Indicates input address is confirmed by records on file
+jt01s__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Number of joint trades
+g305s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Worst rating on installment trades
+g230s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of 60 or more days past due trades (current MOP only) with balance > $0 opened in past 24 months
+g232s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of inquiries (includes duplicates)
+g234s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of days with inquiry occurring in past 30 days
+g235s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of trades opened since most recent delinquency (delinquency search limited to 24 months)
+g237s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of credit inquiries in past 6 months
+g238s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of credit inquiries in past 12 months
+g240s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of mortgage inquiries
+g241s__tu,1.0,0.0,1.0,,,,1.0,0.0,1.0,0,0,0,1,0.0,Number of mortgage inquiries in past 6 months
+g242b__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of bank inquiries (includes duplicates) in past 3 months
+g242s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of inquiries (includes duplicates) in past 3 months
+g250b__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of 30 days past due or worse items in the past 12 months (excluding medical collection items)
+g250c__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of 30 days past due or worse items in the past 24 months (excluding medical collection items)
+g301s__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Worst rating on credit card trades
+g302s__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Worst rating on revolving trades in past 12 months
+g303s__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Worst rating on revolving trades
+g228s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of 90 or more days past due trades (current MOP only) with balance > $0 opened in past 24 months
+g226s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of 60 or more days past due trades (current MOP only) with balance > $0 opened in past 12 months
+g225s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total past due amount of currently 90 or more days past due trades
+g215b__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of non-medical third party collections with balance > $0
+g209s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Months since most recent charged-off trade opened
+g210s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total past due amount of charged-off trades verified in past 12 months
+g211s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Highest balance of charged-off trades
+g212s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of charged-off trades opened in past 24 months
+g213a__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Highest balance of third party collections verified in 24 months
+g213b__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Highest balance of non-medical third party collections verified in 24 months
+g216s__tu,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0,0,0,1,0.0,Number of trades with a delinquency of 90 or more days past due since opening a new trade (within past 24 months)
+g221d__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Number of credit card trades verified in the past 12 months that are currently 120 days or more past due
+g217s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total past due amount of all trades verified in past 12 months
+g218d__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Number of credit card trades verified in the past 12 months that are currently 30 days or more past due
+g219b__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of trades verified in the past 12 months that are currently 60 days or more past due
+g219d__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of credit card trades verified in the past 12 months that are currently 60 days or more past due
+g220d__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of credit card trades verified in the past 12 months that are currently 90 days or more past due
+g221b__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of trades verified in the past 12 months that are currently 120 days or more past due
+g304s__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Worst rating on installment trades in past 12 months
+g306s__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Worst rating on auto trades in past 12 months
+confirmationinputssn__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Indicates input Social Security Number (SSN) is confirmed by records on file
+g308s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Worst rating on mortgage trades in past 12 months
+in27s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of currently open and satisfactory installment trades 24 months or older
+in28s__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Total credit line of open installment trades verified in past 12 months
+in30s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Percentage of open installment trades > 50% of credit line verified in past 12 months
+in36s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent installment delinquency
+in57s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total past due amount of open installment trades verified in past 12 months
+index01__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Annual year-over-year spend index
+indexq2__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Q2 (Apr - Jun) spend indexed to annual spend
+indexq4__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Q4 (Oct - Dec) spend indexed to annual spend
+inputprovidedcity__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Indicates if the city for the subject was provided on input
+inputprovidedstreetaddress__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,Indicates if the street address for the subject was provided on input
+inquirybanking12month__ln,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,1,0,0.0,Indicates subject has one or more LexisNexis banking credit inquiries on file in the last 12 months
+inquirynonshortterm12month__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,"Indicates subject has one or more LexisNexis credit inquiries on file in the last 12 months, excluding personal finance credit and collection inquiries
+NOTE: This attribute indicates the subject has any LexisNexis credit inquiry on file, excluding any short-term or collection inquiries. This will include auto, banking, and telecom inquiries returned in other attributes as well as other credit-related inquiries not categorically classified in the attributes."
+inquiryshortterm12month__ln,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,1,0,0.0,Indicates subject has one or more LexisNexis personal finance credit inquiries on file in the last 12 months (multiple personal finance inquiries within a 24-hour period are counted as one inquiry)
+inquirytelcom12month__ln,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,1,0,0.0,Indicates subject has one or more LexisNexis telecommunications credit inquiries on file in the last 12 months
+intopenbktype__app,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,1,0,0,0.0,BK Type
+in25s__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Number of currently open and satisfactory installment trades 12 months or older
+in20s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since oldest installment trade opened
+in09s__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Number of installment trades opened in past 24 months
+g411s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of deduped bank inquiries
+g403s__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Number of deduped mortgage inquiries
+g404s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of deduped finance inquiries in past 3 months
+g405s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of deduped finance inquiries in past 6 months
+g406s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of deduped finance inquiries in past 12 months
+g407s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of deduped finance inquiries
+g409s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of deduped bank inquiries in past 6 months
+g414s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of deduped auto inquiries in past 12 months
+hi36s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent home equity loan delinquency
+g415s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of deduped auto inquiries
+g418s__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Months since most recent auto inquiry
+g960s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of deduped inquiries
+g980s__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Number of deduped inquiries in past 6 months
+g990s__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Number of deduped inquiries in past 12 months
+hi21s__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Months since most recent home equity loan trade opened
+g208s__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Percentage of individual debt
+g207s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total monthly obligation for all accounts
+g206s__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Total monthly obligation for joint account verified in past 12 months
+g206b__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Total monthly obligation for joint account verified in past 12 months and with a current balance > 0  (ATTR14)
+derogseverityindex__ln,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,1,0,0.0,Index indicating severity of derogatory records on subject's file
+educationattendance__ln,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,1,0,0.0,Indicates subject attended college based on student directory information on file
+evictioncount12month__ln,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,1,0,0.0,Total eviction records on subject's file in the last 12 months
+evictioncount__ln,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,1,0,0.0,Total eviction records on subject's file indicating the plaintiff has sought an eviction and does not necessarily mean the defendant has vacated the premises
+evictiontimenewest__ln,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,1,0,0.0,Time (in months) since most recently recorded eviction on subject's file
+fc04s__tu,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0,0,0,1,0.0,Months since most recent foreclosure trade reported
+fi01s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of finance installment trades
+fi06s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of finance installment trades opened in past 6 months
+fi09s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of finance installment trades opened in past 24 months
+fi101s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total balance of all finance installment trades verified in past 12 months
+fi20s__tu,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0,0,0,1,0.0,Months since oldest finance installment trade opened
+fi24s__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Number of currently open and satisfactory finance installment trades 6 months or older
+fi25s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of currently open and satisfactory finance installment trades 12 months or older
+fi27s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of currently open and satisfactory finance installment trades 24 months or older
+fi28s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total credit line of open finance installment trades verified in past 12 months
+derogcount__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,"Total derogatory source records (criminal felony, criminal non-felony, sexual offender registry, lien, judgment, bankruptcy, and eviction) on subject's file"
+dealerstate__app,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0,1,0,0,0.0,Dealer State
+cv26__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Percent of trades from active to inactive status in the past 12 months
+cv04__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Months since most recent third party collection occurrence
+criminalfelonycount__ln,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,1,0,0.0,Total felony criminal convictions on subject's file
+criminalnonfelonycount12month__ln,,,,1.0,1.0,1.0,,,,0,0,1,0,0.0,"Total non-felony criminal convictions in the last 12 months on subject's file
+NOTE: This attribute does not include sexual offender registry records"
+criminalnonfelonycount__ln,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,1,0,0.0,Total non-felony criminal convictions or sexual offender registry records on subject's file
+criminalnonfelonytimenewest__ln,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,0,0,1,0,0.0,"Time (in months) since most recently recorded non-felony criminal conviction on subject's file
+NOTE: This attribute does not include sexual offender registry records"
+cv02__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Months since most recent foreclosure occurrence
+cv03__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent repossession occurrence
+cv05__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Months since most recent non-medical third party collection occurrence
+cv25__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Percent of trades from inactive to active status in the past 12 months
+cv13__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Percentage of trades ever delinquent
+cv14__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of deduped inquiries
+cv15__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of deduped auto inquiries
+cv19__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total balance of trades verified in past 3 months
+cv21__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Total payment amount of trades verified in past 3 months
+cv24__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Total payment amount of bankcard trades verified in past 3 months
+fi31s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Percentage of open finance installment trades > 75% of credit line verified in past 12 months
+fi34s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Utilization for open finance installment trades verified in past 12 months
+fi36s__tu,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0,0,0,1,0.0,Months since most recent finance installment delinquency
+g099s__tu,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0,0,0,1,0.0,Number of public record bankruptcies in past 24 months
+g051s__tu,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0,0,0,1,0.0,Percentage of trades ever delinquent
+g057s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of trades 30 or more days past due in past 3 months
+g058s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of trades 30 or more days past due in past 6 months
+g094s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of public record bankruptcies
+g095s__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Months since most recent public record
+g099a__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of tradeline bankruptcies verified in past 24 months
+g100s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of tradeline bankruptcies
+g042c__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of real estate trades 60 or more days past due ever
+g102s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Months since most recent inquiry
+g105s__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Months since most recent mortgage inquiry
+g106s__tu,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0,0,0,1,0.0,Months on file
+g200s__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Percentage of contractually liable debt
+g201a__tu,1.0,0.0,0.0,,,,1.0,0.0,0.0,0,0,0,1,0.0,Total open to buy of open trades verified in past 3 months (excluding installments and mortgages)
+g202b__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Total open to buy of closed trades verified in past 12 months (excluding installments and mortgages)
+g043c__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of real estate trades 90 or more days past due ever
+g020s__tu,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0,0,0,1,0.0,Number of trades with maximum delinquency of 30 days past due in past 24 months
+fltadvance__app,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,0,1,0,0,0.0,Advance
+fr101s__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Total balance of all finance revolving trades verified in past 12 months
+fltapproveddowntotal__app,,,,1.0,1.0,1.0,0.0,1.0,1.0,0,1,0,0,0.0,Total down
+fltdowncash__app,,,,1.0,1.0,1.0,0.0,1.0,1.0,0,1,0,0,0.0,Cash Down
+fltgrossmonthly__income_count,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,0,0.0,Total income sources (max = 2)
+fltgrossmonthly__income_sum,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,0,0.0,Total income
+fr02s__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Number of open finance revolving trades
+fr03s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of currently satisfactory open finance revolving trades
+fr20s__tu,1.0,0.0,1.0,,,,1.0,0.0,1.0,0,0,0,1,0.0,Months since oldest finance revolving trade opened
+g003c__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of real estate trades with 90 or more days past due ratings in past 12 months
+fr21s__tu,0.0,0.0,1.0,,,,0.0,0.0,1.0,0,0,0,1,0.0,Months since most recent finance revolving trade opened
+fr30s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Percentage of open finance revolving trades > 50% of credit line verified in past 12 months
+fr35s__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Average balance of open finance revolving trades verified in past 12 months
+g001b__tu,,,,1.0,1.0,1.0,,,,0,0,0,1,0.0,Number of 30 or more days past due ratings in past 12 months
+g001s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of 30 days past due ratings in past 12 months
+g002s__tu,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0,0,0,1,0.0,Number of 60 days past due ratings in past 12 months
+walshr10__tu,0.0,1.0,0.0,,,,0.0,1.0,0.0,0,0,0,1,0.0,Months since most recent wallet share shift > 50% in last 24 months
+total,210.0,117.0,72.0,519.0,519.0,519.0,210.0,122.0,76.0,3,14,75,493,0.0,

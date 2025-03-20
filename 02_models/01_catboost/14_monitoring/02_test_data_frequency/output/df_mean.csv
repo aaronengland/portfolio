@@ -1,0 +1,5 @@
+flag,mean
+Early_Pay_Delinquency_15_60_Flag,0.14130771614502635
+Early_Pay_Delinquency_30_90_Flag,0.12736287573597768
+Early_Pay_Delinquency_30_180_Flag,0.30523706228695385
+Early_Pay_Delinquency_30_360_Flag,0.5224666873256895

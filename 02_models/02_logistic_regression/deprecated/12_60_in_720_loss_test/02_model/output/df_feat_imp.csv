@@ -1,0 +1,117 @@
+feature,importance,importance_abs,description
+linkc004__tu_binned,0.020421904363279817,0.020421904363279817,Number of unpaid payday loan charge-offs in the last 24 months
+dti__app_binned,0.010445999815123732,0.010445999815123732,
+ENG-vehicle_age_binned,0.00785873616689767,0.00785873616689767,
+rvlr09__tu_binned,-0.007316635982474904,0.007316635982474904,Number of bankcard revolver trades over last 6 months
+addrinputtimeoldest__ln_binned,-0.005885605421239845,0.005885605421239845,Time on file (in months) since subject was first reported at the input address
+linkc030__tu_binned,0.005444247933267933,0.005444247933267933,Number of payday loan inquiries in the last 7 years
+alertregulatorycondition__ln_binned,0.005442145701903446,0.005442145701903446,"Indicates subject has an alert on their file that is associated with state or federal regulations, consumer identity conditions, or bankruptcies on file"
+at103s__tu_binned,-0.0051375887244103,0.0051375887244103,Percentage of satisfactory open trades to all open trades verified in 24 months
+int_n_months_open__tu_pmthx_binned,-0.00449575062056053,0.00449575062056053,
+linkc036__tu_binned,0.003940139682464905,0.003940139682464905,"Number of inquiries for other financial services (includes consumer finance, furniture finance, credit cards, and title loans) in the last 7 years"
+addrchangecount60month__ln_binned,-0.003811642128469651,0.003811642128469651,Number of addresses first seen in last 60 months on subject's file
+per225__tu_binned,-0.0035604558772705025,0.0035604558772705025,Average total Payment Ratio for Personal Loan accounts over the past 24 months
+bkc324__tu_binned,-0.0034846422906994745,0.0034846422906994745,Min Total Open-to-Buy for Bankcard accounts over the past 24 months
+agg420__tu_binned,-0.0033495459264071613,0.0033495459264071613,Aggregate non-mortgage actual payment for month 20
+at21s__tu_binned,0.0032597130110388482,0.0032597130110388482,Months since most recent trade opened
+jt42s__tu_binned,0.003118769224837735,0.003118769224837735,Ratio of open joint trades to open trades
+inquirybanking12month__ln_binned,0.003100199410340267,0.003100199410340267,Indicates subject has one or more LexisNexis banking credit inquiries on file in the last 12 months
+trv10__tu_binned,-0.0029719192364649565,0.0029719192364649565,Number of months non-mortgage balance decreases last 12 months
+paymnt07__tu_binned,-0.0026916854903936177,0.0026916854903936177,Ratio of actual to minimum payment for non-mortgage trades last month
+au20s__tu_binned,-0.002673276509779533,0.002673276509779533,Months since oldest auto trade opened
+in02s__tu_binned,-0.0024900997413927722,0.0024900997413927722,Number of open installment trades
+subjectrecordtimeoldest__ln_binned,-0.0024629243752473354,0.0024629243752473354,Time (in months) since the oldest recorded event on file for subject
+g217s__tu_binned,0.002209789736472341,0.002209789736472341,Total past due amount of all trades verified in past 12 months
+g232s__tu_binned,-0.0020533233577656558,0.0020533233577656558,Number of inquiries (includes duplicates)
+addrchangecount06month__ln_binned,0.0019251615896383704,0.0019251615896383704,Number of addresses first seen in last six months on subject's file
+cv26__tu_binned,-0.0017817406929712828,0.0017817406929712828,Percent of trades from active to inactive status in the past 12 months
+walshr08__tu_binned,0.0016145393004939363,0.0016145393004939363,Max wallet share shift in last 12 months
+agg412__tu_binned,0.001530390816322794,0.001530390816322794,Aggregate non-mortgage actual payment for month 12
+au31s__tu_binned,-0.0014310014830050508,0.0014310014830050508,Percentage of open auto trades > 75% of credit line verified in past 12 months
+agg824__tu_binned,0.0012938693665642841,0.0012938693665642841,Aggregate bankcard actual payment for month 24
+derogseverityindex__ln_binned,-0.0012769543528049108,0.0012769543528049108,Index indicating severity of derogatory records on subject's file
+agg213__tu_binned,0.0012626010695523885,0.0012626010695523885,Aggregate non-mortgage credit line for month 13
+fi36s__tu_binned,0.001259091519567885,0.001259091519567885,Months since most recent finance installment delinquency
+jt44s__tu_binned,-0.0012329720752163667,0.0012329720752163667,Total past due amount of joint trades
+balmag01__tu_binned,-0.0012232346372450418,0.0012232346372450418,Non-mortgage balance magnitude algorithm over last 24 months
+rvlr30__tu_binned,-0.0011629646810975122,0.0011629646810975122,Bankcard balance for bankcard with second highest balance
+rvlr02__tu_binned,-0.001110887044104592,0.001110887044104592,Retail revolver trade utilization last month
+rvlr13__tu_binned,-0.0010724961679572772,0.0010724961679572772,Number of retail revolver trades over last 6 months
+subjectabilityindex__ln_binned,-0.0010509061000906806,0.0010509061000906806,"Modeled risk index indicating the subject's ability to fulfill a credit obligation on the basis of their time on file, post-secondary education history, asset ownership, and outstanding financial obligations on file"
+g219a__tu_binned,0.0009845197435242223,0.0009845197435242223,Number of trades verified in the past 12 months that are currently 60 days past due
+linkt004__tu_binned,-0.000944649686983916,0.000944649686983916,Number of non-military non-corroborated addresses in last 5 years
+g221a__tu_binned,-0.0008960706680636466,0.0008960706680636466,Number of trades verified in the past 12 months that are currently 120 days past due
+all231__tu_binned,-0.0008828581118247303,0.0008828581118247303,Aggregate Excess Payment for All accounts over the past 1 month
+linkd007__tu_binned,-0.0008756382972240453,0.0008756382972240453,Total dollar amount sent to collections for club/subscriptions in the last 5 years
+proflictypecategory__ln_binned,0.0008634630534051388,0.0008634630534051388,"Most recent professional license type category on subject's file, grouped based on published U.S. Census occupation data"
+agg424__tu_binned,-0.000831329775273752,0.000831329775273752,Aggregate non-mortgage actual payment for month 24
+trv01__tu_binned,0.0008310646419859376,0.0008310646419859376,Number of months since overlimit on a bankcard
+addrcurrenttaxyr__ln_binned,-0.0008104666809233157,0.0008104666809233157,Indicates year of most recent tax assessment for the current address on subject's file
+ENG-loan_to_value_binned,0.0007442212200470868,0.0007442212200470868,
+agg416__tu_binned,-0.0006986261152888598,0.0006986261152888598,Aggregate non-mortgage actual payment for month 16
+sourcenonderogcount12month__ln_binned,0.000650781540866043,0.000650781540866043,Total non-derogatory source types on file for subject reported within the last 12 months
+rt06s__tu_binned,0.0006452759551746316,0.0006452759551746316,Number of retail trades opened in past 6 months
+sourcenonderogcount06month__ln_binned,0.0006441211600253651,0.0006441211600253651,Total non-derogatory source types on file for subject reported within the last six months
+businesstitleleadership__ln_binned,-0.0006286395124110924,0.0006286395124110924,"Indicates the business title for the most recent formal business association on subject's file is associated with a leadership position such as director, owner, founder, executive, or president"
+cv13__tu_binned,0.00056056511507048,0.00056056511507048,Percentage of trades ever delinquent
+of24s__tu_binned,0.0005078142982952776,0.0005078142982952776,Number of currently open and satisfactory credit union trades 6 months or older
+us36s__tu_binned,-0.0004965269590327668,0.0004965269590327668,Months since most recent unsecured installment delinquency
+se21s__tu_binned,0.00046701925119540773,0.00046701925119540773,Months since most recent secured installment trade opened
+linkt003__tu_binned,-0.0004136690165543442,0.0004136690165543442,Number of non-military non-corroborated addresses in past 12 months
+in31s__tu_binned,-0.0004013361223885077,0.0004013361223885077,Percentage of open installment trades > 75% of credit line verified in past 12 months
+g216s__tu_binned,-0.0003896212026942071,0.0003896212026942071,Number of trades with a delinquency of 90 or more days past due since opening a new trade (within past 24 months)
+in36s__tu_binned,-0.000388284130898329,0.000388284130898329,Months since most recent installment delinquency
+rt27s__tu_binned,0.00038737136796465773,0.00038737136796465773,Number of currently open and satisfactory retail trades 24 months or older
+rp01s__tu_binned,-0.00032856418802106426,0.00032856418802106426,Number of repossession trades
+g001s__tu_binned,0.00032139566399586836,0.00032139566399586836,Number of 30 days past due ratings in past 12 months
+addrcurrenttimenewest__ln_binned,-0.0002901690668577035,0.0002901690668577035,Time (in months) since the subject was most recently reported at the current address on subject's file
+evictioncount__ln_binned,0.0002864451396703524,0.0002864451396703524,Total eviction records on subject's file indicating the plaintiff has sought an eviction and does not necessarily mean the defendant has vacated the premises
+linkb010__tu_binned,-0.0002698244675975956,0.0002698244675975956,
+g402s__tu_binned,-0.00024851595867670854,0.00024851595867670854,Number of deduped mortgage inquiries in past 12 months
+fi21s__tu_binned,-0.0002462121352591069,0.0002462121352591069,Months since most recent finance installment trade opened
+flt_mean_months_to_first_bad__tu_pmthx_binned,-0.0002454082066519682,0.0002454082066519682,
+aut254__tu_binned,-0.0001865308594378611,0.0001865308594378611,Average Aggregate Excess Payment for Auto accounts over the past 12 months
+agg903__tu_binned,0.00018313391045083566,0.00018313391045083566,Number of aggregate non-mortgage credit line increases over last 3 months
+addrinputphonecount__ln_binned,0.00018204827163478457,0.00018204827163478457,Total number of unique phone service listings on file currently reported with the input address
+fi101s__tu_binned,0.0001781018898609332,0.0001781018898609332,Total balance of all finance installment trades verified in past 12 months
+re21s__tu_binned,-0.0001762952219849183,0.0001762952219849183,Months since most recent revolving trade opened
+re06s__tu_binned,-0.00016297222135315545,0.00016297222135315545,Number of revolving trades opened in past 6 months
+g225s__tu_binned,0.00015940987859912296,0.00015940987859912296,Total past due amount of currently 90 or more days past due trades
+of57s__tu_binned,0.00015848649429710292,0.00015848649429710292,Total past due amount of open credit union trades verified in past 12 months
+au51a__tu_binned,-0.00015749859917324357,0.00015749859917324357,Terms in months of most recent auto trade
+at31s__tu_binned,0.00014844822137570975,0.00014844822137570975,Percentage of open trades > 75% of credit line verified in past 12 months
+linkf026__tu_binned,0.00014203157840847507,0.00014203157840847507,Amount of satisfactory ACH transactions within last 24 months
+in21s__tu_binned,0.00014173712894702934,0.00014173712894702934,Months since most recent installment trade opened
+addronfilecount__ln_binned,-0.00012626768068432336,0.00012626768068432336,Total number of addresses found on file in subject's address history
+inquiryshortterm12month__ln_binned,-0.000125317098689709,0.000125317098689709,Indicates subject has one or more LexisNexis personal finance credit inquiries on file in the last 12 months (multiple personal finance inquiries within a 24-hour period are counted as one inquiry)
+cv01__tu_binned,-0.00011116914372082805,0.00011116914372082805,Months since most recent charge-off occurrence
+agg301__tu_binned,0.00010842704107472177,0.00010842704107472177,Aggregate non-mortgage amount past due for month 1
+g417s__tu_binned,-9.839822292130512e-05,9.839822292130512e-05,Months since most recent bank inquiry
+g234s__tu_binned,7.750263953178233e-05,7.750263953178233e-05,Number of days with inquiry occurring in past 30 days
+ret162__tu_binned,-7.648013817635664e-05,7.648013817635664e-05,Number of months in the past 12 months where percentage of Retail trades utilized more than 100% was more than 90%
+rle907__tu_binned,-6.600492594070604e-05,6.600492594070604e-05,Months since most recent over-payment on a Real-Estate account
+rets124__tu_binned,6.256908922666835e-05,6.256908922666835e-05,Aggregate Retail Spend for Month M = 24
+addrinputdeedmailing__ln_binned,-5.788809027118304e-05,5.788809027118304e-05,Indicates for the input address that the property owner's mailing address is the same as the property address for the property record on file
+int_60dpd_closed__tu_pmthx_binned,-5.443026349172196e-05,5.443026349172196e-05,
+linkf195__tu_binned,5.154888066615535e-05,5.154888066615535e-05,Age of oldest inquiry (days)
+rets121__tu_binned,5.0642386564426676e-05,5.0642386564426676e-05,Aggregate Retail Spend for Month M = 21
+assetproppurchasetimenewest__ln_binned,-4.964608654104136e-05,4.964608654104136e-05,Time (in months) since most recently recorded real property purchase based on real property ownership records on subject's file
+ENG-has_codebtor_binned,-4.311594512356732e-05,4.311594512356732e-05,
+per235__tu_binned,-3.565073603485027e-05,3.565073603485027e-05,Aggregate Excess Payment for Personal Loan accounts over the past 24 months
+linka024__tu_binned,-2.734759519506494e-05,2.734759519506494e-05,"Number of days since oldest credit issuance inquiry (credit card, secured card, line of credit, revolving credit, and other credit account originations) "
+agg720__tu_binned,-2.5993034775881637e-05,2.5993034775881637e-05,Aggregate bankcard amount past due for month 20
+assetpropsaletimenewest__ln_binned,2.3039999463480122e-05,2.3039999463480122e-05,Time (in months) since subject's most recently recorded real property sale based on real property ownership records on subject's file
+bi21s__tu_binned,2.128694600589609e-05,2.128694600589609e-05,Months since most recent bank installment trade opened
+confirmationinputdob__ln_binned,-1.450248603645629e-05,1.450248603645629e-05,Indicates input date of birth (DOB) is confirmed by records on file
+jt70s__tu_binned,1.3423976778028553e-05,1.3423976778028553e-05,Ratio of dollars past due joint trades to total dollars past due trades
+aut225__tu_binned,1.2605352090337707e-05,1.2605352090337707e-05,Average total Payment Ratio for Auto accounts over the past 24 months
+g244b__tu_binned,-1.1228456874390042e-05,1.1228456874390042e-05,Number of bank inquiries (includes duplicates) in past 12 months
+g218a__tu_binned,7.056150443790366e-06,7.056150443790366e-06,Number of trades verified in the past 12 months that are currently 30 days past due
+ret84__tu_binned,-6.754593952851566e-06,6.754593952851566e-06,Months since a Retail trade last exceeded 90% utilization
+addrinputmatchindex__ln_binned,4.945461248927976e-06,4.945461248927976e-06,Index indicating if the input address matches the current or historical address on file
+g213a__tu_binned,3.643891568170639e-06,3.643891568170639e-06,Highest balance of third party collections verified in 24 months
+phoneinputmobile__ln_binned,3.390878801043957e-06,3.390878801043957e-06,
+paymnt05__tu_binned,2.8358996647827735e-06,2.8358996647827735e-06,Total amount of prepayments on installment loans last 12 months
+se35s__tu_binned,-2.7102875860430113e-06,2.7102875860430113e-06,Average balance of open secured installment trades verified in past 12 months
+fi27s__tu_binned,2.3716985227445183e-06,2.3716985227445183e-06,Number of currently open and satisfactory finance installment trades 24 months or older
+linkf189__tu_binned,-1.645269887783731e-06,1.645269887783731e-06,Age of newest inquiry STOREFRONT LENDER

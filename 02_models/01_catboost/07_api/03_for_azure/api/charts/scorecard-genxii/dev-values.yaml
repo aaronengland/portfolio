@@ -1,0 +1,6 @@
+requestCpu: "100m"
+requestMemory: "320Mi"
+limitCpu: "250m"
+limitMemory: "320Mi"
+
+ingressHost: genxiiscorecard.stage.prestigenerds.io

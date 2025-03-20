@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Gen 12 Payload Comparison - Score Table</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='shared/prestige_logo_favicon.PNG') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+
+    <script type="text/javascript" charset="utf8" src="{{ url_for('static', filename='js/script_all.js') }}"></script>
+
+    <!--
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    -->
+</head>
+
+<body>
+    <div class="loader" id="loader"></div>
+    <header>
+        <img src="{{ url_for('static', filename='shared/prestige_logo.PNG') }}" alt="Header" style="max-width: 100%;">
+    </header>
+
+    <div id="Top-of-Page" class="navbar">
+        <a href="/">Home</a>
+    </div>
+
+    <div class="container">
+
+        <section id="Score-Table" class="section">
+
+            <form action="/get_differences" class="input-form" id="selected-rows-form">
+                <div class="input-section">
+                    <div>
+                        <label for="payload1">Enter row of payload 1:</label>
+                        <input type="text" id="payload1" name="payload1">
+                    </div>
+                    <div>
+                        <label for="payload2">Enter row of payload 2:</label>
+                        <input type="text" id="payload2" name="payload2">
+                    </div>
+                    <br>
+                    <div>
+                        <button type="button" onclick="getScores()">Find Differences</button>
+                    </div>
+                    <br>
+                </div>
+            </form>
+
+            <div class="score-table-container" id="score-table">
+                <div class="table-wrapper">
+                    {{ df_html_scores|safe }}
+                </div>
+                <a href="/download_csv/df_html_scores" class="download-link">Download as CSV</a>
+            </div>
+
+            <div class="differences-results-container" id="differences-results">
+                <!-- PLACEHOLDER -->
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <p>&copy; {{ dtm_now_year }} Aaron England - Prestige. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>

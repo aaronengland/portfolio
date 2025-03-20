@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Gen 12 Writeup - Parser Response</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='shared/prestige_logo_favicon.PNG') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    
+    <!--
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    -->
+</head>
+<body>
+    <div class="loader" id="loader"></div>
+    <header>
+        <img src="{{ url_for('static', filename='shared/prestige_logo.PNG') }}" alt="Header" style="max-width: 100%;">
+    </header>
+
+    <div id="Top-of-Page" class="navbar">
+        <a href="/#Submit-Payload">Home</a>
+        <a href="#Raw-Data">Raw Data</a>
+        <a href="#Clean-Data">Clean Data</a>
+        <a href="#Shap-Values">SHAP Values</a>
+        <a href="#Counter-Offers">Counter Offers</a>
+        <a href="#Parser-Response">Response</a>
+        <a href="#Time">Time</a>
+        <a href="#Output">Output</a>
+    </div>
+
+    <div class="container">
+
+        <section id="Raw-Data" class="section">
+            <h3>Raw Data</h3>
+            <p>Below is the raw data (i.e., before preprocessing) for the file {{ str_filename }}.</p>
+            <div class="table-wrapper">
+                {{ df_html_raw|safe }}
+            </div>
+            <a href="/download/df_html_raw">Download as CSV</a>
+        </section>
+
+        <section id="Clean-Data" class="section">
+            <h3>Clean Data</h3>
+            <p>Below is the clean data (i.e., after preprocessing) for the file {{ str_filename }}.</p>
+            <div class="table-wrapper">
+                {{ df_html_clean|safe }}
+            </div>
+            <a href="/download/df_html_clean">Download as CSV</a>
+        </section>
+
+        <section id="Shap-Values" class="section">
+            <h3>SHAP Values</h3>
+            <p>Adverse action reasons in lending provide individuals with explanations for why their application was declined, ensuring transparency and compliance with regulatory requirements such as the Equal Credit Opportunity Act (ECOA). These reasons detail specific factors or criteria that influenced the lender's decision, empowering applicants to address concerns, rectify issues, and potentially improve their chances in future applications.</p>
+            <p>In the response for each applicant, five adverse action reasons are provided, aligning with specific features. Identifying the five most impactful features on the model score is imperative. To ascertain these influential features, the methodology of Shapley Additive Explanations (SHAP) values was applied. These values offer a quantified assessment of the individual impact of each feature on the model's output, attributing contributions to predictions based on feature values.</p>
+            <p>Once the top five influential features are identified, they are matched with their respective reasons. These resultant five reasons are subsequently included in the response. For applicants that are declined based on their score on the AD model, adverse action reasons are mapped to SHAP values from the AD model. Otherwise, reasons are mapped to SHAP values from the pricing PD model.</p>
+            <p>Below are the SHAP values for each feature in the model for the file {{ str_filename }}. Sort the SHAP values descending (i.e., so the largest are at the top) to see the features and corresponding reasons pertaining to a higher score.</p>
+            <div class="table-wrapper">
+                {{ df_html_shap_vals|safe }}
+            </div>
+            <a href="/download/df_html_shap_vals">Download as CSV</a>
+        </section>
+
+        <section id="Counter-Offers" class="section">
+            <h3>Counter Offers</h3>
+            <p>Below is a data frame of counter offers for the file {{ str_filename }}.</p>
+            <div class="table-wrapper">
+                {{ df_html_counter_offers|safe }}
+            </div>
+            <a href="/download/df_html_counter_offers">Download as CSV</a>
+        </section>
+
+        <section id="Parser-Response" class="section">
+            <h3>Response</h3>
+            <p>Below is the response for the file {{ str_filename }}.</p>
+            <pre>
+                {{ dict_response|safe }}
+            </pre>
+            <a href="/download_json/dict_response">Download as JSON</a>
+        </section>
+
+        <section id="Time" class="section">
+            <h3>Time</h3>
+            <p>Below is a table displaying time by parser step for the file {{ str_filename }}.</p>
+            <div class="table-wrapper">
+                {{ df_html_response|safe }}
+            </div>
+            <a href="/download/df_html_response">Download as CSV</a>
+            <div id='graphJSON_response' class='chart'></div>
+        </section>
+
+        <section id="Output" class="section">
+            <h3>Output</h3>
+            <p>During the process of payload parsing, an inclusive dictionary encompassing all parsing artifacts is stored within the parser class. This stored data repository serves as a resource enabling the extraction of the most intricate and granular details during subsequent operations.</p>            
+            <a href="/download_json/dict_output">Download as JSON</a>
+        </section>
+
+        <section id="Bottom-of-Page" class="section">
+            <a href="#Top-of-Page">Back to Top</a>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; {{ int_year_today }} Aaron England - Prestige. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+
+<script type="text/javascript" charset="utf8" src="{{ url_for('static', filename='js/script_all.js') }}"></script>
+
+<script type='text/javascript'>
+    $(document).ready(function() {
+        $('table.display').DataTable();
+    });
+
+    var graphs = {{graphJSON_response | safe}};
+    Plotly.plot('graphJSON_response',graphs,{});
+
+    function resizePlot() {
+        var plot = document.getElementById('graphJSON_response');
+        var width = plot.offsetWidth;
+        var height = plot.offsetHeight;
+
+        // Update the plot layout based on the new width and height
+        Plotly.relayout(plot, {
+            width: width,
+            height: height
+        });
+    }
+
+    // Event listener for window resize
+    window.addEventListener('resize', function() {
+        resizePlot();
+    });
+
+    // Initial resizing of the plot on page load
+    window.addEventListener('load', function() {
+        resizePlot();
+    });
+</script>
+
+</html>

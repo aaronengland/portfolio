@@ -1,0 +1,52 @@
+feature,1_open_bk,2_thick_and_dirty,3_thick_and_clean,4_thin,sum,description
+g106s__tu,1.0,1.0,1.0,1.0,4.0,Months on file
+balmag01__tu,0.0,1.0,1.0,1.0,3.0,Non-mortgage balance magnitude algorithm over last 24 months
+g251b__tu,0.0,1.0,1.0,1.0,3.0,Number of 60 days past due or worse items in the past 12 months (excluding medical collection items)
+re01s__tu,0.0,1.0,1.0,1.0,3.0,Number of revolving trades
+g232s__tu,1.0,0.0,1.0,0.0,2.0,Number of inquiries (includes duplicates)
+rtl_trd__tu,1.0,0.0,0.0,1.0,2.0,Number of retail trades
+au20s__tu,1.0,0.0,0.0,1.0,2.0,Months since oldest auto trade opened
+p02g__tu,0.0,0.0,1.0,1.0,2.0,
+g213b__tu,0.0,1.0,1.0,0.0,2.0,Highest balance of non-medical third party collections verified in 24 months
+p02b__tu,1.0,0.0,1.0,0.0,2.0,
+agg909__tu,1.0,0.0,0.0,0.0,1.0,Months since max aggregate bankcard balance over last 12 months
+scap01__tu,1.0,0.0,0.0,0.0,1.0,
+utlmag01__tu,1.0,0.0,0.0,0.0,1.0,
+aepmag01__tu,0.0,1.0,0.0,0.0,1.0,
+aut201__tu,0.0,1.0,0.0,0.0,1.0,Total Payment Ratio for Auto accounts over the past 1 month
+g408s__tu,1.0,0.0,0.0,0.0,1.0,Number of deduped bank inquiries in past 3 months
+p02h__tu,1.0,0.0,0.0,0.0,1.0,
+paymnt11__tu,1.0,0.0,0.0,0.0,1.0,Number of payments in last 12 months
+g226s__tu,1.0,0.0,0.0,0.0,1.0,Number of 60 or more days past due trades (current MOP only) with balance > $0 opened in past 12 months
+cv14__tu,0.0,1.0,0.0,0.0,1.0,Number of deduped inquiries
+cv13__tu,0.0,1.0,0.0,0.0,1.0,Percentage of trades ever delinquent
+ctc23__tu,0.0,1.0,0.0,0.0,1.0,
+bc97a__tu,0.0,1.0,0.0,0.0,1.0,Total open to buy of open credit cards verified in past 3 months
+fi20s__tu,0.0,1.0,0.0,0.0,1.0,Months since oldest finance installment trade opened
+in21s__tu,0.0,1.0,0.0,0.0,1.0,Months since most recent installment trade opened
+p02d__tu,0.0,1.0,0.0,0.0,1.0,
+fi34s__tu,0.0,1.0,0.0,0.0,1.0,Utilization for open finance installment trades verified in past 12 months
+sc29s__tu,0.0,1.0,0.0,0.0,1.0,
+at104s__tu,0.0,0.0,1.0,0.0,1.0,Percentage of all trades opened in past 24 months to all trades
+at34b__tu,0.0,0.0,1.0,0.0,1.0,Utilization for open trades verified in past 12 months (excluding mortgage and home equity)
+g001b__tu,0.0,0.0,1.0,0.0,1.0,Number of 30 or more days past due ratings in past 12 months
+g206b__tu,0.0,0.0,1.0,0.0,1.0,Total monthly obligation for joint account verified in past 12 months and with a current balance > 0  (ATTR14)
+g416s__tu,0.0,0.0,1.0,0.0,1.0,Months since most recent finance inquiry
+g980s__tu,0.0,0.0,1.0,0.0,1.0,Number of deduped inquiries in past 6 months
+paymnt02__tu,0.0,1.0,0.0,0.0,1.0,Number of prepayments on installment loans last 12 months
+lrev325__tu,0.0,0.0,1.0,0.0,1.0,
+pdmag01__tu,0.0,0.0,1.0,0.0,1.0,
+rev252__tu,0.0,0.0,1.0,0.0,1.0,Average Aggregate Excess Payment for Revolving accounts over the past 3 months
+rt20s__tu,0.0,0.0,1.0,0.0,1.0,Months since oldest retail trade opened
+sc21s__tu,0.0,0.0,1.0,0.0,1.0,
+trv01__tu,0.0,0.0,1.0,0.0,1.0,Number of months since overlimit on a bankcard
+aggs911__tu,0.0,0.0,0.0,1.0,1.0,Current Utilization of top-of-wallet bankcard (highest annual spend).
+au202s__tu,0.0,0.0,0.0,1.0,1.0,Number of auto trades that are 60 days or more past due ever
+au34s__tu,0.0,0.0,0.0,1.0,1.0,Utilization for open auto trades verified in past 12 months
+bi21s__tu,0.0,0.0,0.0,1.0,1.0,Months since most recent bank installment trade opened
+bkc322__tu,0.0,0.0,0.0,1.0,1.0,Min Total Open-to-Buy for Bankcard accounts over the past 6 months
+ctc21__tu,0.0,0.0,0.0,1.0,1.0,
+ctm21__tu,0.0,0.0,0.0,1.0,1.0,
+g990s__tu,0.0,0.0,0.0,1.0,1.0,Number of deduped inquiries in past 12 months
+in57s__tu,0.0,0.0,0.0,1.0,1.0,Total past due amount of open installment trades verified in past 12 months
+sl99b__tu,0.0,0.0,0.0,1.0,1.0,

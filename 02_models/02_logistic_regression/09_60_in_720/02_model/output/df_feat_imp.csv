@@ -1,0 +1,49 @@
+feature,importance,importance_abs,description
+fltgrossmonthly__income_sum_binned,-0.011404699477289264,0.011404699477289264,
+miles_odometer__app_binned,0.009920210265989434,0.009920210265989434,
+au20s__tu_binned,-0.009258622191273094,0.009258622191273094,Months since oldest auto trade opened
+rtl_trd__tu_binned,-0.008708473608391026,0.008708473608391026,Number of retail trades
+ENG-loan_to_value_binned,0.008025791827893458,0.008025791827893458,
+rev322__tu_binned,-0.006038507118116731,0.006038507118116731,Min Total Open-to-Buy for Revolving accounts over the past 6 months
+balmag01__tu_binned,-0.005164796334888568,0.005164796334888568,Non-mortgage balance magnitude algorithm over last 24 months
+g232s__tu_binned,0.00491240530508235,0.00491240530508235,Number of inquiries (includes duplicates)
+g002s__tu_binned,0.004893321191069561,0.004893321191069561,Number of 60 days past due ratings in past 12 months
+linkt003__tu_binned,-0.004750806875071024,0.004750806875071024,Number of non-military non-corroborated addresses in past 12 months
+inquirybanking12month__ln_binned,0.00448342553797571,0.00448342553797571,Indicates subject has one or more LexisNexis banking credit inquiries on file in the last 12 months
+all235__tu_binned,-0.003952469351364207,0.003952469351364207,Aggregate Excess Payment for All accounts over the past 24 months
+cv15__tu_binned,-0.003811922168638459,0.003811922168638459,Number of deduped auto inquiries
+derogseverityindex__ln_binned,-0.003061108728489689,0.003061108728489689,Index indicating severity of derogatory records on subject's file
+cv13__tu_binned,-0.002990274617139533,0.002990274617139533,Percentage of trades ever delinquent
+ENG-wtd_avg_binned,-0.0029423473863848222,0.0029423473863848222,
+subjectabilityindex__ln_binned,-0.0028929916591440403,0.0028929916591440403,"Modeled risk index indicating the subject's ability to fulfill a credit obligation on the basis of their time on file, post-secondary education history, asset ownership, and outstanding financial obligations on file"
+g407s__tu_binned,0.002662519315686554,0.002662519315686554,Number of deduped finance inquiries
+ENG-franchise_binned,0.0025436666085164065,0.0025436666085164065,
+phoneinputproblems__ln_binned,-0.002522209607630322,0.002522209607630322,Indicates problems associated with the input phone based on information on file
+at24s__tu_binned,-0.002250795332105039,0.002250795332105039,Number of currently open and satisfactory trades 6 months or older
+jt20s__tu_binned,-0.0022422440225619337,0.0022422440225619337,Months since oldest joint trade opened
+rp01s__tu_binned,-0.0020214747989150132,0.0020214747989150132,Number of repossession trades
+sourcenonderogcount12month__ln_binned,0.0019865791172839786,0.0019865791172839786,Total non-derogatory source types on file for subject reported within the last 12 months
+in21s__tu_binned,0.0019102840066222567,0.0019102840066222567,Months since most recent installment trade opened
+ENG-bk_binned,-0.0019059711993134217,0.0019059711993134217,
+bc97a__tu_binned,0.0017269099287512172,0.0017269099287512172,Total open to buy of open credit cards verified in past 3 months
+addrprevioustimenewest__ln_binned,-0.0015866615264530117,0.0015866615264530117,Time (in months) since the subject was most recently reported at the most previous address on subject's file
+trv01__tu_binned,-0.0014263630136502248,0.0014263630136502248,Number of months since overlimit on a bankcard
+s068b__tu_binned,0.001388598039068823,0.001388598039068823,Number of non-medical third party collections
+in34s__tu_binned,-0.0011251114894258122,0.0011251114894258122,Utilization for open installment trades verified in past 12 months
+addronfilecount__ln_binned,0.0010804532351854177,0.0010804532351854177,Total number of addresses found on file in subject's address history
+linka053__tu_binned,-0.00106616348328109,0.00106616348328109,Number of days since the first (oldest) checking account inquiry
+fi101s__tu_binned,-0.0006699188722220259,0.0006699188722220259,Total balance of all finance installment trades verified in past 12 months
+fi36s__tu_binned,0.0005769266892898086,0.0005769266892898086,Months since most recent finance installment delinquency
+linkf098__tu_binned,-0.0005437133120626065,0.0005437133120626065,Number of satisfactory trades
+linka006__tu_binned,-0.0005020086340419681,0.0005020086340419681,"Number of total inquiries in the last 3 years.  
+These include checking, credit issuance (credit card, secured card, line of credit, revolving credit, and other credit account originations) , auto, payday, utility, and other credit (installment loan, secured loan, short-term installment loan, insurance, and other non-classified credit)"
+fi25s__tu_binned,-0.0005013446827974452,0.0005013446827974452,Number of currently open and satisfactory finance installment trades 12 months or older
+addrinputsubjectcount__ln_binned,-0.0004083388991808716,0.0004083388991808716,"Total number of unique subjects on file currently reported at the input address, if the address has been designated as a single family dwelling unit"
+linka025__tu_binned,0.00040312749013174886,0.00040312749013174886,"Number of other inquiries in the last 3 years.  
+Inquiries that do not fall into the other specified categories (installment loan, secured loan, short-term installment loan, insurance, and other non-classified credit)"
+g251c__tu_binned,-0.00033439199081199546,0.00033439199081199546,Number of 60 days past due or worse items in the past 24 months (excluding medical collection items)
+inquiryshortterm12month__ln_binned,0.0003312072437355244,0.0003312072437355244,Indicates subject has one or more LexisNexis personal finance credit inquiries on file in the last 12 months (multiple personal finance inquiries within a 24-hour period are counted as one inquiry)
+g095s__tu_binned,0.0002798190227649986,0.0002798190227649986,Months since most recent public record
+s209a__tu_binned,0.00021752007262317198,0.00021752007262317198,Months since most recent non-medical third party collection
+inquirynonshortterm12month__ln_binned,-8.819217414484427e-05,8.819217414484427e-05,"Indicates subject has one or more LexisNexis credit inquiries on file in the last 12 months, excluding personal finance credit and collection inquiries
+NOTE: This attribute indicates the subject has any LexisNexis credit inquiry on file, excluding any short-term or collection inquiries. This will include auto, banking, and telecom inquiries returned in other attributes as well as other credit-related inquiries not categorically classified in the attributes."

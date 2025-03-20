@@ -1,0 +1,6 @@
+flask==2.3.2
+tqdm
+pandas
+scikit_learn
+optbinning
+xmltodict
