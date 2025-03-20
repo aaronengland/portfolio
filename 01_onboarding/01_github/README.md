@@ -7,7 +7,7 @@
 ### Cloning a private repository
 
 ```
-git clone https://<PERSONAL_ACCESS_TOKEN_FROM_DEVELOPER_TOOLS>@github.com/PFS-Risk-DS/20240509_christian_internship
+git clone https://<PERSONAL_ACCESS_TOKEN_FROM_DEVELOPER_TOOLS>@github.com/<ORGANIZATION_NAME>/<REPOSITORY_NAME>
 ```
 
 ### After making changes...
