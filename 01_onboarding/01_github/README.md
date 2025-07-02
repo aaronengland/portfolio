@@ -1,5 +1,3 @@
-# Onboarding
-
 ### Installing Git
 
 - [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -7,7 +5,7 @@
 ### Cloning a private repository
 
 ```
-git clone https://<PERSONAL_ACCESS_TOKEN_FROM_DEVELOPER_TOOLS>@github.com/<ORGANIZATION_NAME>/<REPOSITORY_NAME>
+git clone https://<PERSONAL_ACCESS_TOKEN_FROM_DEVELOPER_TOOLS>@github.com/PFS-Risk-DS/<REPOSITORY_NAME>
 ```
 
 ### After making changes...
