@@ -21,18 +21,53 @@ This portfolio contains selected work from my role as a data scientist at an aut
 
 ### 1. Onboarding — Foundational Skills (`01_onboarding/`)
 
-A series of notebooks I built during onboarding that cover core data science competencies. These demonstrate breadth across the stack — from writing Python libraries to deploying cloud infrastructure.
+A series of notebooks I built during onboarding that cover core data science competencies. These demonstrate breadth across the full stack — from writing Python libraries to deploying cloud infrastructure.
 
-| Topic | Description |
-|---|---|
-| **Python & Data Wrangling** | Stock data retrieval (yfinance), pandas pipelines, and visualization with matplotlib |
-| **Custom Python Library** | Installable pip package with object-oriented design (fit/transform pattern for a custom MinMaxScaler) |
-| **SQL** | Snowflake querying with RSA key authentication and programmatic data extraction |
-| **Machine Learning** | Supervised learning (6 classifiers and regressors), hyperparameter tuning, and unsupervised clustering |
-| **Time Series Forecasting** | ARIMA modeling with pmdarima's auto_arima for stock price forecasting with confidence intervals |
-| **AWS Batch** | Containerized batch jobs — both single and parallel execution patterns using Docker + ECR |
-| **AWS Lambda & Step Functions** | Serverless function deployment and orchestrated multi-step workflows |
-| **Web Application** | Flask app with static frontend, deployed via Docker container |
+#### 1.1 GitHub Fundamentals (`01_github/`)
+
+Setup and workflow for Git version control: cloning private repositories with personal access tokens, branching, committing, and pushing to remote.
+
+#### 1.2 Python & Data Wrangling (`02_python/`)
+
+Retrieves stock data via yfinance (AAPL, NVDA), builds pandas pipelines, and creates dual-axis visualizations (OHLC prices + volume). Progresses from standalone functions to a reusable class (`PullAndPlotStock`) with method chaining, demonstrating object-oriented design and code reusability.
+
+#### 1.3 Custom Python Library (`03_python_library/`)
+
+A pip-installable Python package hosted on GitHub. Includes a `setup.py`, package structure with `__init__.py`, and a custom `MinMaxScaler` class following scikit-learn's fit/transform pattern. Installable locally (`pip install -e .`) or remotely from GitHub.
+
+#### 1.4 SQL & Cloud Data Integration (`04_sql/`)
+
+Connects to Snowflake using RSA private key authentication (`.p8` key file converted to DER format via the `cryptography` library). Executes SQL queries, reads results into pandas DataFrames, and writes output to S3 as gzip-compressed Parquet files using boto3.
+
+#### 1.5 Machine Learning (`05_ml/`)
+
+**Supervised Learning — Single Models:** Implements 6 classification algorithms (Logistic Regression, Decision Tree, Random Forest, XGBoost, CatBoost, LightGBM) and 6 corresponding regression algorithms on the same data. Uses a custom MinMaxScaler for feature scaling and evaluates on train/test/holdout splits using ROC-AUC (classifiers) and Mean Absolute Error (regressors).
+
+**Supervised Learning — Hyperparameter Tuning:** Systematically tunes each classifier and regressor across a range of hyperparameters (penalty type for Logistic Regression, max_depth for tree-based models). Plots performance curves across parameter values to visualize overfitting and identify optimal settings.
+
+**Unsupervised Learning — K-Means Clustering:** Fits K-Means with a fixed cluster count, assigns labels, and analyzes cluster distributions and feature means. Then applies the elbow method (testing k=2 through k=20, plotting inertia) to determine the optimal number of clusters and characterizes the resulting segments.
+
+#### 1.6 Time Series Forecasting (`06_forecasting/`)
+
+Pulls historical AAPL stock data via yfinance and forecasts the next 10 business days. Compares a manually specified ARIMA(1,1,1) model against pmdarima's `auto_arima`, which searches across parameter combinations and selects by AIC. Generates forecasts with 95% confidence intervals and visualizes actual vs. predicted with upper/lower bounds.
+
+#### 1.7 AWS Batch (`07_aws_batch/`)
+
+**Single Job:** Writes a Python script, packages it in a Docker container, pushes the image to AWS ECR, and provisions AWS Batch infrastructure (compute environment with m5.large instances, job queue, job definition) using boto3. The job writes a DataFrame to S3.
+
+**Parallel Array Job:** Extends the single-job pattern to run 10 jobs in parallel using AWS Batch array jobs. Each job reads its `AWS_BATCH_JOB_ARRAY_INDEX` environment variable and writes a uniquely-named output file to S3.
+
+#### 1.8 AWS Lambda (`08_aws_lambda/`)
+
+Creates a containerized Lambda function (based on the AWS Lambda Python 3.9 base image) that concatenates the 10 CSV files produced by the parallel batch job. The handler lists objects in the S3 prefix, reads each into a DataFrame, concatenates them, and writes the combined result back to S3. Deployed to Lambda with 512 MB memory and 60-second timeout.
+
+#### 1.9 AWS Step Functions (`09_aws_step_function/`)
+
+Builds a Step Functions state machine that orchestrates the entire pipeline end to end: Single Batch Job → Parallel Batch Jobs → Lambda Concatenation. Each step waits for the previous to complete before proceeding. The Lambda invocation includes retry logic (up to 3 retries with exponential backoff and full jitter). Infrastructure created via boto3.
+
+#### 1.10 Flask Web Application (`09_web_app/`)
+
+A Flask web app served on port 5000 with HTML templates, custom CSS, and frontend libraries (jQuery, DataTables for interactive tables, Plotly for charts). Includes responsive design with media queries, a loading spinner for async operations, and dynamic copyright year rendering. Dependencies include pandas, scikit-learn, optbinning, and plotly for backend data processing.
 
 ---
 
