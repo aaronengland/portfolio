@@ -896,7 +896,7 @@ class ParsePayload:
 			'Request_id': '',
 			'Zaml_processing_id': '',
 			'Response': [{
-				'Model_name': 'prestige-gen-xiii',
+				'Model_name': 'gen-xiii',
 				'Model_version': 'v1',
 				'Results': list_output,
 				'Errors': [],

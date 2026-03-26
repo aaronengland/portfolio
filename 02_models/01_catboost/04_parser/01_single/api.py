@@ -700,7 +700,7 @@ class ParsePayload:
 				'Request_id': '',
 				'Zaml_processing_id': '',
 				'Response': [{
-					'Model_name': 'prestige-gen-xii',
+					'Model_name': 'gen-xii',
 					'Model_version': 'v1',
 					'Results': list_output,
 					'Errors': [],
@@ -714,7 +714,7 @@ class ParsePayload:
 				'Request_id': '',
 				'Zaml_processing_id': '',
 				'Response': [{
-					'Model_name': 'prestige-gen-xii',
+					'Model_name': 'gen-xii',
 					'Model_version': 'v1',
 					'Results': list_output,
 					'Errors': [],
